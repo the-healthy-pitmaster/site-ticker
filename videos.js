@@ -1,13 +1,7 @@
 /**
- * The Healthy Pitmaster — homepage DYNAMIC VIDEO SPOTs loader
- * Fetches videos.json and fills .replay-card[data-spot="1|2|3"].
- *
- * Usage:
- *   <div class="replay-grid" data-videos-feed="https://…/videos.json">…</div>
- *   <script src="https://…/videos.js" defer></script>
- *
- * Or set data-videos-feed on document.documentElement / body.
- * Default feed: ./videos.json (same-origin on GitHub Pages).
+ * The Healthy Pitmaster — homepage DYNAMIC VIDEO SPOTs
+ * Muted in-card preview (autoplay). Click opens the real platform URL (sound there).
+ * Never plays audio on the homepage.
  */
 (function () {
   'use strict';
@@ -21,8 +15,6 @@
   };
 
   function qs(sel, el) { return (el || document).querySelector(sel); }
-  function qsa(sel, el) { return Array.prototype.slice.call((el || document).querySelectorAll(sel)); }
-
   function escapeHtml(s) {
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;')
@@ -30,7 +22,6 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
   }
-
   function shortTitle(title, max) {
     max = max || 64;
     var t = String(title || '').replace(/\s+/g, ' ').trim();
@@ -50,7 +41,6 @@
     if (script && script.getAttribute('data-videos-feed')) {
       return script.getAttribute('data-videos-feed');
     }
-    // Infer from this script's src directory when hosted on Pages
     if (script && script.src) {
       try {
         var u = new URL(script.src, location.href);
@@ -79,29 +69,62 @@
     label.textContent = pl && t ? (pl + ' · ' + t) : (t || pl || label.textContent);
   }
 
-  function setThumb(card, thumbUrl, title) {
-    var img = qs('.replay-thumb img', card) || qs('img', card);
-    if (!img || !thumbUrl) return;
-    img.src = thumbUrl;
-    img.alt = title ? shortTitle(title, 80) : '';
-    img.loading = img.loading || 'lazy';
+  function mutedEmbedSrc(platform, embedUrl) {
+    if (!embedUrl) return '';
+    var p = (platform || '').toLowerCase();
+    var join = embedUrl.indexOf('?') >= 0 ? '&' : '?';
+    if (p === 'youtube') {
+      // muted loop preview — no homepage audio
+      return embedUrl + join + 'autoplay=1&mute=1&controls=0&playsinline=1&loop=1&rel=0&modestbranding=1';
+    }
+    if (p === 'tilvids') {
+      // PeerTube: muted autoplay loop
+      return embedUrl + join + 'autoplay=1&muted=1&title=0&warningTitle=0&peertubeLink=0&loop=1';
+    }
+    // X tweet embed — often static; still try muted-ish; click goes to X for sound
+    if (p === 'x' || p === 'twitter') {
+      return embedUrl + join + 'dnt=true';
+    }
+    return embedUrl;
   }
 
-  function mountYoutubeEmbed(card, spot) {
+  function mountMutedPreview(card, spot) {
     var thumb = qs('.replay-thumb', card);
-    if (!thumb || !spot.embedUrl) return;
-    card.addEventListener('click', function (ev) {
-      // Replace thumb with iframe on first click; keep card as container
-      if (card.getAttribute('data-embed-active') === '1') return;
-      ev.preventDefault();
-      card.setAttribute('data-embed-active', '1');
-      var src = spot.embedUrl + (spot.embedUrl.indexOf('?') >= 0 ? '&' : '?') + 'autoplay=1&rel=0';
-      thumb.innerHTML =
-        '<iframe class="replay-iframe" src="' + escapeHtml(src) + '" title="' +
-        escapeHtml(spot.title || 'YouTube video') +
-        '" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>';
-      card.classList.add('is-playing');
-    }, { once: false });
+    if (!thumb) return;
+    var platform = (spot.platform || '').toLowerCase();
+    var src = mutedEmbedSrc(platform, spot.embedUrl);
+
+    // Always keep card as link-out for sound on the real site
+    if (spot.url) {
+      card.href = spot.url;
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+    }
+
+    if (!src) {
+      // thumb-only fallback
+      var img = qs('img', thumb);
+      if (img && spot.thumbUrl) {
+        img.src = spot.thumbUrl;
+        img.alt = spot.title ? shortTitle(spot.title, 80) : '';
+      }
+      return;
+    }
+
+    // Overlay play hint stays clickable via parent <a>
+    thumb.innerHTML =
+      '<iframe class="replay-iframe" src="' + escapeHtml(src) + '" title="' +
+      escapeHtml(spot.title || 'Video preview') +
+      '" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ' +
+      'allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>' +
+      '<span class="play-btn" aria-hidden="true"></span>';
+
+    // Click must leave site (sound on platform). Stop iframe from swallowing navigation:
+    // pointer-events none on iframe so the <a> receives the click.
+    var iframe = qs('iframe', thumb);
+    if (iframe) iframe.style.pointerEvents = 'none';
+    card.classList.add('is-previewing');
+    card.setAttribute('data-embed-active', 'preview');
   }
 
   function applySpot(spot) {
@@ -114,23 +137,8 @@
     card.setAttribute('data-video-loaded', '1');
     if (spot.fallback) card.setAttribute('data-fallback', '1');
 
-    if (spot.url) {
-      card.href = spot.url;
-      card.target = '_blank';
-      card.rel = 'noopener noreferrer';
-    }
-
-    setThumb(card, spot.thumbUrl, spot.title);
     setLabel(card, spot.platform, spot.title);
-
-    var platform = (spot.platform || '').toLowerCase();
-    if (platform === 'youtube' && spot.embedUrl) {
-      mountYoutubeEmbed(card, spot);
-    }
-    // X / TILvids: link + thumb (embed available via spot.embedUrl for future lightbox)
-    if ((platform === 'x' || platform === 'twitter' || platform === 'tilvids') && spot.embedUrl) {
-      card.setAttribute('data-embed-url', spot.embedUrl);
-    }
+    mountMutedPreview(card, spot);
   }
 
   function boot() {
