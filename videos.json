@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-09-11T23:22:18Z",
+  "timezone": "America/Denver",
+  "spots": [
+    {
+      "spot": 1,
+      "dayOffset": 0,
+      "platform": "youtube",
+      "title": "Jardiance and Farxiga: rare risk, reversible cause",
+      "url": "https://www.youtube.com/shorts/M-u7uvT1o4k",
+      "embedUrl": "https://www.youtube.com/embed/M-u7uvT1o4k",
+      "thumbUrl": "https://i2.ytimg.com/vi/M-u7uvT1o4k/hqdefault.jpg",
+      "publishedAt": "2026-09-11T12:31:17+00:00",
+      "fallback": false
+    },
+    {
+      "spot": 2,
+      "dayOffset": 1,
+      "platform": "tilvids",
+      "title": "Vaping and insulin resistance",
+      "url": "https://tilvids.com/videos/watch/41e39266-385a-4f23-b16c-58dc2bb25760",
+      "embedUrl": "https://tilvids.com/videos/embed/98UkLEhpcDC4n48EoHPNaW",
+      "thumbUrl": "https://tilvids.com/lazy-static/thumbnails/c9865322-6755-4d95-9a4f-8db09d57b250.jpg",
+      "publishedAt": "2026-09-09T23:23:48.989Z",
+      "fallback": true
+    },
+    {
+      "spot": 3,
+      "dayOffset": 2,
+      "platform": "x",
+      "title": "What if next year\u2019s health benefit costs eat into grocery money? Mercer just put a number on it.",
+      "url": "https://x.com/therealjimbbq/status/2097649039730671985",
+      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2097649039730671985",
+      "thumbUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2097648923259150336/pu/img/9nUmSJebucG3Umpx.jpg",
+      "publishedAt": "2026-09-09T11:31:18Z",
+      "fallback": false
+    }
+  ]
+}
