@@ -14,7 +14,7 @@ Public GitHub Pages host for the homepage social ticker and dynamic video spots.
 | `videos.js` | Client loader — fills `.replay-card[data-spot]` from `videos.json` |
 | `scripts/build_feed.py` | Regenerates `feed.json` |
 | `scripts/build_videos.py` | Regenerates `videos.json` |
-| `.github/workflows/daily-refresh.yml` | Daily 12:00 UTC refresh + `workflow_dispatch` |
+| `scripts/daily-refresh.yml` | Workflow YAML (move to `.github/workflows/` once PAT has `workflow` scope) |
 
 ## Videos schema (`videos.json`)
 
@@ -37,7 +37,7 @@ Public GitHub Pages host for the homepage social ticker and dynamic video spots.
 
 ## Actions refresh
 
-Workflow: `.github/workflows/daily-refresh.yml`
+Workflow source: `scripts/daily-refresh.yml` → copy to `.github/workflows/daily-refresh.yml` (requires GitHub PAT **workflow** scope to commit under `.github/workflows/`)
 
 - Cron: `0 12 * * *` (12:00 UTC ≈ 6:00 AM MT)
 - Also runnable via **Actions → Daily ticker + videos refresh → Run workflow**
