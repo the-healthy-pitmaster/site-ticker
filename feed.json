@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-11T23:22:08Z",
+  "generatedAt": "2026-09-11T23:30:49Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
   "displayFormat": "{platformLabel} {displayName} {handle} \u2014 {text}",
   "example": "X The Healthy Pitmaster @therealjimbbq \u2014 Liver post",
   "notes": [
-    "Refreshed by scripts/build_feed.py. Metricool unavailable (no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 19 Metricool items from existing feed within 14d.",
+    "Refreshed by scripts/build_feed.py. Metricool unavailable (no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 11 Metricool items from existing feed within 14d.",
     "Always includes Mastodon public API + YouTube RSS + TILvids.",
     "Skip empty networks; never invent posts."
   ],
