@@ -94,6 +94,7 @@ def empty_spot(spot: int, day_offset: int, platform: str) -> dict:
         "url": "",
         "embedUrl": "",
         "thumbUrl": "",
+        "previewUrl": "",
         "publishedAt": "",
         "fallback": False,
     }
@@ -237,6 +238,7 @@ def youtube_spot(target_day) -> dict:
             "url": chosen.get("url") or "",
             "embedUrl": chosen.get("embedUrl") or "",
             "thumbUrl": chosen.get("thumbUrl") or "",
+            "previewUrl": chosen.get("previewUrl") or "",
             "publishedAt": chosen.get("publishedAt") or "",
             "fallback": fb,
         }
@@ -281,6 +283,7 @@ def tilvids_spot(target_day) -> dict:
             "url": chosen.get("url") or "",
             "embedUrl": chosen.get("embedUrl") or "",
             "thumbUrl": chosen.get("thumbUrl") or "",
+            "previewUrl": chosen.get("previewUrl") or "",
             "publishedAt": chosen.get("publishedAt") or "",
             "fallback": fb,
         }
@@ -349,6 +352,8 @@ def metricool_x_posts() -> list[dict]:
 def fxtwitter_status(tweet_id: str) -> Optional[dict]:
     try:
         data = http_get_json(f"https://api.fxtwitter.com/status/{tweet_id}")
+        if isinstance(data, dict) and isinstance(data.get("tweet"), dict):
+            data = data["tweet"]
     except Exception:
         return None
     return data.get("tweet") or data
@@ -415,12 +420,21 @@ def enrich_x_as_video(post: dict) -> Optional[dict]:
     elif media.get("photos"):
         thumb = (media["photos"][0] or {}).get("url") or ""
     title = text.split("\n")[0].strip()[:120] if text else f"X video {tid}"
+    preview = ""
+    if videos:
+        # Prefer mp4 variant for muted <video> preview on homepage
+        preview = videos[0].get("url") or ""
+        for fmt in (videos[0].get("formats") or []):
+            if (fmt.get("container") == "mp4" or str(fmt.get("url","")).endswith(".mp4")) and fmt.get("url"):
+                preview = fmt["url"]
+                break
     return {
         "id": tid,
         "title": title,
         "url": tw.get("url") or f"https://x.com/{X_HANDLE}/status/{tid}",
         "embedUrl": f"https://platform.twitter.com/embed/Tweet.html?id={tid}",
         "thumbUrl": thumb,
+        "previewUrl": preview,
         "publishedAt": pub_iso,
         "hasVideo": bool(videos),
         "videoIndicators": True,
@@ -509,12 +523,10 @@ def fetch_x_videos() -> list[dict]:
 
 def x_spot(target_day) -> dict:
     items = fetch_x_videos()
-    # Prefer hasVideo True
-    native = [i for i in items if i.get("hasVideo")]
-    pool = native if native else items
+    # Homepage X spot must be a real video file — never text-only posts
+    native = [i for i in items if i.get("hasVideo") and i.get("previewUrl")]
+    pool = native
     chosen, fb = pick_for_day(pool, target_day)
-    if chosen is None and native is not pool:
-        chosen, fb = pick_for_day(items, target_day)
     spot = empty_spot(3, 2, "x")
     if not chosen:
         return spot
@@ -524,6 +536,7 @@ def x_spot(target_day) -> dict:
             "url": chosen.get("url") or "",
             "embedUrl": chosen.get("embedUrl") or "",
             "thumbUrl": chosen.get("thumbUrl") or "",
+            "previewUrl": chosen.get("previewUrl") or "",
             "publishedAt": chosen.get("publishedAt") or "",
             "fallback": fb,
         }
