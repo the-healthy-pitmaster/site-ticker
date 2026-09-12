@@ -13,7 +13,7 @@
   'use strict';
 
   var ROOT_ID = 'thp-ticker';
-  var DEFAULT_SPEED = 55; // seconds per loop
+  var DEFAULT_SPEED = 69; // ~25% slower than 55 // seconds per loop
 
   function qs(sel, el) { return (el || document).querySelector(sel); }
 
