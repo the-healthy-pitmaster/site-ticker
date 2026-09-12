@@ -43,14 +43,17 @@ jobs:
           METRICOOL_BLOG_ID: ${{ secrets.METRICOOL_BLOG_ID }}
         run: python3 scripts/build_videos.py
 
+      - name: Build testimonials.json
+        run: python3 scripts/build_testimonials.py
+
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add feed.json videos.json
+          git add feed.json videos.json testimonials.json
           if git diff --staged --quiet; then
             echo "No changes"
           else
-            git commit -m "chore: daily refresh feed.json + videos.json"
+            git commit -m "chore: daily refresh feed.json + videos.json + testimonials.json"
             git push
           fi
