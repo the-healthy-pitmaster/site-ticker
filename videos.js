@@ -72,7 +72,8 @@
       html =
         '<video class="replay-iframe" src="' + escapeHtml(spot.previewUrl) + '" ' +
         'poster="' + escapeHtml(spot.thumbUrl || '') + '" muted autoplay loop playsinline ' +
-        'preload="metadata"></video><span class="play-btn" aria-hidden="true"></span>';
+        'preload="metadata" referrerpolicy="no-referrer" crossorigin="anonymous"></video>' +
+        '<span class="play-btn" aria-hidden="true"></span>';
     } else if (platform === 'youtube' && spot.embedUrl) {
       html =
         '<iframe class="replay-iframe" src="' + escapeHtml(ytEmbed(spot.embedUrl)) + '" title="' +
