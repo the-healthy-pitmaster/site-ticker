@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T23:30:49Z",
+  "generatedAt": "2026-09-12T12:18:19Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,18 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-1r3yHG4g6W8",
+      "publishedAt": "2026-09-11T18:23:37-06:00",
+      "text": "Blenda Dunn",
+      "url": "https://www.youtube.com/shorts/1r3yHG4g6W8",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -285,18 +297,6 @@
       "publishedAt": "2026-09-07T16:04:15-06:00",
       "text": "Do You Know What \"Vegetable Oil\" Means?. That line on the ingredients list rarely names one plant. It often stands in for soybean, canola, corn, or a blend. Flip the package and find the word oil.",
       "url": "https://www.pinterest.com/pin/1144547692834359824",
-      "source": "metricool"
-    },
-    {
-      "platform": "bluesky",
-      "platformLabel": "Bluesky",
-      "handle": "@therealjimbbq.bsky.social",
-      "profileUrl": "https://bsky.app/profile/therealjimbbq.bsky.social",
-      "displayName": "The Healthy Pitmaster",
-      "id": "bsky-3muwrs7fdbd2d",
-      "publishedAt": "2026-09-07T15:04:46-06:00",
-      "text": "One week of 5-hour nights cut insulin sensitivity about 20% in healthy men. Insulin sensitivity is how well cells answer insulin call to take up sugar. If the morning fog hit before coffee, what stole the hours \u2014\u2026",
-      "url": "https://bsky.app/profile/therealjimbbq.bsky.social/post/3muwrs7fdbd2d",
       "source": "metricool"
     }
   ]

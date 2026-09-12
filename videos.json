@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-09-11T23:54:11Z",
+  "generatedAt": "2026-09-12T12:18:26Z",
   "timezone": "America/Denver",
   "spots": [
     {
       "spot": 1,
       "dayOffset": 0,
       "platform": "youtube",
-      "title": "Jardiance and Farxiga: rare risk, reversible cause",
-      "url": "https://www.youtube.com/shorts/M-u7uvT1o4k",
-      "embedUrl": "https://www.youtube.com/embed/M-u7uvT1o4k",
-      "thumbUrl": "https://i2.ytimg.com/vi/M-u7uvT1o4k/hqdefault.jpg",
+      "title": "Blenda Dunn",
+      "url": "https://www.youtube.com/shorts/1r3yHG4g6W8",
+      "embedUrl": "https://www.youtube.com/embed/1r3yHG4g6W8",
+      "thumbUrl": "https://i2.ytimg.com/vi/1r3yHG4g6W8/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-09-11T12:31:17+00:00",
-      "fallback": false
+      "publishedAt": "2026-09-12T00:23:37+00:00",
+      "fallback": true
     },
     {
       "spot": 2,
@@ -30,12 +30,12 @@
       "spot": 3,
       "dayOffset": 2,
       "platform": "x",
-      "title": "What if next year\u2019s health benefit costs eat into grocery money? Mercer just put a number on it.",
-      "url": "https://x.com/therealjimbbq/status/2097649039730671985",
-      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2097649039730671985",
-      "thumbUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2097648923259150336/pu/img/9nUmSJebucG3Umpx.jpg",
-      "previewUrl": "https://video.twimg.com/ext_tw_video/2097648923259150336/pu/vid/avc1/320x568/Gz71qWLYQxPm2Txs.mp4?tag=12",
-      "publishedAt": "2026-09-09T11:31:18Z",
+      "title": "What if the sugar problem isn't mainly missing the gym, but overusing the chair?",
+      "url": "https://x.com/therealjimbbq/status/2098041696143487131",
+      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2098041696143487131",
+      "thumbUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2098041475862851584/pu/img/Qa8dT0NHj2g6H9UF.jpg",
+      "previewUrl": "https://video.twimg.com/ext_tw_video/2098041475862851584/pu/vid/avc1/320x568/E7trFZcWwU9-K3KS.mp4?tag=12",
+      "publishedAt": "2026-09-10T13:31:34Z",
       "fallback": false
     }
   ]
