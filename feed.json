@@ -1,16 +1,28 @@
 {
-  "generatedAt": "2026-09-12T12:18:19Z",
+  "generatedAt": "2026-09-13T12:18:24Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
   "displayFormat": "{platformLabel} {displayName} {handle} \u2014 {text}",
   "example": "X The Healthy Pitmaster @therealjimbbq \u2014 Liver post",
   "notes": [
-    "Refreshed by scripts/build_feed.py. Metricool unavailable (no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 11 Metricool items from existing feed within 14d.",
+    "Refreshed by scripts/build_feed.py. Metricool unavailable (no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 10 Metricool items from existing feed within 14d.",
     "Always includes Mastodon public API + YouTube RSS + TILvids.",
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-I_iNPttFf_Q",
+      "publishedAt": "2026-09-12T23:20:50-06:00",
+      "text": "Listen to Dr. Nick (@thefittestdoc) explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=I_iNPttFf_Q",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -285,18 +297,6 @@
       "publishedAt": "2026-09-07T16:04:46-06:00",
       "text": "Working 55+ hours a week tracked with about 20% higher odds of obesity in a big U.S. worker sample \u2014 even after stacking the usual lifestyle controls. Long weeks crowd out sleep, real food, and recovery, and the body\u2026",
       "url": "https://x.com/therealjimbbq/status/2096993087071441260",
-      "source": "metricool"
-    },
-    {
-      "platform": "pinterest",
-      "platformLabel": "Pinterest",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.pinterest.com/therealjimbbq/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "pin-1144547692834359824",
-      "publishedAt": "2026-09-07T16:04:15-06:00",
-      "text": "Do You Know What \"Vegetable Oil\" Means?. That line on the ingredients list rarely names one plant. It often stands in for soybean, canola, corn, or a blend. Flip the package and find the word oil.",
-      "url": "https://www.pinterest.com/pin/1144547692834359824",
       "source": "metricool"
     }
   ]

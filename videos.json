@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T12:18:26Z",
+  "generatedAt": "2026-09-13T12:18:30Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -36,7 +36,7 @@
       "thumbUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2098041475862851584/pu/img/Qa8dT0NHj2g6H9UF.jpg",
       "previewUrl": "https://video.twimg.com/ext_tw_video/2098041475862851584/pu/vid/avc1/320x568/E7trFZcWwU9-K3KS.mp4?tag=12",
       "publishedAt": "2026-09-10T13:31:34Z",
-      "fallback": false
+      "fallback": true
     }
   ]
 }
