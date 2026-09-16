@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T12:19:50Z",
+  "generatedAt": "2026-09-16T12:20:19Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,18 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-F4c3Kdk59ro",
+      "publishedAt": "2026-09-15T10:23:28-06:00",
+      "text": "Jon Cox",
+      "url": "https://www.youtube.com/watch?v=F4c3Kdk59ro",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -285,18 +297,6 @@
       "publishedAt": "2026-09-07T16:04:50-06:00",
       "text": "Your fasting sugar can look normal while insulin is already working overtime. That is the gap a lot of checkups miss. Glucose and A1c can stay in range for years because the pancreas keeps pushing more insulin to force\u2026",
       "url": "https://www.threads.com/@therealjimbbq/post/Dc_f2-XDTmx",
-      "source": "metricool"
-    },
-    {
-      "platform": "x",
-      "platformLabel": "X",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://x.com/therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "x-2096993087071441260",
-      "publishedAt": "2026-09-07T16:04:46-06:00",
-      "text": "Working 55+ hours a week tracked with about 20% higher odds of obesity in a big U.S. worker sample \u2014 even after stacking the usual lifestyle controls. Long weeks crowd out sleep, real food, and recovery, and the body\u2026",
-      "url": "https://x.com/therealjimbbq/status/2096993087071441260",
       "source": "metricool"
     }
   ]
