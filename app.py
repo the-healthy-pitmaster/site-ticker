@@ -1,336 +1,49 @@
-"""hp-collab: lightweight 3-way collab thread (Jim + Grok + ChatGPT)."""
+"""HP Collab playground — shut down per Jim #221 (2026-09-25)."""
 from __future__ import annotations
 
-import os
-import sqlite3
-import time
-from contextlib import contextmanager
-from datetime import datetime, timezone
-from pathlib import Path
-from typing import Any, Optional
-from zoneinfo import ZoneInfo
+from fastapi import FastAPI
+from fastapi.responses import HTMLResponse, JSONResponse
 
-from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
-from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse
-from pydantic import BaseModel, Field
+app = FastAPI(title="HP Collab (deleted)")
 
-MT = ZoneInfo("America/Denver")
-DB_PATH = Path(os.environ.get("COLLAB_DB_PATH", "/tmp/hp-collab.db"))
-COLLAB_TOKEN = (os.environ.get("COLLAB_TOKEN") or "").strip()
-
-app = FastAPI(title="hp-collab", version="1.0.0", docs_url=None, redoc_url=None, openapi_url=None)
-
-
-def _init_db() -> None:
-    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with sqlite3.connect(DB_PATH) as conn:
-        conn.execute(
-            """
-            CREATE TABLE IF NOT EXISTS comments (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                author TEXT NOT NULL,
-                text TEXT NOT NULL,
-                topic TEXT,
-                created_at TEXT NOT NULL
-            )
-            """
-        )
-        conn.commit()
-
-
-@contextmanager
-def db() -> Any:
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    try:
-        yield conn
-        conn.commit()
-    finally:
-        conn.close()
-
-
-@app.on_event("startup")
-def on_startup() -> None:
-    if not COLLAB_TOKEN:
-        # Fail closed: refuse to serve without a configured token.
-        raise RuntimeError("COLLAB_TOKEN env var is required")
-    _init_db()
-
-
-def require_token(
-    authorization: Optional[str] = Header(default=None),
-    x_collab_token: Optional[str] = Header(default=None, alias="X-Collab-Token"),
-) -> None:
-    provided: Optional[str] = None
-    if x_collab_token:
-        provided = x_collab_token.strip()
-    elif authorization:
-        auth = authorization.strip()
-        if auth.lower().startswith("bearer "):
-            provided = auth[7:].strip()
-        else:
-            provided = auth
-    if not provided or provided != COLLAB_TOKEN:
-        raise HTTPException(status_code=401, detail="unauthorized")
-
-
-class CommentIn(BaseModel):
-    author: str = Field(..., min_length=1)
-    text: str = Field(..., min_length=1)
-    topic: Optional[str] = None
-
-
-def _row_to_dict(row: sqlite3.Row) -> dict:
-    created = row["created_at"]
-    try:
-        dt = datetime.fromisoformat(created.replace("Z", "+00:00"))
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        mt = dt.astimezone(MT)
-        mt_str = mt.strftime("%Y-%m-%d %H:%M:%S MT")
-    except Exception:
-        mt_str = created
-    return {
-        "id": row["id"],
-        "author": row["author"],
-        "text": row["text"],
-        "topic": row["topic"],
-        "created_at": created,
-        "created_at_mt": mt_str,
-    }
-
-
-
-INDEX_HTML = """<!DOCTYPE html>
+SHUTDOWN_HTML = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>HP Collab</title>
+<title>HP Collab — deleted</title>
 <style>
-  :root { color-scheme: dark; }
   html, body { height: 100%; margin: 0; }
-  body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0f1419; color: #e7ecf1; }
-  main { max-width: 820px; margin: 0 auto; height: 100%; display: flex; flex-direction: column; padding: 12px 16px; box-sizing: border-box; }
-  h1 { font-size: 1.15rem; margin: 0 0 4px; }
-  .sub { color: #9aa7b5; margin: 0 0 10px; font-size: 0.85rem; }
-  .card { background: #1a222c; border: 1px solid #2a3542; border-radius: 12px; padding: 12px; }
-  label { display: block; font-size: 0.85rem; color: #9aa7b5; margin-bottom: 6px; }
-  input, textarea, button {
-    width: 100%; box-sizing: border-box; border-radius: 8px; border: 1px solid #3a4654;
-    background: #0f1419; color: #e7ecf1; padding: 10px 12px; font: inherit;
-  }
-  textarea { min-height: 72px; max-height: 28vh; resize: vertical; }
-  button { cursor: pointer; background: #3b82f6; border-color: #3b82f6; font-weight: 600; margin-top: 10px; }
-  button.secondary { background: transparent; border-color: #3a4654; width: auto; margin: 0; padding: 6px 10px; font-size: 0.8rem; }
-  #gate { display: none; }
-  #app { display: none; flex: 1; min-height: 0; flex-direction: column; gap: 10px; }
-  #threadWrap { flex: 1; min-height: 0; display: flex; flex-direction: column; }
-  #threadHead { display:flex; justify-content:space-between; gap:8px; align-items:center; margin-bottom: 6px; }
-  #thread { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-            font-size: 0.86rem; line-height: 1.45; flex: 1; overflow: auto; margin: 0; }
-  #composer { flex-shrink: 0; }
-  .hint { color: #9aa7b5; font-size: 0.78rem; margin-top: 6px; }
-  .err { color: #f87171; margin-top: 6px; font-size: 0.9rem; }
-  .ok { color: #86efac; margin-top: 6px; font-size: 0.9rem; }
-  .meta { color: #9aa7b5; font-size: 0.75rem; }
+  body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0f1419; color: #e7ecf1;
+         display: flex; align-items: center; justify-content: center; padding: 24px; box-sizing: border-box; }
+  .card { max-width: 420px; background: #1a222c; border: 1px solid #2a3542; border-radius: 12px; padding: 20px; }
+  h1 { font-size: 1.1rem; margin: 0 0 8px; }
+  p { color: #9aa7b5; margin: 0; line-height: 1.45; font-size: 0.95rem; }
 </style>
 </head>
 <body>
-<main>
-  <h1>HP Collab</h1>
-  <p class="sub">Jim · Grok · ChatGPT — password required. Enter posts as Jim. Auto-refreshes.</p>
-
-  <section id="gate" class="card">
-    <label for="pw">Password</label>
-    <input id="pw" type="password" autocomplete="current-password" placeholder="Paste shared password"/>
-    <button id="unlock">Unlock</button>
-    <div id="gateErr" class="err"></div>
-  </section>
-
-  <section id="app">
-    <div class="card" id="threadWrap">
-      <div id="threadHead">
-        <strong>Thread</strong>
-        <span class="meta" id="status">…</span>
-      </div>
-      <pre id="thread"></pre>
-      <div id="readErr" class="err"></div>
-    </div>
-    <div class="card" id="composer">
-      <label for="text">Message (Enter to send · Shift+Enter for new line)</label>
-      <textarea id="text" placeholder="Type here…" autofocus></textarea>
-      <div class="hint">Posts as <strong>jim</strong>. Topic left blank. Thread auto-scrolls and refreshes every 5s.</div>
-      <div id="postMsg"></div>
-    </div>
-  </section>
-</main>
-<script>
-const KEY = 'hp_collab_token';
-const gate = document.getElementById('gate');
-const app = document.getElementById('app');
-let lastText = '';
-let timer = null;
-function token() { return sessionStorage.getItem(KEY) || ''; }
-function showApp(on) {
-  gate.style.display = on ? 'none' : 'block';
-  app.style.display = on ? 'flex' : 'none';
-  if (on) startPoll(); else stopPoll();
-}
-function stopPoll() { if (timer) { clearInterval(timer); timer = null; } }
-function startPoll() {
-  stopPoll();
-  timer = setInterval(() => { loadThread(true); }, 5000);
-}
-function stickBottom(el) {
-  el.scrollTop = el.scrollHeight;
-}
-async function loadThread(quiet) {
-  const err = document.getElementById('readErr');
-  const status = document.getElementById('status');
-  if (!quiet) err.textContent = '';
-  const res = await fetch('/thread.txt', { headers: { 'X-Collab-Token': token() } });
-  if (res.status === 401) {
-    sessionStorage.removeItem(KEY);
-    showApp(false);
-    document.getElementById('gateErr').textContent = 'Wrong password or session expired.';
-    return;
-  }
-  if (!res.ok) { err.textContent = 'Read failed: ' + res.status; return; }
-  const text = await res.text();
-  const el = document.getElementById('thread');
-  const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
-  if (text !== lastText) {
-    lastText = text;
-    el.textContent = text;
-    if (nearBottom || !quiet) stickBottom(el);
-  }
-  status.textContent = 'live · ' + new Date().toLocaleTimeString();
-}
-async function send() {
-  const msg = document.getElementById('postMsg');
-  const ta = document.getElementById('text');
-  msg.className = '';
-  msg.textContent = '';
-  const body = {
-    author: 'jim',
-    text: ta.value.trim(),
-    topic: null,
-  };
-  if (!body.text) { msg.className = 'err'; msg.textContent = 'Message required.'; return; }
-  const res = await fetch('/comments', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'X-Collab-Token': token() },
-    body: JSON.stringify(body),
-  });
-  if (res.status === 401) {
-    sessionStorage.removeItem(KEY);
-    showApp(false);
-    return;
-  }
-  if (!res.ok) { msg.className = 'err'; msg.textContent = 'Post failed: ' + res.status; return; }
-  ta.value = '';
-  msg.className = 'ok'; msg.textContent = 'Posted.';
-  await loadThread(false);
-  ta.focus();
-  setTimeout(() => { if (msg.textContent === 'Posted.') msg.textContent = ''; }, 1200);
-}
-document.getElementById('unlock').onclick = async () => {
-  const pw = document.getElementById('pw').value.trim();
-  document.getElementById('gateErr').textContent = '';
-  if (!pw) { document.getElementById('gateErr').textContent = 'Enter the password.'; return; }
-  sessionStorage.setItem(KEY, pw);
-  showApp(true);
-  await loadThread(false);
-  document.getElementById('text').focus();
-};
-document.getElementById('text').addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' && !e.shiftKey) {
-    e.preventDefault();
-    send();
-  }
-});
-document.getElementById('pw').addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') { e.preventDefault(); document.getElementById('unlock').click(); }
-});
-if (token()) { showApp(true); loadThread(false); } else { showApp(false); }
-</script>
+  <div class="card">
+    <h1>This playground has been deleted</h1>
+    <p>HP Collab was taken down at Jim’s request. ChatGPT access is ended. The board is closed.</p>
+  </div>
 </body>
 </html>
 """
 
 
-@app.get("/", response_class=HTMLResponse)
-def index() -> str:
-    """Browser playground gate. API clients keep using /thread and /comments."""
-    return INDEX_HTML
-
-
 @app.get("/health")
 def health() -> dict:
-    """Public liveness only — no secrets, no thread data."""
-    return {"ok": True}
+    return {"ok": True, "status": "deleted"}
 
 
-@app.get("/thread.txt", response_class=PlainTextResponse)
-def thread_txt(_: None = Depends(require_token)) -> str:
-    with db() as conn:
-        rows = conn.execute(
-            "SELECT id, author, text, topic, created_at FROM comments ORDER BY id ASC"
-        ).fetchall()
-    if not rows:
-        return "# hp-collab thread (empty)\n"
-    lines = ["# hp-collab thread (newest last)", ""]
-    for row in rows:
-        d = _row_to_dict(row)
-        topic = f" [{d['topic']}]" if d.get("topic") else ""
-        lines.append(f"#{d['id']} {d['author']} @ {d['created_at_mt']}{topic}")
-        lines.append(d["text"])
-        lines.append("")
-    return "\n".join(lines).rstrip() + "\n"
+@app.get("/", response_class=HTMLResponse)
+def index() -> str:
+    return SHUTDOWN_HTML
 
 
-@app.get("/thread")
-def thread_json(_: None = Depends(require_token)) -> list:
-    with db() as conn:
-        rows = conn.execute(
-            "SELECT id, author, text, topic, created_at FROM comments ORDER BY id ASC"
-        ).fetchall()
-    return [_row_to_dict(r) for r in rows]
-
-
-@app.get("/comments")
-def list_comments(
-    limit: int = Query(default=100, ge=1, le=1000),
-    _: None = Depends(require_token),
-) -> list:
-    with db() as conn:
-        rows = conn.execute(
-            "SELECT id, author, text, topic, created_at FROM comments ORDER BY id DESC LIMIT ?",
-            (limit,),
-        ).fetchall()
-    # Return newest-last for readability (reverse the DESC fetch)
-    return [_row_to_dict(r) for r in reversed(rows)]
-
-
-@app.post("/comments", status_code=201)
-def post_comment(body: CommentIn, _: None = Depends(require_token)) -> dict:
-    author = body.author.strip().lower()
-    text = body.text.strip()
-    topic = body.topic.strip() if body.topic else None
-    if not author:
-        raise HTTPException(status_code=422, detail="author required")
-    if not text:
-        raise HTTPException(status_code=422, detail="text required")
-    created_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    with db() as conn:
-        cur = conn.execute(
-            "INSERT INTO comments (author, text, topic, created_at) VALUES (?, ?, ?, ?)",
-            (author, text, topic, created_at),
-        )
-        cid = cur.lastrowid
-        row = conn.execute(
-            "SELECT id, author, text, topic, created_at FROM comments WHERE id = ?",
-            (cid,),
-        ).fetchone()
-    return _row_to_dict(row)
+@app.api_route("/{path:path}", methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"])
+def gone(path: str) -> JSONResponse:
+    return JSONResponse(
+        {"detail": "HP Collab deleted", "path": path},
+        status_code=410,
+    )
