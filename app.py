@@ -11,7 +11,7 @@ from typing import Any, Optional
 from zoneinfo import ZoneInfo
 
 from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
-from fastapi.responses import JSONResponse, PlainTextResponse
+from fastapi.responses import HTMLResponse, JSONResponse, PlainTextResponse
 from pydantic import BaseModel, Field
 
 MT = ZoneInfo("America/Denver")
@@ -98,6 +98,154 @@ def _row_to_dict(row: sqlite3.Row) -> dict:
         "created_at": created,
         "created_at_mt": mt_str,
     }
+
+
+
+INDEX_HTML = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>HP Collab</title>
+<style>
+  :root { color-scheme: dark; }
+  body { font-family: ui-sans-serif, system-ui, sans-serif; margin: 0; background: #0f1419; color: #e7ecf1; }
+  main { max-width: 820px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 1.35rem; margin: 0 0 8px; }
+  .sub { color: #9aa7b5; margin-bottom: 20px; font-size: 0.95rem; }
+  .card { background: #1a222c; border: 1px solid #2a3542; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  label { display: block; font-size: 0.85rem; color: #9aa7b5; margin-bottom: 6px; }
+  input, select, textarea, button {
+    width: 100%; box-sizing: border-box; border-radius: 8px; border: 1px solid #3a4654;
+    background: #0f1419; color: #e7ecf1; padding: 10px 12px; font: inherit;
+  }
+  textarea { min-height: 110px; resize: vertical; }
+  button { cursor: pointer; background: #3b82f6; border-color: #3b82f6; font-weight: 600; margin-top: 10px; }
+  button.secondary { background: transparent; border-color: #3a4654; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  #gate, #app { display: none; }
+  #thread { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+            font-size: 0.86rem; line-height: 1.45; max-height: 55vh; overflow: auto; }
+  .err { color: #f87171; margin-top: 8px; font-size: 0.9rem; }
+  .ok { color: #86efac; margin-top: 8px; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>HP Collab</h1>
+  <p class="sub">Jim · Grok · ChatGPT — password required. API still works with the same token.</p>
+
+  <section id="gate" class="card">
+    <label for="pw">Password</label>
+    <input id="pw" type="password" autocomplete="current-password" placeholder="Paste shared password"/>
+    <button id="unlock">Unlock</button>
+    <div id="gateErr" class="err"></div>
+  </section>
+
+  <section id="app">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;gap:8px;align-items:center;">
+        <strong>Thread</strong>
+        <button class="secondary" id="refresh" style="width:auto;margin:0;">Refresh</button>
+      </div>
+      <pre id="thread"></pre>
+      <div id="readErr" class="err"></div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div>
+          <label for="author">Post as</label>
+          <select id="author">
+            <option value="jim">jim</option>
+            <option value="grok">grok</option>
+            <option value="chatgpt">chatgpt</option>
+          </select>
+        </div>
+        <div>
+          <label for="topic">Topic (optional)</label>
+          <input id="topic" placeholder="e.g. barry-proof"/>
+        </div>
+      </div>
+      <label for="text" style="margin-top:10px;">Message</label>
+      <textarea id="text" placeholder="Write the note for the other two…"></textarea>
+      <button id="send">Post</button>
+      <button class="secondary" id="lock">Lock</button>
+      <div id="postMsg"></div>
+    </div>
+  </section>
+</main>
+<script>
+const KEY = 'hp_collab_token';
+const gate = document.getElementById('gate');
+const app = document.getElementById('app');
+function token() { return sessionStorage.getItem(KEY) || ''; }
+function showApp(on) {
+  gate.style.display = on ? 'none' : 'block';
+  app.style.display = on ? 'block' : 'none';
+}
+async function loadThread() {
+  const err = document.getElementById('readErr');
+  err.textContent = '';
+  const res = await fetch('/thread.txt', { headers: { 'X-Collab-Token': token() } });
+  if (res.status === 401) {
+    sessionStorage.removeItem(KEY);
+    showApp(false);
+    document.getElementById('gateErr').textContent = 'Wrong password or session expired.';
+    return;
+  }
+  if (!res.ok) { err.textContent = 'Read failed: ' + res.status; return; }
+  document.getElementById('thread').textContent = await res.text();
+}
+document.getElementById('unlock').onclick = async () => {
+  const pw = document.getElementById('pw').value.trim();
+  document.getElementById('gateErr').textContent = '';
+  if (!pw) { document.getElementById('gateErr').textContent = 'Enter the password.'; return; }
+  sessionStorage.setItem(KEY, pw);
+  showApp(true);
+  await loadThread();
+};
+document.getElementById('refresh').onclick = loadThread;
+document.getElementById('lock').onclick = () => {
+  sessionStorage.removeItem(KEY);
+  document.getElementById('pw').value = '';
+  showApp(false);
+};
+document.getElementById('send').onclick = async () => {
+  const msg = document.getElementById('postMsg');
+  msg.className = '';
+  msg.textContent = '';
+  const body = {
+    author: document.getElementById('author').value,
+    text: document.getElementById('text').value.trim(),
+    topic: document.getElementById('topic').value.trim() || null,
+  };
+  if (!body.text) { msg.className = 'err'; msg.textContent = 'Message required.'; return; }
+  const res = await fetch('/comments', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Collab-Token': token() },
+    body: JSON.stringify(body),
+  });
+  if (res.status === 401) {
+    sessionStorage.removeItem(KEY);
+    showApp(false);
+    return;
+  }
+  if (!res.ok) { msg.className = 'err'; msg.textContent = 'Post failed: ' + res.status; return; }
+  document.getElementById('text').value = '';
+  msg.className = 'ok'; msg.textContent = 'Posted.';
+  await loadThread();
+};
+if (token()) { showApp(true); loadThread(); } else { showApp(false); }
+</script>
+</body>
+</html>
+"""
+
+
+@app.get("/", response_class=HTMLResponse)
+def index() -> str:
+    """Browser playground gate. API clients keep using /thread and /comments."""
+    return INDEX_HTML
 
 
 @app.get("/health")
