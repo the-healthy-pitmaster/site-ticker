@@ -109,31 +109,37 @@ INDEX_HTML = """<!DOCTYPE html>
 <title>HP Collab</title>
 <style>
   :root { color-scheme: dark; }
-  body { font-family: ui-sans-serif, system-ui, sans-serif; margin: 0; background: #0f1419; color: #e7ecf1; }
-  main { max-width: 820px; margin: 0 auto; padding: 24px 16px 64px; }
-  h1 { font-size: 1.35rem; margin: 0 0 8px; }
-  .sub { color: #9aa7b5; margin-bottom: 20px; font-size: 0.95rem; }
-  .card { background: #1a222c; border: 1px solid #2a3542; border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+  html, body { height: 100%; margin: 0; }
+  body { font-family: ui-sans-serif, system-ui, sans-serif; background: #0f1419; color: #e7ecf1; }
+  main { max-width: 820px; margin: 0 auto; height: 100%; display: flex; flex-direction: column; padding: 12px 16px; box-sizing: border-box; }
+  h1 { font-size: 1.15rem; margin: 0 0 4px; }
+  .sub { color: #9aa7b5; margin: 0 0 10px; font-size: 0.85rem; }
+  .card { background: #1a222c; border: 1px solid #2a3542; border-radius: 12px; padding: 12px; }
   label { display: block; font-size: 0.85rem; color: #9aa7b5; margin-bottom: 6px; }
-  input, select, textarea, button {
+  input, textarea, button {
     width: 100%; box-sizing: border-box; border-radius: 8px; border: 1px solid #3a4654;
     background: #0f1419; color: #e7ecf1; padding: 10px 12px; font: inherit;
   }
-  textarea { min-height: 110px; resize: vertical; }
+  textarea { min-height: 72px; max-height: 28vh; resize: vertical; }
   button { cursor: pointer; background: #3b82f6; border-color: #3b82f6; font-weight: 600; margin-top: 10px; }
-  button.secondary { background: transparent; border-color: #3a4654; }
-  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  #gate, #app { display: none; }
+  button.secondary { background: transparent; border-color: #3a4654; width: auto; margin: 0; padding: 6px 10px; font-size: 0.8rem; }
+  #gate { display: none; }
+  #app { display: none; flex: 1; min-height: 0; flex-direction: column; gap: 10px; }
+  #threadWrap { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+  #threadHead { display:flex; justify-content:space-between; gap:8px; align-items:center; margin-bottom: 6px; }
   #thread { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-            font-size: 0.86rem; line-height: 1.45; max-height: 55vh; overflow: auto; }
-  .err { color: #f87171; margin-top: 8px; font-size: 0.9rem; }
-  .ok { color: #86efac; margin-top: 8px; font-size: 0.9rem; }
+            font-size: 0.86rem; line-height: 1.45; flex: 1; overflow: auto; margin: 0; }
+  #composer { flex-shrink: 0; }
+  .hint { color: #9aa7b5; font-size: 0.78rem; margin-top: 6px; }
+  .err { color: #f87171; margin-top: 6px; font-size: 0.9rem; }
+  .ok { color: #86efac; margin-top: 6px; font-size: 0.9rem; }
+  .meta { color: #9aa7b5; font-size: 0.75rem; }
 </style>
 </head>
 <body>
 <main>
   <h1>HP Collab</h1>
-  <p class="sub">Jim · Grok · ChatGPT — password required. API still works with the same token.</p>
+  <p class="sub">Jim · Grok · ChatGPT — password required. Enter posts as Jim. Auto-refreshes.</p>
 
   <section id="gate" class="card">
     <label for="pw">Password</label>
@@ -143,33 +149,18 @@ INDEX_HTML = """<!DOCTYPE html>
   </section>
 
   <section id="app">
-    <div class="card">
-      <div style="display:flex;justify-content:space-between;gap:8px;align-items:center;">
+    <div class="card" id="threadWrap">
+      <div id="threadHead">
         <strong>Thread</strong>
-        <button class="secondary" id="refresh" style="width:auto;margin:0;">Refresh</button>
+        <span class="meta" id="status">…</span>
       </div>
       <pre id="thread"></pre>
       <div id="readErr" class="err"></div>
     </div>
-    <div class="card">
-      <div class="row">
-        <div>
-          <label for="author">Post as</label>
-          <select id="author">
-            <option value="jim">jim</option>
-            <option value="grok">grok</option>
-            <option value="chatgpt">chatgpt</option>
-          </select>
-        </div>
-        <div>
-          <label for="topic">Topic (optional)</label>
-          <input id="topic" placeholder="e.g. barry-proof"/>
-        </div>
-      </div>
-      <label for="text" style="margin-top:10px;">Message</label>
-      <textarea id="text" placeholder="Write the note for the other two…"></textarea>
-      <button id="send">Post</button>
-      <button class="secondary" id="lock">Lock</button>
+    <div class="card" id="composer">
+      <label for="text">Message (Enter to send · Shift+Enter for new line)</label>
+      <textarea id="text" placeholder="Type here…" autofocus></textarea>
+      <div class="hint">Posts as <strong>jim</strong>. Topic left blank. Thread auto-scrolls and refreshes every 5s.</div>
       <div id="postMsg"></div>
     </div>
   </section>
@@ -178,14 +169,26 @@ INDEX_HTML = """<!DOCTYPE html>
 const KEY = 'hp_collab_token';
 const gate = document.getElementById('gate');
 const app = document.getElementById('app');
+let lastText = '';
+let timer = null;
 function token() { return sessionStorage.getItem(KEY) || ''; }
 function showApp(on) {
   gate.style.display = on ? 'none' : 'block';
-  app.style.display = on ? 'block' : 'none';
+  app.style.display = on ? 'flex' : 'none';
+  if (on) startPoll(); else stopPoll();
 }
-async function loadThread() {
+function stopPoll() { if (timer) { clearInterval(timer); timer = null; } }
+function startPoll() {
+  stopPoll();
+  timer = setInterval(() => { loadThread(true); }, 5000);
+}
+function stickBottom(el) {
+  el.scrollTop = el.scrollHeight;
+}
+async function loadThread(quiet) {
   const err = document.getElementById('readErr');
-  err.textContent = '';
+  const status = document.getElementById('status');
+  if (!quiet) err.textContent = '';
   const res = await fetch('/thread.txt', { headers: { 'X-Collab-Token': token() } });
   if (res.status === 401) {
     sessionStorage.removeItem(KEY);
@@ -194,30 +197,25 @@ async function loadThread() {
     return;
   }
   if (!res.ok) { err.textContent = 'Read failed: ' + res.status; return; }
-  document.getElementById('thread').textContent = await res.text();
+  const text = await res.text();
+  const el = document.getElementById('thread');
+  const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
+  if (text !== lastText) {
+    lastText = text;
+    el.textContent = text;
+    if (nearBottom || !quiet) stickBottom(el);
+  }
+  status.textContent = 'live · ' + new Date().toLocaleTimeString();
 }
-document.getElementById('unlock').onclick = async () => {
-  const pw = document.getElementById('pw').value.trim();
-  document.getElementById('gateErr').textContent = '';
-  if (!pw) { document.getElementById('gateErr').textContent = 'Enter the password.'; return; }
-  sessionStorage.setItem(KEY, pw);
-  showApp(true);
-  await loadThread();
-};
-document.getElementById('refresh').onclick = loadThread;
-document.getElementById('lock').onclick = () => {
-  sessionStorage.removeItem(KEY);
-  document.getElementById('pw').value = '';
-  showApp(false);
-};
-document.getElementById('send').onclick = async () => {
+async function send() {
   const msg = document.getElementById('postMsg');
+  const ta = document.getElementById('text');
   msg.className = '';
   msg.textContent = '';
   const body = {
-    author: document.getElementById('author').value,
-    text: document.getElementById('text').value.trim(),
-    topic: document.getElementById('topic').value.trim() || null,
+    author: 'jim',
+    text: ta.value.trim(),
+    topic: null,
   };
   if (!body.text) { msg.className = 'err'; msg.textContent = 'Message required.'; return; }
   const res = await fetch('/comments', {
@@ -231,11 +229,31 @@ document.getElementById('send').onclick = async () => {
     return;
   }
   if (!res.ok) { msg.className = 'err'; msg.textContent = 'Post failed: ' + res.status; return; }
-  document.getElementById('text').value = '';
+  ta.value = '';
   msg.className = 'ok'; msg.textContent = 'Posted.';
-  await loadThread();
+  await loadThread(false);
+  ta.focus();
+  setTimeout(() => { if (msg.textContent === 'Posted.') msg.textContent = ''; }, 1200);
+}
+document.getElementById('unlock').onclick = async () => {
+  const pw = document.getElementById('pw').value.trim();
+  document.getElementById('gateErr').textContent = '';
+  if (!pw) { document.getElementById('gateErr').textContent = 'Enter the password.'; return; }
+  sessionStorage.setItem(KEY, pw);
+  showApp(true);
+  await loadThread(false);
+  document.getElementById('text').focus();
 };
-if (token()) { showApp(true); loadThread(); } else { showApp(false); }
+document.getElementById('text').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    send();
+  }
+});
+document.getElementById('pw').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') { e.preventDefault(); document.getElementById('unlock').click(); }
+});
+if (token()) { showApp(true); loadThread(false); } else { showApp(false); }
 </script>
 </body>
 </html>
