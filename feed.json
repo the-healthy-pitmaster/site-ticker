@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T12:18:28Z",
+  "generatedAt": "2026-09-28T12:21:06Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -72,30 +72,6 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117243803208072710",
-      "publishedAt": "2026-09-09T18:01:02.051000-06:00",
-      "text": "2/2 I used to treat evening grazing like it did not count because dinner already \u201chappened.\u201d Then I noticed the mornings that felt foggy were also the nights the kitchen never really shut down. Protein and plants when\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117243803208072710",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117243799303138181",
-      "publishedAt": "2026-09-09T18:00:02.470000-06:00",
-      "text": "1/2 Yesterday\u2019s feed was full of \u201cbuild muscle for glucose\u201d posters. Fine. True enough. Here is a quieter lever that does not need a cinematic program.When your eating window closes, close the kitchen with it.The late\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117243799303138181",
-      "source": "mastodon"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -118,42 +94,6 @@
       "text": "We've been told to fear cholesterol, avoid hormone therapy, trust opioids as low-risk, and keep peanuts away from kids. One by one those stories have cracked - and the apology never quite arrives. This clip stacks the\u2026",
       "url": "https://tilvids.com/videos/watch/534f4ddc-65ab-4525-a839-4a9f9afc5cb0",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117242157507649756",
-      "publishedAt": "2026-09-09T11:02:30.703000-06:00",
-      "text": "3/3 I cook for flavor first. The metabolic bonus is that real food in a window you can keep beats a fiber-oatmeal sermon at 7am that you never wanted. Skip the guilt. Own the window. Make the first plate count \u2014\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117242157507649756",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117242153486628391",
-      "publishedAt": "2026-09-09T11:01:29.316000-06:00",
-      "text": "2/3 Researchers have long talked about a second-meal effect: what you eat at one meal can change how the next meal lands. Plain version \u2014 a steadier first meal in your window (meat, eggs, Greek yogurt, vegetables\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117242153486628391",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117242149198259676",
-      "publishedAt": "2026-09-09T11:00:23.964000-06:00",
-      "text": "1/3 Blood sugar is not only about what you eat at noon. It is also about *when* your eating day starts.A lot of people feel better when breakfast is not a moral requirement. They open the day with coffee or water, then\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117242149198259676",
-      "source": "mastodon"
     },
     {
       "platform": "tilvids",
@@ -204,54 +144,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117231767145067222",
-      "publishedAt": "2026-09-07T15:00:06.344000-06:00",
-      "text": "A smoked brisket isn't a \"cheat meal.\" It's protein, fat, and time.Your body uses that differently than a tray of sugar-glazed sides with a little meat on top. Same cookout. Different fuel.I'm a pitmaster who cares\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117231767145067222",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117231067347794287",
-      "publishedAt": "2026-09-07T12:02:08.246000-06:00",
-      "text": "2/2 I still love a good glaze. I just don't let it own the plate anymore. Meat first. Sauce as a finish, not the whole story.What do you put on the plate first when you grill \u2014 meat, sides, or sauce?#bbq #grilling\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117231067347794287",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117231067277389802",
-      "publishedAt": "2026-09-07T12:02:07.174000-06:00",
-      "text": "1/2 Competition BBQ taught me something weird about sweet sauce.The meat can be perfect. Then the glaze hits \u2014 sticky, candy-sweet, crowd-pleasing \u2014 and an hour later I'm hungry again like I didn't just eat. That's not\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117231067277389802",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117226105558336479",
-      "publishedAt": "2026-09-06T15:00:17.398000-06:00",
-      "text": "Insulin resistance doesn't usually announce itself with a dramatic moment.It builds quietly \u2014 cells getting less responsive to the signal that helps move sugar out of the blood. Energy dips. Cravings. Numbers that\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117226105558336479",
-      "source": "mastodon"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -276,18 +168,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117224806739620311",
-      "publishedAt": "2026-09-06T09:29:58.936000-06:00",
-      "text": "Most people hear \"metabolic syndrome\" and tune out. It sounds like hospital talk.It's simpler: a cluster of signs your body is having a harder time handling fuel \u2014 blood sugar, fat storage, blood pressure creeping the\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117224806739620311",
-      "source": "mastodon"
-    },
-    {
       "platform": "youtube",
       "platformLabel": "YouTube",
       "handle": "@therealjimbbq",
@@ -297,6 +177,54 @@
       "publishedAt": "2026-09-03T09:10:21-06:00",
       "text": "Reversing insulin resistance",
       "url": "https://www.youtube.com/watch?v=cONZP2u1UzM",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-QYg_ZWb5uWE",
+      "publishedAt": "2026-08-11T09:36:47-06:00",
+      "text": "United States: Call or text 988 (Suicide & Crisis Lifeline) \u2014 available 24/7 Crisis Text Line: Text HOME to 741741 International: Visit https://www.iasp.info/suicidalthoughts/ for local resources",
+      "url": "https://www.youtube.com/shorts/QYg_ZWb5uWE",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-hy2iikELais",
+      "publishedAt": "2026-08-07T10:33:53-06:00",
+      "text": "The American Diabetes Association is in the business of teaching people how to manage type 2 diabetes. I'm in the business of teaching people how to reverse it. We both have thriving businesses. Which would you rather?",
+      "url": "https://www.youtube.com/shorts/hy2iikELais",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-G4ftSmjlW5M",
+      "publishedAt": "2026-08-06T10:32:00-06:00",
+      "text": "CPAP machines are often associated with better cardiovascular outcomes\u2014but how strong is the evidence? I examined a major randomized trial, a manufacturer-funded meta-analysis, and a lifestyle study that produced a\u2026",
+      "url": "https://www.youtube.com/shorts/G4ftSmjlW5M",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-PC_ivXZ6QrM",
+      "publishedAt": "2026-08-04T04:03:32-06:00",
+      "text": "Has America actually become healthier? RFK Jr. has challenged decades of conventional thinking about chronic disease, nutrition, and public health. In this Short, I explain why I believe prevention should be the\u2026",
+      "url": "https://www.youtube.com/shorts/PC_ivXZ6QrM",
       "source": "youtube-rss"
     }
   ]
