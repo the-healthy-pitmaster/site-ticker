@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T12:22:13Z",
+  "generatedAt": "2026-10-02T12:19:58Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,18 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-r9a62tlv9g4",
+      "publishedAt": "2026-10-01T21:35:18-06:00",
+      "text": "Dr. Ben Bikman describes what insulin resistance is, and what causes it. The original post can be seen on Dr. Bikman's facebook page: https://www.facebook.com/share/v/1A5J3GLNz2/",
+      "url": "https://www.youtube.com/watch?v=r9a62tlv9g4",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -285,18 +297,6 @@
       "publishedAt": "2026-09-03T09:10:21-06:00",
       "text": "Reversing insulin resistance",
       "url": "https://www.youtube.com/watch?v=cONZP2u1UzM",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-QYg_ZWb5uWE",
-      "publishedAt": "2026-08-11T09:36:47-06:00",
-      "text": "United States: Call or text 988 (Suicide & Crisis Lifeline) \u2014 available 24/7 Crisis Text Line: Text HOME to 741741 International: Visit https://www.iasp.info/suicidalthoughts/ for local resources",
-      "url": "https://www.youtube.com/shorts/QYg_ZWb5uWE",
       "source": "youtube-rss"
     }
   ]
