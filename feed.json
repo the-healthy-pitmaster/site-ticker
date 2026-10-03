@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:19:58Z",
+  "generatedAt": "2026-10-03T15:00:17Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,18 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-GVnbXZ5bRBk",
+      "publishedAt": "2026-10-02T20:00:04-06:00",
+      "text": "REPLAY: The Feel Great System \u2014 Live with Dr. Tiffany & Jim - 24-09-03",
+      "url": "https://www.youtube.com/watch?v=GVnbXZ5bRBk",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -286,18 +298,6 @@
       "text": "Most people hear \"metabolic syndrome\" and tune out. It sounds like hospital talk.It's simpler: a cluster of signs your body is having a harder time handling fuel \u2014 blood sugar, fat storage, blood pressure creeping the\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117224806739620311",
       "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-cONZP2u1UzM",
-      "publishedAt": "2026-09-03T09:10:21-06:00",
-      "text": "Reversing insulin resistance",
-      "url": "https://www.youtube.com/watch?v=cONZP2u1UzM",
-      "source": "youtube-rss"
     }
   ]
 }
