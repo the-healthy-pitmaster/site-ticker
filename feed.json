@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T18:15:34Z",
+  "generatedAt": "2026-10-05T12:21:26Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,18 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-lkzRe-Tib2I",
+      "publishedAt": "2026-10-04T18:20:00-06:00",
+      "text": "Live with Restream, October 04",
+      "url": "https://www.youtube.com/watch?v=lkzRe-Tib2I",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -286,18 +298,6 @@
       "text": "People have used food and plant tools for glucose for a long time. The clip walks five that show up again and again: fiber that slows the meal, vinegar with starch, movement after eating, sleep that keeps insulin\u2026",
       "url": "https://tilvids.com/videos/watch/33d52dae-3ad4-42e8-a83a-30ab1d3fc430",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117224806739620311",
-      "publishedAt": "2026-09-06T09:29:58.936000-06:00",
-      "text": "Most people hear \"metabolic syndrome\" and tune out. It sounds like hospital talk.It's simpler: a cluster of signs your body is having a harder time handling fuel \u2014 blood sugar, fat storage, blood pressure creeping the\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117224806739620311",
-      "source": "mastodon"
     }
   ]
 }
