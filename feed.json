@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:21:26Z",
+  "generatedAt": "2026-10-06T12:19:59Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,8 +17,20 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
+      "id": "yt-Im299dw88og",
+      "publishedAt": "2026-10-05T18:01:49-06:00",
+      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=Im299dw88og",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
       "id": "yt-lkzRe-Tib2I",
-      "publishedAt": "2026-10-04T18:20:00-06:00",
+      "publishedAt": "2026-10-05T07:34:39-06:00",
       "text": "Live with Restream, October 04",
       "url": "https://www.youtube.com/watch?v=lkzRe-Tib2I",
       "source": "youtube-rss"
@@ -285,18 +297,6 @@
       "publishedAt": "2026-09-06T12:57:50.531000-06:00",
       "text": "Healthcare is supposed to show up when you need it most. This clip asks a harder question: what if the path that would actually help you get well gets pushed aside because managing the illness pays better than ending\u2026",
       "url": "https://tilvids.com/videos/watch/3135c387-b332-4479-9b9a-315dbb481a2f",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-7pentRo9pv29LACArJ47oC",
-      "publishedAt": "2026-09-06T12:54:05.490000-06:00",
-      "text": "People have used food and plant tools for glucose for a long time. The clip walks five that show up again and again: fiber that slows the meal, vinegar with starch, movement after eating, sleep that keeps insulin\u2026",
-      "url": "https://tilvids.com/videos/watch/33d52dae-3ad4-42e8-a83a-30ab1d3fc430",
       "source": "tilvids"
     }
   ]
