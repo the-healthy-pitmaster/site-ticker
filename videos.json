@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T12:20:06Z",
+  "generatedAt": "2026-10-07T12:22:07Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,13 +18,13 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "tilvids",
-      "title": "Vaping and insulin resistance",
-      "url": "https://tilvids.com/videos/watch/41e39266-385a-4f23-b16c-58dc2bb25760",
-      "embedUrl": "https://tilvids.com/videos/embed/98UkLEhpcDC4n48EoHPNaW",
-      "thumbUrl": "https://tilvids.com/lazy-static/thumbnails/c9865322-6755-4d95-9a4f-8db09d57b250.jpg",
+      "title": "Off insulin in 75 days with type 1 diabetes",
+      "url": "https://tilvids.com/videos/watch/8938e345-4f39-4333-a5ed-84fb939c3258",
+      "embedUrl": "https://tilvids.com/videos/embed/hWNfMHd45zxLCmXLpRSH95",
+      "thumbUrl": "https://tilvids.com/lazy-static/thumbnails/6dbf273e-9c8a-4d18-959f-a3a6fbff8475.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-09-09T23:23:48.989Z",
-      "fallback": true
+      "publishedAt": "2026-10-06T22:06:23.995Z",
+      "fallback": false
     },
     {
       "spot": 3,

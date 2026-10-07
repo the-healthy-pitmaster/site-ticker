@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T12:19:59Z",
+  "generatedAt": "2026-10-07T12:22:02Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,8 +17,44 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
+      "id": "yt-XH2srbItifw",
+      "publishedAt": "2026-10-06T19:07:14-06:00",
+      "text": "Listen to Trent (@trentytok) and various medical professionals explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=XH2srbItifw",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-hWNfMHd45zxLCmXLpRSH95",
+      "publishedAt": "2026-10-06T16:06:23.995000-06:00",
+      "text": "A stem cell treatment took a person with type 1 diabetes from daily insulin shots to no insulin in 75 days. Type 1 is different from what I had. In type 1 the body attacks the cells that make insulin, so real food and\u2026",
+      "url": "https://tilvids.com/videos/watch/8938e345-4f39-4333-a5ed-84fb939c3258",
+      "source": "tilvids"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-nuLgZMVBcvgpSk5rEq8QwG",
+      "publishedAt": "2026-10-06T07:13:02.599000-06:00",
+      "text": "Your brain runs on insulin too. It helps brain cells take in fuel and keep their connections healthy. When your cells stop listening to insulin, the problem doesn't stay in your blood sugar. Research has tied insulin\u2026",
+      "url": "https://tilvids.com/videos/watch/ae1405fa-56b3-4abf-93d0-8696fd03b54c",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
       "id": "yt-Im299dw88og",
-      "publishedAt": "2026-10-05T18:01:49-06:00",
+      "publishedAt": "2026-10-06T07:10:20-06:00",
       "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
       "url": "https://www.youtube.com/watch?v=Im299dw88og",
       "source": "youtube-rss"
@@ -262,42 +298,6 @@
       "text": "2/2 I still love a good glaze. I just don't let it own the plate anymore. Meat first. Sauce as a finish, not the whole story.What do you put on the plate first when you grill \u2014 meat, sides, or sauce?#bbq #grilling\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117231067347794287",
       "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117231067277389802",
-      "publishedAt": "2026-09-07T12:02:07.174000-06:00",
-      "text": "1/2 Competition BBQ taught me something weird about sweet sauce.The meat can be perfect. Then the glaze hits \u2014 sticky, candy-sweet, crowd-pleasing \u2014 and an hour later I'm hungry again like I didn't just eat. That's not\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117231067277389802",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117226105558336479",
-      "publishedAt": "2026-09-06T15:00:17.398000-06:00",
-      "text": "Insulin resistance doesn't usually announce itself with a dramatic moment.It builds quietly \u2014 cells getting less responsive to the signal that helps move sugar out of the blood. Energy dips. Cravings. Numbers that\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117226105558336479",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-75rTKZ6nG5KnSJPgTJM2RH",
-      "publishedAt": "2026-09-06T12:57:50.531000-06:00",
-      "text": "Healthcare is supposed to show up when you need it most. This clip asks a harder question: what if the path that would actually help you get well gets pushed aside because managing the illness pays better than ending\u2026",
-      "url": "https://tilvids.com/videos/watch/3135c387-b332-4479-9b9a-315dbb481a2f",
-      "source": "tilvids"
     }
   ]
 }
