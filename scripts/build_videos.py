@@ -2,7 +2,11 @@
 """Build videos.json for homepage DYNAMIC VIDEO SPOTs (America/Denver).
 
 Spot 1 (today): newest YouTube Short (fallback: newest YT on/before today)
-Spot 2 (yesterday): newest TILvids
+Spot 2 (yesterday): newest PeerTube video from peertube.wtf/c/thehealthypitmaster.
+    While PeerTube has fewer videos than PEERTUBE_SLOTS, the remaining slot(s)
+    are filled with the newest TILvids videos NOT already on PeerTube (matched by
+    title), so the spot never goes empty. Once PeerTube has enough videos it is
+    PeerTube-only automatically.
 Spot 3 (two days ago): newest X video post
 
 Never invent posts. Writes videos.json next to this scripts/ dir's parent.
@@ -30,7 +34,13 @@ OUT = ROOT / "videos.json"
 
 YT_CHANNEL = "UCFZpCMwcMX6EZicbuG-r6WA"
 YT_RSS = f"https://www.youtube.com/feeds/videos.xml?channel_id={YT_CHANNEL}"
-TILVIDS_API = "https://tilvids.com/api/v1/accounts/therealjimbbq/videos?count=50"
+TILVIDS_API = "https://tilvids.com/api/v1/accounts/therealjimbbq/videos?count=50&sort=-publishedAt"
+PEERTUBE_BASE = "https://peertube.wtf"
+PEERTUBE_CHANNEL = "thehealthypitmaster"
+PEERTUBE_CHANNEL_URL = f"{PEERTUBE_BASE}/c/{PEERTUBE_CHANNEL}"
+PEERTUBE_API = f"{PEERTUBE_BASE}/api/v1/video-channels/{PEERTUBE_CHANNEL}/videos?sort=-publishedAt&count=50"
+# Number of homepage slots fed by PeerTube (today: spot 2 only).
+PEERTUBE_SLOTS = 1
 X_HANDLE = "therealjimbbq"
 UA = "TheHealthyPitmaster-site-ticker/1.0 (+https://the-healthy-pitmaster.github.io/site-ticker/)"
 
@@ -246,7 +256,60 @@ def youtube_spot(target_day) -> dict:
     return spot
 
 
-# --- TILvids -----------------------------------------------------------------
+# --- PeerTube (peertube.wtf primary, TILvids fill) ---------------------------
+
+def _peertube_thumb(base: str, v: dict) -> str:
+    path = v.get("thumbnailPath") or v.get("previewPath") or ""
+    if not path:
+        thumbs = v.get("thumbnails") or []
+        if isinstance(thumbs, list) and thumbs:
+            # Newer PeerTube: list of {path, fileUrl, width}; take the widest
+            best = max(thumbs, key=lambda t: (t or {}).get("width") or 0) or {}
+            if best.get("fileUrl"):
+                return best["fileUrl"]
+            path = best.get("path") or ""
+    return (base + path) if path else ""
+
+
+def parse_peertube_videos(data: Any, base: str, watch_style: str = "w") -> list[dict]:
+    """Normalize a PeerTube /videos API response. watch_style 'w' -> base/w/<shortUUID>."""
+    rows = data.get("data") if isinstance(data, dict) else data
+    out = []
+    for v in rows or []:
+        if not isinstance(v, dict):
+            continue
+        if v.get("isLive"):
+            continue
+        privacy = (v.get("privacy") or {}).get("id")
+        if privacy not in (None, 1):  # 1 = Public
+            continue
+        short = v.get("shortUUID") or ""
+        embed_path = v.get("embedPath") or (f"/videos/embed/{short}" if short else "")
+        if watch_style == "w" and short:
+            url = f"{base}/w/{short}"
+        else:
+            url = v.get("url") or (f"{base}/w/{short}" if short else "")
+        out.append(
+            {
+                "title": v.get("name") or "",
+                "url": url,
+                "embedUrl": (base + embed_path) if embed_path else "",
+                "thumbUrl": _peertube_thumb(base, v),
+                "publishedAt": v.get("publishedAt") or v.get("createdAt") or "",
+            }
+        )
+    out.sort(key=lambda x: x.get("publishedAt") or "", reverse=True)
+    return out
+
+
+def fetch_peertube() -> list[dict]:
+    try:
+        data = http_get_json(PEERTUBE_API)
+    except Exception as e:
+        print(f"PeerTube (peertube.wtf) failed: {e}", file=sys.stderr)
+        return []
+    return parse_peertube_videos(data, PEERTUBE_BASE, watch_style="w")
+
 
 def fetch_tilvids() -> list[dict]:
     try:
@@ -254,38 +317,73 @@ def fetch_tilvids() -> list[dict]:
     except Exception as e:
         print(f"TILvids failed: {e}", file=sys.stderr)
         return []
-    rows = data.get("data") if isinstance(data, dict) else data
-    out = []
-    for v in rows or []:
-        embed_path = v.get("embedPath") or ""
-        thumb_path = v.get("thumbnailPath") or ""
-        out.append(
-            {
-                "title": v.get("name") or "",
-                "url": v.get("url") or "",
-                "embedUrl": ("https://tilvids.com" + embed_path) if embed_path else "",
-                "thumbUrl": ("https://tilvids.com" + thumb_path) if thumb_path else "",
-                "publishedAt": v.get("publishedAt") or v.get("createdAt") or "",
-            }
-        )
-    return out
+    return parse_peertube_videos(data, "https://tilvids.com", watch_style="url")
 
 
-def tilvids_spot(target_day) -> dict:
-    items = fetch_tilvids()
-    chosen, fb = pick_for_day(items, target_day)
-    spot = empty_spot(2, 1, "tilvids")
-    if not chosen:
+def norm_title(t: str) -> str:
+    """Loose title key for matching the same video across TILvids and PeerTube."""
+    t = (t or "").lower().replace("’", "'").replace("‘", "'")
+    t = re.sub(r"[^a-z0-9]+", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def _order_for_day(items: list[dict], target_day) -> list[tuple[dict, bool]]:
+    """Day-preferred pick first (exact day, else newest on/before), then the rest newest-first.
+    If nothing is on/before the target day, the newest item leads (fallback=True)."""
+    if not items:
+        return []
+    first, fb = pick_for_day(items, target_day)
+    if first is None:
+        first, fb = items[0], True
+    rest = [(i, True) for i in items if i is not first]
+    return [(first, fb)] + rest
+
+
+def build_video_slots(peertube: list[dict], tilvids: list[dict], slots: int, target_day) -> list[dict]:
+    """Return up to `slots` entries: PeerTube first; TILvids-only videos fill any gap."""
+    on_pt = {norm_title(v.get("title")) for v in peertube}
+    on_pt.discard("")
+    til_only = [v for v in tilvids if norm_title(v.get("title")) not in on_pt]
+    chosen: list[dict] = []
+    for item, fb in _order_for_day(peertube, target_day):
+        if len(chosen) >= slots:
+            break
+        chosen.append(dict(item, platform="peertube", source="peertube", fallback=fb))
+    if len(chosen) < slots:
+        for item, fb in _order_for_day(til_only, target_day):
+            if len(chosen) >= slots:
+                break
+            chosen.append(dict(item, platform="tilvids", source="tilvids-fill", fallback=fb))
+    return chosen
+
+
+def peertube_spot(target_day, peertube: Optional[list] = None, tilvids: Optional[list] = None) -> dict:
+    pt = fetch_peertube() if peertube is None else peertube
+    til: list[dict]
+    if tilvids is not None:
+        til = tilvids
+    elif len(pt) >= PEERTUBE_SLOTS:
+        til = []  # PeerTube has enough; no need to hit TILvids
+    else:
+        til = fetch_tilvids()
+    picks = build_video_slots(pt, til, PEERTUBE_SLOTS, target_day)
+    spot = empty_spot(2, 1, "peertube")
+    spot["channelUrl"] = PEERTUBE_CHANNEL_URL
+    spot["source"] = "peertube"
+    if not picks:
         return spot
+    chosen = picks[0]
     spot.update(
         {
+            "platform": chosen["platform"],
+            "source": chosen["source"],
             "title": chosen.get("title") or "",
             "url": chosen.get("url") or "",
             "embedUrl": chosen.get("embedUrl") or "",
             "thumbUrl": chosen.get("thumbUrl") or "",
             "previewUrl": chosen.get("previewUrl") or "",
             "publishedAt": chosen.get("publishedAt") or "",
-            "fallback": fb,
+            "fallback": bool(chosen.get("fallback")),
         }
     )
     return spot
@@ -549,7 +647,7 @@ def main() -> int:
     today = now.date()
     spots = [
         youtube_spot(today),
-        tilvids_spot(today - timedelta(days=1)),
+        peertube_spot(today - timedelta(days=1)),
         x_spot(today - timedelta(days=2)),
     ]
     payload = {
@@ -561,7 +659,7 @@ def main() -> int:
     print(f"Wrote {OUT}")
     for s in spots:
         print(
-            f"  spot {s['spot']} {s['platform']}: "
+            f"  spot {s['spot']} {s['platform']} ({s.get('source', s['platform'])}): "
             f"{(s['title'] or '(empty)')[:60]} fallback={s['fallback']} {s['url']}"
         )
     return 0

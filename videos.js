@@ -4,7 +4,9 @@
 (function () {
   'use strict';
   var DEFAULT_FEED = './videos.json';
-  var PLATFORM_LABEL = { youtube: 'YouTube', tilvids: 'TILvids', x: 'X', twitter: 'X' };
+  var PLATFORM_LABEL = { youtube: 'YouTube', peertube: 'PeerTube', tilvids: 'TILvids', x: 'X', twitter: 'X' };
+  // PeerTube instances (peertube.wtf, tilvids.com) share the same embed player
+  var PEERTUBE_PLATFORMS = { peertube: 1, tilvids: 1 };
 
   function qs(sel, el) { return (el || document).querySelector(sel); }
   function escapeHtml(s) {
@@ -53,7 +55,7 @@
     if (id) src += '&loop=1&playlist=' + encodeURIComponent(id);
     return src;
   }
-  function tilEmbed(embedUrl) {
+  function peertubeEmbed(embedUrl) {
     var join = embedUrl.indexOf('?') >= 0 ? '&' : '?';
     return embedUrl + join + 'autoplay=1&muted=1&title=0&warningTitle=0&peertubeLink=0&loop=1';
   }
@@ -80,10 +82,10 @@
         escapeHtml(spot.title || 'YouTube') +
         '" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ' +
         'allowfullscreen loading="lazy"></iframe><span class="play-btn" aria-hidden="true"></span>';
-    } else if (platform === 'tilvids' && spot.embedUrl) {
+    } else if (PEERTUBE_PLATFORMS[platform] && spot.embedUrl) {
       html =
-        '<iframe class="replay-iframe" src="' + escapeHtml(tilEmbed(spot.embedUrl)) + '" title="' +
-        escapeHtml(spot.title || 'TILvids') +
+        '<iframe class="replay-iframe" src="' + escapeHtml(peertubeEmbed(spot.embedUrl)) + '" title="' +
+        escapeHtml(spot.title || PLATFORM_LABEL[platform] || 'PeerTube') +
         '" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>' +
         '<span class="play-btn" aria-hidden="true"></span>';
     } else if (spot.thumbUrl) {
