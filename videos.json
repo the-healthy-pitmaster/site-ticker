@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T00:58:49Z",
+  "generatedAt": "2026-10-08T12:21:58Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -24,7 +24,7 @@
       "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/dd14a64b-0544-47c0-8221-b66cc031ea2e.jpg",
       "previewUrl": "",
       "publishedAt": "2026-10-07T22:01:58.964Z",
-      "fallback": true,
+      "fallback": false,
       "channelUrl": "https://peertube.wtf/c/thehealthypitmaster",
       "source": "peertube"
     },

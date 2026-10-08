@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T12:22:02Z",
+  "generatedAt": "2026-10-08T12:21:52Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,11 +17,35 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
+      "id": "yt-5xS86-GADsw",
+      "publishedAt": "2026-10-07T19:00:11-06:00",
+      "text": "Listen to Dr. Ngare, MD and Dr. Tiffany Marie, MD explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=5xS86-GADsw",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
       "id": "yt-XH2srbItifw",
-      "publishedAt": "2026-10-06T19:07:14-06:00",
+      "publishedAt": "2026-10-07T08:22:53-06:00",
       "text": "Listen to Trent (@trentytok) and various medical professionals explain how this amazing system works!",
       "url": "https://www.youtube.com/watch?v=XH2srbItifw",
       "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-1KZeRbmWx91RX9KHWFYHER",
+      "publishedAt": "2026-10-07T07:13:27.015000-06:00",
+      "text": "New research suggests matcha may help shrink tumors and limit how far cancer spreads, especially in aggressive breast cancers. It's early, and it's not a treatment. But I love seeing a simple, real drink get studied\u2026",
+      "url": "https://tilvids.com/videos/watch/062441ba-3199-4082-a3d4-ebca21e54f41",
+      "source": "tilvids"
     },
     {
       "platform": "tilvids",
@@ -274,30 +298,6 @@
       "text": "Most portals highlight LDL and A1c. A quieter ratio \u2014 triglycerides divided by HDL \u2014 can flag insulin resistance earlier than those two alone.",
       "url": "https://tilvids.com/videos/watch/6aa7169a-764b-4069-8dfe-91ebd0c008c5",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117231767145067222",
-      "publishedAt": "2026-09-07T15:00:06.344000-06:00",
-      "text": "A smoked brisket isn't a \"cheat meal.\" It's protein, fat, and time.Your body uses that differently than a tray of sugar-glazed sides with a little meat on top. Same cookout. Different fuel.I'm a pitmaster who cares\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117231767145067222",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117231067347794287",
-      "publishedAt": "2026-09-07T12:02:08.246000-06:00",
-      "text": "2/2 I still love a good glaze. I just don't let it own the plate anymore. Meat first. Sauce as a finish, not the whole story.What do you put on the plate first when you grill \u2014 meat, sides, or sauce?#bbq #grilling\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117231067347794287",
-      "source": "mastodon"
     }
   ]
 }
