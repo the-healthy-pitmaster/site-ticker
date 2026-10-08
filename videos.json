@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T12:22:07Z",
+  "generatedAt": "2026-10-08T00:58:49Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -17,14 +17,16 @@
     {
       "spot": 2,
       "dayOffset": 1,
-      "platform": "tilvids",
-      "title": "Off insulin in 75 days with type 1 diabetes",
-      "url": "https://tilvids.com/videos/watch/8938e345-4f39-4333-a5ed-84fb939c3258",
-      "embedUrl": "https://tilvids.com/videos/embed/hWNfMHd45zxLCmXLpRSH95",
-      "thumbUrl": "https://tilvids.com/lazy-static/thumbnails/6dbf273e-9c8a-4d18-959f-a3a6fbff8475.jpg",
+      "platform": "peertube",
+      "title": "Five old glucose levers that never needed a monthly invoice",
+      "url": "https://peertube.wtf/w/oXW8dJ2aJZDVk3MTK1j512",
+      "embedUrl": "https://peertube.wtf/videos/embed/oXW8dJ2aJZDVk3MTK1j512",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/dd14a64b-0544-47c0-8221-b66cc031ea2e.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-06T22:06:23.995Z",
-      "fallback": false
+      "publishedAt": "2026-10-07T22:01:58.964Z",
+      "fallback": true,
+      "channelUrl": "https://peertube.wtf/c/thehealthypitmaster",
+      "source": "peertube"
     },
     {
       "spot": 3,
