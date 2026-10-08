@@ -116,3 +116,10 @@ python3 -m unittest discover -s tests -v
 python3 scripts/build_feed.py
 python3 scripts/build_videos.py
 ```
+
+## Phone hero fix (`ticker.css`, bottom)
+
+The homepage hero CSS lives in the GHL page, but `ticker.css` is loaded on the homepage, so the phone hero
+override rides here. At 860px and narrower the hero photo (gold script logo baked into a wide 16:9 image) is shown
+whole across the top, with the headline and Start Here button underneath, instead of being zoomed into a tall box
+that cut off the logo. Scoped to `.hero-bg[aria-label="Jim Grasser in a professional kitchen"]`; desktop untouched.
