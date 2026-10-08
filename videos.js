@@ -1,5 +1,6 @@
 /**
  * THP DYNAMIC VIDEO SPOTs — muted playing previews; click opens platform for sound.
+ * Also loads live-box.js (Upcoming Event card -> live player while Jim is live).
  */
 (function () {
   'use strict';
@@ -132,6 +133,21 @@
         document.documentElement.setAttribute('data-videos-ready', '0');
       });
   }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
-  else boot();
+  // Homepage live video box: the "Upcoming Event" card becomes a live player while
+  // Jim is live. Loaded from the same place as this file so the homepage needs no edit.
+  var selfSrc = document.currentScript && document.currentScript.src;
+  function loadLiveBox() {
+    if (window.THPLiveBox || qs('script[data-thp-live-box]')) return;
+    if (!qs('.event-card') && !qs('[data-live-box-card]')) return;
+    var src = 'live-box.js';
+    try { if (selfSrc) src = new URL('live-box.js', selfSrc).toString(); } catch (e) {}
+    var s = document.createElement('script');
+    s.src = src;
+    s.defer = true;
+    s.setAttribute('data-thp-live-box', '1');
+    (document.head || document.documentElement).appendChild(s);
+  }
+  function start() { boot(); loadLiveBox(); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+  else start();
 })();

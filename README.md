@@ -11,10 +11,33 @@ Public GitHub Pages host for the homepage social ticker and dynamic video spots.
 | `feed.json` | Recent social posts for the scrolling ticker |
 | `ticker.js` / `ticker.css` / `icons/` | Embeddable ticker widget |
 | `videos.json` | Three homepage DYNAMIC VIDEO SPOTs (Today / Yesterday / Two days ago) |
-| `videos.js` | Client loader — fills `.replay-card[data-spot]` from `videos.json` |
+| `videos.js` | Client loader — fills `.replay-card[data-spot]` from `videos.json`; also loads `live-box.js` |
+| `live-box.js` | Live video box — turns the homepage "Upcoming Event" card into a live player / next-show flyer |
+| `shows.json` | Weekly live-show schedule (Mountain Time) + flyer per show, for the live video box |
+| `flyers/` | Web-sized show flyers referenced by `shows.json` |
+| `scripts/set_flyer.py` | Swap (or clear) one show's flyer: resizes, writes `flyers/<id>.jpg`, updates `shows.json` |
 | `scripts/build_feed.py` | Regenerates `feed.json` |
 | `scripts/build_videos.py` | Regenerates `videos.json` |
 | `scripts/daily-refresh.yml` | Workflow YAML (move to `.github/workflows/` once PAT has `workflow` scope) |
+
+## Live video box (`live-box.js`)
+
+The homepage "Upcoming Event" card (`.live-grid .event-card`) shows, in priority order:
+
+1. **Live player** while Jim is live — PeerTube permanent live (`peertube.wtf/w/1gBXURNMWzNVLeTzEMMRN6`) first,
+   YouTube channel live as backup. Muted autoplay in the box, "Tap for sound", and "Watch bigger" opens a popup
+   with sound (closing it removes the big player).
+2. **Next show's flyer** (from `shows.json`) with its day/time in MT; tapping opens the flyer in the same popup.
+   A show stays "next" until `start + durationMinutes` (default 90) so a late stream still shows its flyer.
+3. **The normal event card, untouched**, when the next show has no flyer (e.g. `"flyer": ""`).
+
+Live status comes from Barry `GET https://barry-production-c225.up.railway.app/api/live-status` (server checks
+PeerTube's public API and YouTube's public `/channel/<id>/live` page, cached 60 s; no API quota, no keys). If
+Barry can't be reached the box asks PeerTube's public API directly. Polls once a minute while the tab is visible.
+No stream keys anywhere; only public watch ids.
+
+Weekly Trent flyer: `python3 scripts/set_flyer.py trent path/to/flyer.jpg`, then commit + push `shows.json` and
+`flyers/trent.jpg`. Same for any show (`dr-nick`, `dr-dieter`, `two-sista-docs`); `--clear` removes a flyer.
 
 ## Videos schema (`videos.json`)
 

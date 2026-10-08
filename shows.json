@@ -1,0 +1,47 @@
+{
+  "about": "Weekly live shows for the homepage 'Upcoming Event' box. Times are Mountain Time (America/Denver). When nothing is live, the box shows the flyer of the next show; a show with an empty flyer leaves the normal event card. Swap a flyer with: python3 scripts/set_flyer.py <id> <image>",
+  "timezone": "America/Denver",
+  "timezoneLabel": "MT",
+  "shows": [
+    {
+      "id": "dr-nick",
+      "name": "Dr. Nick",
+      "title": "Dr. Nick · Feel Great Live",
+      "weekday": "Sun",
+      "time": "18:00",
+      "durationMinutes": 90,
+      "flyer": "",
+      "flyerFocus": "50% 50%"
+    },
+    {
+      "id": "dr-dieter",
+      "name": "Dr. Dieter",
+      "title": "Reclaim Your Health with Dr. Dieter",
+      "weekday": "Mon",
+      "time": "18:00",
+      "durationMinutes": 90,
+      "flyer": "flyers/dr-dieter.jpg?v=53d96d1c61",
+      "flyerFocus": "50% 40%"
+    },
+    {
+      "id": "trent",
+      "name": "Trent",
+      "title": "Feel Great with Trent",
+      "weekday": "Tue",
+      "time": "19:00",
+      "durationMinutes": 90,
+      "flyer": "",
+      "flyerFocus": "50% 50%"
+    },
+    {
+      "id": "two-sista-docs",
+      "name": "Two Sista' Docs",
+      "title": "Two Sista' Docs · Spilling the Tea",
+      "weekday": "Wed",
+      "time": "19:00",
+      "durationMinutes": 90,
+      "flyer": "flyers/two-sista-docs.jpg?v=fa1a6f1b48",
+      "flyerFocus": "50% 44%"
+    }
+  ]
+}
