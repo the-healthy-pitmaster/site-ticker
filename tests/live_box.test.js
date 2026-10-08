@@ -46,4 +46,11 @@ assert.strictEqual(r.start.toISOString(), '2026-11-02T01:00:00.000Z');
 assert.strictEqual(lb.nextShow({ shows: [] }, new Date()), null);
 assert.strictEqual(lb.nextShow({ shows: [{ weekday: 'Funday', time: '18:00' }] }, new Date()), null);
 
+// --- schedule payload check (Barry /api/live-shows or shows.json)
+assert.strictEqual(lb.validSchedule(shows), true);
+assert.strictEqual(lb.validSchedule({ shows: [] }), false);
+assert.strictEqual(lb.validSchedule({ ok: false, error: 'schedule unavailable' }), false);
+assert.strictEqual(lb.validSchedule(null), false);
+assert.strictEqual(lb.DEFAULTS.showsApiUrl, 'https://barry-production-c225.up.railway.app/api/live-shows');
+
 console.log('live_box.test.js OK');

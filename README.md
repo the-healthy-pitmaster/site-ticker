@@ -39,6 +39,12 @@ No stream keys anywhere; only public watch ids.
 Weekly Trent flyer: `python3 scripts/set_flyer.py trent path/to/flyer.jpg`, then commit + push `shows.json` and
 `flyers/trent.jpg`. Same for any show (`dr-nick`, `dr-dieter`, `two-sista-docs`); `--clear` removes a flyer.
 
+Jim can also upload, crop or remove a flyer in Barry admin (**Show flyers**, `/admin/show-flyers`). The box reads
+Barry's `GET /api/live-shows` first: that is this `shows.json` with Jim's admin choices merged in, and the **newest
+change wins** (an admin choice remembers which `?v=` flyer the site had; a later `set_flyer.py` push has a new `?v=`
+and takes over). If Barry can't be reached the box reads `shows.json` here directly, so `set_flyer.py` keeps working
+exactly as before.
+
 ## Videos schema (`videos.json`)
 
 ```json

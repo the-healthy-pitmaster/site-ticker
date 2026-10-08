@@ -16,6 +16,11 @@ class LiveBoxJsTests(unittest.TestCase):
         r = subprocess.run(["node", str(ROOT / "tests" / "live_box.test.js")], capture_output=True, text=True)
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
 
+    @unittest.skipUnless(shutil.which("node"), "node not installed")
+    def test_schedule_source_barry_then_shows_json(self):
+        r = subprocess.run(["node", str(ROOT / "tests" / "live_box_schedule.test.js")], capture_output=True, text=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+
     def test_no_stream_keys_in_client(self):
         src = (ROOT / "live-box.js").read_text().lower()
         for bad in ("rtmp", "stream_key", "streamkey", "live/key"):

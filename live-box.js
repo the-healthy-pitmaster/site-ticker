@@ -9,16 +9,20 @@
  *
  * When nothing is live, the card shows the flyer for the NEXT show from shows.json
  * (weekly schedule, Mountain Time). A show with no flyer leaves the normal card as is.
+ * The schedule comes from Barry's /api/live-shows first (shows.json plus flyers Jim
+ * uploads in Barry admin, newest change wins); if Barry can't be reached we read
+ * shows.json from this repo directly.
  *
  * Auto-loaded by videos.js (no homepage edit needed). Optional overrides on the
  * .event-card (or this <script>): data-live-status="<url>", data-live-shows="<url>",
- * data-live-poll="60".
+ * data-live-shows-api="<url>|off", data-live-poll="60".
  */
 (function (root) {
   'use strict';
 
   var DEFAULTS = {
     statusUrl: 'https://barry-production-c225.up.railway.app/api/live-status',
+    showsApiUrl: 'https://barry-production-c225.up.railway.app/api/live-shows',
     peertubeInstance: 'https://peertube.wtf',
     peertubeVideoId: '1gBXURNMWzNVLeTzEMMRN6',
     pollSeconds: 60,
@@ -130,7 +134,13 @@
     return { show: best.show, start: start, when: formatWhen(start, tz, schedule.timezoneLabel) };
   }
 
-  var api = { embedSrc: embedSrc, normalizeStatus: normalizeStatus, liveKey: liveKey, nextShow: nextShow, DEFAULTS: DEFAULTS };
+  /** A usable schedule payload (shows.json or Barry's /api/live-shows)? */
+  function validSchedule(data) {
+    return !!(data && typeof data === 'object' && Object.prototype.toString.call(data.shows) === '[object Array]' && data.shows.length);
+  }
+
+  var api = { embedSrc: embedSrc, normalizeStatus: normalizeStatus, liveKey: liveKey, nextShow: nextShow,
+    validSchedule: validSchedule, DEFAULTS: DEFAULTS };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   if (typeof document === 'undefined') return;
 
@@ -209,6 +219,7 @@
     this.cfg = {
       statusUrl: attr('data-live-status', card) || DEFAULTS.statusUrl,
       showsUrl: attr('data-live-shows', card) || showsDefault,
+      showsApiUrl: attr('data-live-shows-api', card) || DEFAULTS.showsApiUrl,
       peertubeInstance: DEFAULTS.peertubeInstance,
       peertubeVideoId: attr('data-live-peertube-id', card) || DEFAULTS.peertubeVideoId,
       pollSeconds: parseInt(attr('data-live-poll', card), 10) || DEFAULTS.pollSeconds
@@ -217,6 +228,7 @@
     this.current = null;     // live status while live
     this.next = null;        // {show, start, when, flyerUrl} while showing a flyer
     this.schedule = null;
+    this.scheduleBase = '';  // URL the schedule came from (relative flyer paths resolve against it)
     this.scheduleAt = 0;
     this.offlineCount = 0;
     this.lastPoll = 0;
@@ -239,10 +251,19 @@
 
   LiveBox.prototype.loadSchedule = function () {
     var self = this;
-    if (self.schedule && Date.now() - self.scheduleAt < 15 * 60 * 1000) return Promise.resolve();
-    return self.fetchJson(self.cfg.showsUrl)
-      .then(function (data) { self.schedule = data; self.scheduleAt = Date.now(); })
-      .catch(function (err) { if (root.console) console.warn('[thp-live-box] shows.json', err && err.message); });
+    // Refresh every 5 min so a flyer Jim swaps in admin reaches open tabs quickly.
+    if (self.schedule && Date.now() - self.scheduleAt < 5 * 60 * 1000) return Promise.resolve();
+    var cfg = self.cfg;
+    function from(url) {
+      return self.fetchJson(url).then(function (data) {
+        if (!validSchedule(data)) throw new Error('no shows');
+        self.schedule = data; self.scheduleBase = url; self.scheduleAt = Date.now();
+      });
+    }
+    var first = cfg.showsApiUrl && cfg.showsApiUrl !== 'off'
+      ? from(cfg.showsApiUrl).catch(function () { return from(cfg.showsUrl); }) // Barry down -> shows.json
+      : from(cfg.showsUrl);
+    return first.catch(function (err) { if (root.console) console.warn('[thp-live-box] shows.json', err && err.message); });
   };
 
   LiveBox.prototype.poll = function () {
@@ -293,7 +314,7 @@
     var flyer = nx && nx.show && nx.show.flyer ? String(nx.show.flyer) : '';
     if (!flyer) { this.showCard(); return; }
     var flyerUrl = flyer;
-    try { flyerUrl = new URL(flyer, this.cfg.showsUrl).toString(); } catch (e) {}
+    try { flyerUrl = new URL(flyer, this.scheduleBase || this.cfg.showsUrl).toString(); } catch (e) {}
     nx.flyerUrl = flyerUrl;
     var key = flyerUrl + '|' + nx.when;
     if (this.mode === 'flyer' && this.next && this.next.key === key) return;
