@@ -2,7 +2,7 @@
 """Build videos.json for homepage DYNAMIC VIDEO SPOTs (America/Denver).
 
 Spot 1 (today): newest YouTube Short (fallback: newest YT on/before today)
-Spot 2 (yesterday): newest PeerTube video from peertube.wtf/c/thehealthypitmaster.
+Spot 2 (yesterday): newest PeerTube video from peertube.wtf/c/therealjimbbq_channel.
     While PeerTube has fewer videos than PEERTUBE_SLOTS, the remaining slot(s)
     are filled with the newest TILvids videos NOT already on PeerTube (matched by
     title), so the spot never goes empty. Once PeerTube has enough videos it is
@@ -36,7 +36,7 @@ YT_CHANNEL = "UCFZpCMwcMX6EZicbuG-r6WA"
 YT_RSS = f"https://www.youtube.com/feeds/videos.xml?channel_id={YT_CHANNEL}"
 TILVIDS_API = "https://tilvids.com/api/v1/accounts/therealjimbbq/videos?count=50&sort=-publishedAt"
 PEERTUBE_BASE = "https://peertube.wtf"
-PEERTUBE_CHANNEL = "thehealthypitmaster"
+PEERTUBE_CHANNEL = "therealjimbbq_channel"
 PEERTUBE_CHANNEL_URL = f"{PEERTUBE_BASE}/c/{PEERTUBE_CHANNEL}"
 PEERTUBE_API = f"{PEERTUBE_BASE}/api/v1/video-channels/{PEERTUBE_CHANNEL}/videos?sort=-publishedAt&count=50"
 # Number of homepage slots fed by PeerTube (today: spot 2 only).

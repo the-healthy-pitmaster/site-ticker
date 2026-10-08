@@ -136,7 +136,7 @@ class SpotTests(unittest.TestCase):
         spot = bv.peertube_spot(YESTERDAY)
         self.assertEqual(spot["spot"], 2)
         self.assertEqual(spot["platform"], "peertube")
-        self.assertEqual(spot["channelUrl"], "https://peertube.wtf/c/thehealthypitmaster")
+        self.assertEqual(spot["channelUrl"], "https://peertube.wtf/c/therealjimbbq_channel")
 
     def test_tilvids_fill_when_peertube_down_or_empty(self):
         bv.fetch_peertube = lambda: []

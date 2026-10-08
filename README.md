@@ -53,14 +53,14 @@ exactly as before.
   "timezone": "America/Denver",
   "spots": [
     {"spot":1,"dayOffset":0,"platform":"youtube","title":"","url":"","embedUrl":"","thumbUrl":"","publishedAt":"","fallback":false},
-    {"spot":2,"dayOffset":1,"platform":"peertube","source":"peertube","channelUrl":"https://peertube.wtf/c/thehealthypitmaster","title":"","url":"","embedUrl":"","thumbUrl":"","publishedAt":"","fallback":false},
+    {"spot":2,"dayOffset":1,"platform":"peertube","source":"peertube","channelUrl":"https://peertube.wtf/c/therealjimbbq_channel","title":"","url":"","embedUrl":"","thumbUrl":"","publishedAt":"","fallback":false},
     {"spot":3,"dayOffset":2,"platform":"x","title":"","url":"","embedUrl":"","thumbUrl":"","publishedAt":"","fallback":false}
   ]
 }
 ```
 
 - **Spot 1 (today):** newest YouTube Short (duration ≤60s when API key present; else newest channel RSS item, preferring `/shorts/` links)
-- **Spot 2 (yesterday):** newest PeerTube video from https://peertube.wtf/c/thehealthypitmaster (`platform: "peertube"`, link `https://peertube.wtf/w/<id>`). While the PeerTube channel has fewer videos than `PEERTUBE_SLOTS` (1), the gap is filled with the newest TILvids video **not already on PeerTube** (matched by title; `platform: "tilvids"`, `source: "tilvids-fill"`). Once PeerTube has enough, it's PeerTube-only automatically and TILvids isn't even fetched. `channelUrl` always points to the PeerTube channel.
+- **Spot 2 (yesterday):** newest PeerTube video from https://peertube.wtf/c/therealjimbbq_channel (`platform: "peertube"`, link `https://peertube.wtf/w/<id>`). While the PeerTube channel has fewer videos than `PEERTUBE_SLOTS` (1), the gap is filled with the newest TILvids video **not already on PeerTube** (matched by title; `platform: "tilvids"`, `source: "tilvids-fill"`). Once PeerTube has enough, it's PeerTube-only automatically and TILvids isn't even fetched. `channelUrl` always points to the PeerTube channel.
 - **Spot 3 (two days ago):** newest X video post (Metricool if configured; else public fxtwitter enrich of known status IDs)
 - Day matching uses **America/Denver** calendar dates; `fallback: true` means newest on/before the target day
 
