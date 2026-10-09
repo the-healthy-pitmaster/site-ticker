@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T12:21:52Z",
+  "generatedAt": "2026-10-09T12:19:48Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,8 +17,32 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
+      "id": "yt-zzZCsDqip6w",
+      "publishedAt": "2026-10-08T15:21:04-06:00",
+      "text": "Meal planning makes staying on track easier. That's why we built this. In about two minutes, you'll see how our free meal planner works: 1. Tell it what's already in your kitchen, so you don't buy it again. 2. Pick\u2026",
+      "url": "https://www.youtube.com/shorts/zzZCsDqip6w",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-3F_nNLCbP-k",
+      "publishedAt": "2026-10-08T15:20:55-06:00",
+      "text": "Meal planning makes staying on track easier. That's why we built this. In about two minutes, you'll see how our free meal planner works: 1. Tell it what's already in your kitchen, so you don't buy it again. 2. Pick\u2026",
+      "url": "https://www.youtube.com/watch?v=3F_nNLCbP-k",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
       "id": "yt-5xS86-GADsw",
-      "publishedAt": "2026-10-07T19:00:11-06:00",
+      "publishedAt": "2026-10-08T08:37:32-06:00",
       "text": "Listen to Dr. Ngare, MD and Dr. Tiffany Marie, MD explain how this amazing system works!",
       "url": "https://www.youtube.com/watch?v=5xS86-GADsw",
       "source": "youtube-rss"
@@ -262,30 +286,6 @@
       "text": "Mercer puts a number on next year\u2019s employer health cost jump: about +8.2% per worker in 2027 \u2014 biggest since 2003. After planned cuts; without them closer to 11%. Money stress doesn\u2019t stay in the wallet.",
       "url": "https://tilvids.com/videos/watch/384d7952-b606-40b4-bbdb-60a5e0e9b18f",
       "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-ZjphZrC9Ob8",
-      "publishedAt": "2026-09-09T05:03:46-06:00",
-      "text": "What if next year\u2019s health benefit costs increase enough to eat away at grocery money? Mercer just put a number on it. Employer health cost per worker is expected to go up about 8.2% in 2027 \u2014 the biggest jump since\u2026",
-      "url": "https://www.youtube.com/shorts/ZjphZrC9Ob8",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-MfLysIfqJDA",
-      "publishedAt": "2026-09-08T16:02:27-06:00",
-      "text": "LDL gets the headlines. The quiet line on your lipid panel is triglycerides divided by HDL. That TG\u00f7HDL ratio tracks with insulin resistance and metabolic risk in the research \u2014 a cheap clue sitting next to numbers\u2026",
-      "url": "https://www.youtube.com/shorts/MfLysIfqJDA",
-      "source": "youtube-rss"
     },
     {
       "platform": "tilvids",
