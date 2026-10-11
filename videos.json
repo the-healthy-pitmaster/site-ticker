@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T12:18:35Z",
+  "generatedAt": "2026-10-11T12:19:41Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,12 +18,12 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Health benefits bill as a second rent",
-      "url": "https://peertube.wtf/w/6f6kkxGEiz6DDkonMDvfC8",
-      "embedUrl": "https://peertube.wtf/videos/embed/6f6kkxGEiz6DDkonMDvfC8",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/04eced3c-5679-4ff5-b0b0-884140a2e364.jpg",
+      "title": "Vaping and insulin resistance",
+      "url": "https://peertube.wtf/w/oZn1JnznTq254pnQQa86Uc",
+      "embedUrl": "https://peertube.wtf/videos/embed/oZn1JnznTq254pnQQa86Uc",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/7bc44431-861e-4bcd-9c3b-c459d047d27f.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-09T22:06:25.382Z",
+      "publishedAt": "2026-10-10T22:08:31.233Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
