@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T12:19:36Z",
+  "generatedAt": "2026-10-12T12:29:55Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,54 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-S95ZV-z0Yqw",
+      "publishedAt": "2026-10-11T18:01:26-06:00",
+      "text": "Listen to Dr. Nick (@thefittestdoc) explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=S95ZV-z0Yqw",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-sRL6PThL_90",
+      "publishedAt": "2026-10-11T07:40:48-06:00",
+      "text": "What if you could drop your blood pressure about 10 points without losing a pound, just by changing when you eat? A team at LSU led by Elizabeth Sutton had men with prediabetes eat all their food inside a six-hour\u2026",
+      "url": "https://www.youtube.com/shorts/sRL6PThL_90",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-cQwhjjx1q5kDrYuz4Kw4VC",
+      "publishedAt": "2026-10-11T07:00:43.418000-06:00",
+      "text": "What if you could drop your blood pressure by about 10 points without losing a single pound, just by changing when you eat? A team at LSU led by Elizabeth Sutton had men with prediabetes eat all their food inside a\u2026",
+      "url": "https://tilvids.com/videos/watch/5fdae342-dafd-481e-83ed-8ea07d8a5912",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117422398046446228",
+      "publishedAt": "2026-10-11T07:00:03.062000-06:00",
+      "text": "This one surprised me. A team at LSU had men with prediabetes eat all their food inside a six-hour window that ended by mid-afternoon. Same food, same amount, no weight loss. After five weeks their insulin came down\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117422398046446228",
+      "source": "mastodon"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -168,30 +216,6 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-M-u7uvT1o4k",
-      "publishedAt": "2026-09-11T06:31:17-06:00",
-      "text": "Jim breaks down why SGLT2 meds get prescribed for type 2 diabetes driven by insulin resistance, names a rare but serious genital infection risk you can look up, and brings it back to reversing the cause with food.\u2026",
-      "url": "https://www.youtube.com/shorts/M-u7uvT1o4k",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-WG_9j64EfoE",
-      "publishedAt": "2026-09-10T16:02:32-06:00",
-      "text": "What if the sugar problem isn't mainly missing the gym, but overusing the chair? Overweight adults sat through a controlled day. Same food. Same chair. Then they did it again, except every 20 minutes they stood up for\u2026",
-      "url": "https://www.youtube.com/shorts/WG_9j64EfoE",
-      "source": "youtube-rss"
-    },
-    {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
       "handle": "@therealjimbbq@mastodon.social",
@@ -274,30 +298,6 @@
       "text": "1/3 Blood sugar is not only about what you eat at noon. It is also about *when* your eating day starts.A lot of people feel better when breakfast is not a moral requirement. They open the day with coffee or water, then\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117242149198259676",
       "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-7Xfb3Zw5NDceGdPhXq9ztM",
-      "publishedAt": "2026-09-09T07:53:06.600000-06:00",
-      "text": "Mercer puts a number on next year\u2019s employer health cost jump: about +8.2% per worker in 2027 \u2014 biggest since 2003. After planned cuts; without them closer to 11%. Money stress doesn\u2019t stay in the wallet.",
-      "url": "https://tilvids.com/videos/watch/384d7952-b606-40b4-bbdb-60a5e0e9b18f",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-eaRD8dKxid2AjQt4fFMkzF",
-      "publishedAt": "2026-09-08T09:41:29.311000-06:00",
-      "text": "Most portals highlight LDL and A1c. A quieter ratio \u2014 triglycerides divided by HDL \u2014 can flag insulin resistance earlier than those two alone.",
-      "url": "https://tilvids.com/videos/watch/6aa7169a-764b-4069-8dfe-91ebd0c008c5",
-      "source": "tilvids"
     }
   ]
 }
