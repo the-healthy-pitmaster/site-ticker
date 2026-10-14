@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:07:01Z",
+  "generatedAt": "2026-10-14T16:54:54Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,30 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-sYTnd5wJp6FgwrjnEWrHYE",
+      "publishedAt": "2026-10-14T07:11:38.247000-06:00",
+      "text": "The SEARCH for Diabetes in Youth study projected that 48,000 kids would have type 2 diabetes by 2060 if trends held steady. We hit that number in 2021. Nearly 40 years early. If the 2002 to 2017 trend keeps going, the\u2026",
+      "url": "https://tilvids.com/videos/watch/da7ee957-8a8d-4cf1-9114-541a103c15e2",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-6D_KQSQVyAc",
+      "publishedAt": "2026-10-13T21:01:07-06:00",
+      "text": "Fix Your Gut = Fix Your Life. How restoring your gut microbiome supports better health. Host Brittney Zeedik with guest speaker Emily Erickson, PharmD. Could your gut be the missing piece in your wellness journey?\u2026",
+      "url": "https://www.youtube.com/watch?v=6D_KQSQVyAc",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -57,30 +81,6 @@
       "publishedAt": "2026-10-12T21:55:27-06:00",
       "text": "Listen to Dr. Ngare, MD and Dr. Tiffany Marie, MD explain how this amazing system works!",
       "url": "https://www.youtube.com/watch?v=c_o6jyROYkg",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-kE_-mGBUduE",
-      "publishedAt": "2026-10-12T21:26:44-06:00",
-      "text": "Fix Your Gut = Fix Your Life. How restoring your gut microbiome supports better health. Host Brittney Zeedik with guest speaker Emily Erickson, PharmD. Could your gut be the missing piece in your wellness journey?\u2026",
-      "url": "https://www.youtube.com/watch?v=kE_-mGBUduE",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-CZZOjtLVrc0",
-      "publishedAt": "2026-10-12T21:25:57-06:00",
-      "text": "Listen to Trent (@trentytok) and various medical professionals explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=CZZOjtLVrc0",
       "source": "youtube-rss"
     },
     {
@@ -177,6 +177,18 @@
       "publishedAt": "2026-10-08T08:37:32-06:00",
       "text": "Listen to Dr. Ngare, MD and Dr. Tiffany Marie, MD explain how this amazing system works!",
       "url": "https://www.youtube.com/watch?v=5xS86-GADsw",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-XH2srbItifw",
+      "publishedAt": "2026-10-07T08:22:53-06:00",
+      "text": "Listen to Trent (@trentytok) and various medical professionals explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=XH2srbItifw",
       "source": "youtube-rss"
     },
     {
@@ -285,18 +297,6 @@
       "publishedAt": "2026-09-09T11:01:29.316000-06:00",
       "text": "2/3 Researchers have long talked about a second-meal effect: what you eat at one meal can change how the next meal lands. Plain version \u2014 a steadier first meal in your window (meat, eggs, Greek yogurt, vegetables\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117242153486628391",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117242149198259676",
-      "publishedAt": "2026-09-09T11:00:23.964000-06:00",
-      "text": "1/3 Blood sugar is not only about what you eat at noon. It is also about *when* your eating day starts.A lot of people feel better when breakfast is not a moral requirement. They open the day with coffee or water, then\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117242149198259676",
       "source": "mastodon"
     }
   ]

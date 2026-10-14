@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T19:07:21Z",
+  "generatedAt": "2026-10-14T16:55:07Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,12 +18,12 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "The Science Behind FGS - 10/13/2026, 12:02:00 AM",
-      "url": "https://peertube.wtf/w/ddr59MuFK4sVyTjKi6mvmP",
-      "embedUrl": "https://peertube.wtf/videos/embed/ddr59MuFK4sVyTjKi6mvmP",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/534c85e8-6a52-420a-bd0d-b150e6bc2cf6.jpg",
+      "title": "Matcha and cancer: what the new research shows",
+      "url": "https://peertube.wtf/w/5S6ck94fzf4j1wP42CgTqs",
+      "embedUrl": "https://peertube.wtf/videos/embed/5S6ck94fzf4j1wP42CgTqs",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/09a36514-2ca5-44d1-91f7-d406a9daf2a7.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-13T01:09:48.767Z",
+      "publishedAt": "2026-10-13T22:10:40.776Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
