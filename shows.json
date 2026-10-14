@@ -10,7 +10,7 @@
       "weekday": "Sun",
       "time": "18:00",
       "durationMinutes": 90,
-      "flyer": "",
+      "flyer": "flyers/dr-nick.jpg?v=29a116d831",
       "flyerFocus": "50% 50%"
     },
     {
@@ -20,7 +20,7 @@
       "weekday": "Mon",
       "time": "18:00",
       "durationMinutes": 90,
-      "flyer": "flyers/dr-dieter.jpg?v=53d96d1c61",
+      "flyer": "flyers/dr-dieter.jpg?v=3c60da72fa",
       "flyerFocus": "50% 40%"
     },
     {
@@ -30,7 +30,7 @@
       "weekday": "Tue",
       "time": "19:00",
       "durationMinutes": 90,
-      "flyer": "flyers/trent.jpg?v=65502761bd",
+      "flyer": "",
       "flyerFocus": "50% 50%"
     },
     {
