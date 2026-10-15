@@ -102,36 +102,66 @@
     var t = new Intl.DateTimeFormat('en-US', { timeZone: tz, hour: 'numeric', minute: '2-digit' }).format(date);
     return d + ' · ' + t + ' ' + (tzLabel || 'MT');
   }
+  /** UTC ms for a wall-clock time in a time zone (handles daylight saving). */
+  function zoneOffsetMin(ms, tz) {
+    var p = {};
+    new Intl.DateTimeFormat('en-US', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date(ms))
+      .forEach(function (x) { p[x.type] = x.value; });
+    return (Date.UTC(+p.year, +p.month - 1, +p.day, +p.hour % 24, +p.minute) - Math.floor(ms / 60000) * 60000) / 60000;
+  }
+  function wallToUtc(y, mo, d, h, mi, tz) {
+    var guess = Date.UTC(y, mo - 1, d, h, mi);
+    var t = guess - zoneOffsetMin(guess, tz) * 60000;
+    return guess - zoneOffsetMin(t, tz) * 60000;
+  }
+  function ymdIn(ms, tz) {
+    var p = {};
+    new Intl.DateTimeFormat('en-US', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit', weekday: 'short' })
+      .formatToParts(new Date(ms)).forEach(function (x) { p[x.type] = x.value; });
+    return { y: +p.year, m: +p.month, d: +p.day, wd: WEEKDAYS[String(p.weekday).slice(0, 3).toLowerCase()] };
+  }
   /**
-   * Next show from the weekly schedule. A show stays "next" until its start +
-   * durationMinutes (default 90), so a late-starting stream still shows its flyer.
+   * Next show. Weekly shows use weekday+time; one-off events use date (YYYY-MM-DD)+time.
+   * Each show may carry its own timezone (default: schedule.timezone). A show stays "next"
+   * until start + durationMinutes (default 90), then the box moves on to the following one.
    * Returns {show, start: Date, when: "Mon, Oct 12 · 6:00 PM MT"} or null.
    */
   function nextShow(schedule, now) {
     if (!schedule || !schedule.shows || !schedule.shows.length) return null;
-    var tz = schedule.timezone || 'America/Denver';
+    var defTz = schedule.timezone || 'America/Denver';
     now = now || new Date();
-    var np = zoneParts(now, tz);
-    var nowMin = np.weekday * 1440 + np.hour * 60 + np.minute;
+    var nowMs = Math.floor(now.getTime() / 60000) * 60000;
     var best = null;
     schedule.shows.forEach(function (show) {
       if (!show || show.enabled === false) return;
-      var st = parseShowTime(show);
-      if (st == null) return;
-      var dur = Math.max(0, +show.durationMinutes || 90);
-      var delta = ((st - nowMin) % WEEK_MIN + WEEK_MIN) % WEEK_MIN; // minutes until next start
-      if (delta > WEEK_MIN - dur) delta -= WEEK_MIN;                 // currently inside its window
-      if (!best || delta < best.delta) best = { show: show, delta: delta, st: st };
+      var tz = show.timezone || defTz;
+      var m = /^(\d{1,2}):(\d{2})$/.exec(String(show.time || '').trim());
+      if (!m) return;
+      var dur = Math.max(0, +show.durationMinutes || 90) * 60000;
+      var cand = [];
+      var dm = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(show.date || ''));
+      if (dm) cand.push(wallToUtc(+dm[1], +dm[2], +dm[3], +m[1], +m[2], tz));
+      else {
+        var wd = WEEKDAYS[String(show.weekday || '').slice(0, 3).toLowerCase()];
+        if (wd == null) return;
+        for (var i = -1; i <= 8; i++) {
+          var day = ymdIn(nowMs + i * 86400000, tz);
+          if (day.wd === wd) cand.push(wallToUtc(day.y, day.m, day.d, +m[1], +m[2], tz));
+        }
+      }
+      var skip = show.skip || [];
+      cand.forEach(function (st) {
+        if (st + dur <= nowMs) return; // already over
+        if (skip.length) { var y = ymdIn(st, tz); var iso = y.y + '-' + ('0' + y.m).slice(-2) + '-' + ('0' + y.d).slice(-2);
+          if (skip.indexOf(iso) >= 0) return; } // Jim skipped this date (holiday/vacation)
+        if (!best || st < best.st) best = { show: show, st: st, tz: tz };
+      });
     });
     if (!best) return null;
-    var start = new Date(Math.floor(now.getTime() / 60000) * 60000 + best.delta * 60000);
-    // Daylight-saving change between now and the show: nudge to the intended wall-clock time.
-    var sp = zoneParts(start, tz);
-    var drift = best.st - (sp.weekday * 1440 + sp.hour * 60 + sp.minute);
-    if (drift > WEEK_MIN / 2) drift -= WEEK_MIN;
-    if (drift < -WEEK_MIN / 2) drift += WEEK_MIN;
-    if (drift && Math.abs(drift) <= 120) start = new Date(start.getTime() + drift * 60000);
-    return { show: best.show, start: start, when: formatWhen(start, tz, schedule.timezoneLabel) };
+    var start = new Date(best.st);
+    var label = best.show.timezoneLabel || (best.tz === defTz ? schedule.timezoneLabel : '') || 'MT';
+    return { show: best.show, start: start, when: formatWhen(start, best.tz, label) };
   }
 
   /** A usable schedule payload (shows.json or Barry's /api/live-shows)? */
