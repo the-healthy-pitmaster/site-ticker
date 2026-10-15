@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-14T16:55:07Z",
+  "generatedAt": "2026-10-15T16:41:56Z",
   "timezone": "America/Denver",
   "spots": [
     {
       "spot": 1,
       "dayOffset": 0,
       "platform": "youtube",
-      "title": "Whole Fruit Lowered Diabetes Risk. Juice Raised It.",
-      "url": "https://www.youtube.com/shorts/mDAmbE3SGD0",
-      "embedUrl": "https://www.youtube.com/embed/mDAmbE3SGD0",
-      "thumbUrl": "https://i2.ytimg.com/vi/mDAmbE3SGD0/hqdefault.jpg",
+      "title": "Crash After Lunch? It May Be Your Insulin",
+      "url": "https://www.youtube.com/shorts/nrDg9Sx3O3k",
+      "embedUrl": "https://www.youtube.com/embed/nrDg9Sx3O3k",
+      "thumbUrl": "https://i3.ytimg.com/vi/nrDg9Sx3O3k/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-12T17:03:56+00:00",
-      "fallback": true
+      "publishedAt": "2026-10-15T13:05:50+00:00",
+      "fallback": false
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Matcha and cancer: what the new research shows",
-      "url": "https://peertube.wtf/w/5S6ck94fzf4j1wP42CgTqs",
-      "embedUrl": "https://peertube.wtf/videos/embed/5S6ck94fzf4j1wP42CgTqs",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/09a36514-2ca5-44d1-91f7-d406a9daf2a7.jpg",
+      "title": "The Science Behind FGS - 10/15/2026, 2:03:34 AM",
+      "url": "https://peertube.wtf/w/i1YfrjduUnedyom484cE92",
+      "embedUrl": "https://peertube.wtf/videos/embed/i1YfrjduUnedyom484cE92",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/8561846a-41de-43ab-82e9-90d6c891e922.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-13T22:10:40.776Z",
+      "publishedAt": "2026-10-15T02:09:16.386Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

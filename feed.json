@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:54:54Z",
+  "generatedAt": "2026-10-15T16:41:49Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,66 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-nrDg9Sx3O3k",
+      "publishedAt": "2026-10-15T07:05:50-06:00",
+      "text": "Eyes heavy, brain foggy, ready for the couch before the afternoon even starts. That crash may not be a character flaw. Researchers checked people with the gold standard test for insulin resistance, the clamp. A BMI\u2026",
+      "url": "https://www.youtube.com/shorts/nrDg9Sx3O3k",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-wKkqHi39Le4Ga28fjew3EW",
+      "publishedAt": "2026-10-15T07:00:13.067000-06:00",
+      "text": "Do you crash hard after a big lunch? Heavy eyes, brain fog, ready for the couch before the afternoon even starts. A study published in Diabetes found a simple rule. A BMI over about 28.9 flagged insulin resistance in\u2026",
+      "url": "https://tilvids.com/videos/watch/f8ff1d18-2434-40f7-9d00-cb2b352216da",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117445047628940211",
+      "publishedAt": "2026-10-15T07:00:08.225000-06:00",
+      "text": "A crash after lunch is not always a character flaw. Researchers tested about 2,300 people with the gold standard clamp test, many in Europe. A BMI over about 28.9 turned out to be one of the simplest flags for insulin\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117445047628940211",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117442216043084681",
+      "publishedAt": "2026-10-14T19:00:01.637000-06:00",
+      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117442216043084681",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-warpXhf4Rmm6Ucp5Q4EbMJ",
+      "publishedAt": "2026-10-14T16:11:08.497000-06:00",
+      "text": "Twenty-three years ago, Cleveland Clinic researchers pointed at a natural way to support heart health by managing cholesterol. That finding still shows up in how people talk about plant sterols and lipid numbers today.\u2026",
+      "url": "https://tilvids.com/videos/watch/f44383d9-857c-4b9a-bf97-74c0a68d5664",
+      "source": "tilvids"
+    },
     {
       "platform": "tilvids",
       "platformLabel": "TILvids",
@@ -69,18 +129,6 @@
       "publishedAt": "2026-10-12T21:56:19-06:00",
       "text": "Listen to Dr. Nick (@thefittestdoc) explain how this amazing system works!",
       "url": "https://www.youtube.com/watch?v=g7U1qv0pQrA",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-c_o6jyROYkg",
-      "publishedAt": "2026-10-12T21:55:27-06:00",
-      "text": "Listen to Dr. Ngare, MD and Dr. Tiffany Marie, MD explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=c_o6jyROYkg",
       "source": "youtube-rss"
     },
     {
@@ -249,54 +297,6 @@
       "publishedAt": "2026-09-09T18:00:02.470000-06:00",
       "text": "1/2 Yesterday\u2019s feed was full of \u201cbuild muscle for glucose\u201d posters. Fine. True enough. Here is a quieter lever that does not need a cinematic program.When your eating window closes, close the kitchen with it.The late\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117243799303138181",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-98UkLEhpcDC4n48EoHPNaW",
-      "publishedAt": "2026-09-09T17:23:48.989000-06:00",
-      "text": "Vaping gets sold as safer than smoking. Newer research links it to insulin resistance \u2014 the same metabolic mess tied to type 2 diabetes and heart disease. Worth a second look before you call it harmless. Let's get\u2026",
-      "url": "https://tilvids.com/videos/watch/41e39266-385a-4f23-b16c-58dc2bb25760",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-bhEYn8BadAcCkWC9JymFPN",
-      "publishedAt": "2026-09-09T12:49:46.796000-06:00",
-      "text": "We've been told to fear cholesterol, avoid hormone therapy, trust opioids as low-risk, and keep peanuts away from kids. One by one those stories have cracked - and the apology never quite arrives. This clip stacks the\u2026",
-      "url": "https://tilvids.com/videos/watch/534f4ddc-65ab-4525-a839-4a9f9afc5cb0",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117242157507649756",
-      "publishedAt": "2026-09-09T11:02:30.703000-06:00",
-      "text": "3/3 I cook for flavor first. The metabolic bonus is that real food in a window you can keep beats a fiber-oatmeal sermon at 7am that you never wanted. Skip the guilt. Own the window. Make the first plate count \u2014\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117242157507649756",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117242153486628391",
-      "publishedAt": "2026-09-09T11:01:29.316000-06:00",
-      "text": "2/3 Researchers have long talked about a second-meal effect: what you eat at one meal can change how the next meal lands. Plain version \u2014 a steadier first meal in your window (meat, eggs, Greek yogurt, vegetables\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117242153486628391",
       "source": "mastodon"
     }
   ]
