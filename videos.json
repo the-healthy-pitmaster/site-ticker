@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:41:56Z",
+  "generatedAt": "2026-10-16T16:24:31Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -12,18 +12,18 @@
       "thumbUrl": "https://i3.ytimg.com/vi/nrDg9Sx3O3k/hqdefault.jpg",
       "previewUrl": "",
       "publishedAt": "2026-10-15T13:05:50+00:00",
-      "fallback": false
+      "fallback": true
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "The Science Behind FGS - 10/15/2026, 2:03:34 AM",
-      "url": "https://peertube.wtf/w/i1YfrjduUnedyom484cE92",
-      "embedUrl": "https://peertube.wtf/videos/embed/i1YfrjduUnedyom484cE92",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/8561846a-41de-43ab-82e9-90d6c891e922.jpg",
+      "title": "The Science Behind FGS - 10/16/2026, 1:52:32 AM",
+      "url": "https://peertube.wtf/w/d5DJiGVy3RcUi7tdWCh46C",
+      "embedUrl": "https://peertube.wtf/videos/embed/d5DJiGVy3RcUi7tdWCh46C",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/ba52fbc0-4278-47f9-ae9a-190a1f06e8f0.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-15T02:09:16.386Z",
+      "publishedAt": "2026-10-16T02:35:15.684Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

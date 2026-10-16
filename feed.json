@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:41:49Z",
+  "generatedAt": "2026-10-16T16:24:25Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,66 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-87nxt2jEPdjh3TMMt5j5Dn",
+      "publishedAt": "2026-10-16T07:00:20.691000-06:00",
+      "text": "Sixty-seven years ago, the American Medical Association put out a diet that was high in protein, high in fat and low in carbs. People have eaten close to that way for thousands of years. Then the advice flipped to low\u2026",
+      "url": "https://tilvids.com/videos/watch/3993b593-d3f6-4fef-bee6-bdb43a6298b7",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117450710125539724",
+      "publishedAt": "2026-10-16T07:00:11.154000-06:00",
+      "text": "In 1965 a Scottish man named Angus Barbieri stopped eating and didn't start again for 382 days. He was under hospital supervision the whole time, took vitamins and drank water, tea and coffee. He went from 456 pounds\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117450710125539724",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-MSd01gDP5nU",
+      "publishedAt": "2026-10-15T23:48:16-06:00",
+      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=MSd01gDP5nU",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117447878569500672",
+      "publishedAt": "2026-10-15T19:00:04.986000-06:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117447878569500672",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-fkmPK-O0NuY",
+      "publishedAt": "2026-10-15T12:29:04-06:00",
+      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=fkmPK-O0NuY",
+      "source": "youtube-rss"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -105,18 +165,6 @@
       "publishedAt": "2026-10-13T07:10:14-06:00",
       "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
       "url": "https://www.youtube.com/watch?v=piBBmFeo5Ns",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-MSd01gDP5nU",
-      "publishedAt": "2026-10-12T21:57:11-06:00",
-      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=MSd01gDP5nU",
       "source": "youtube-rss"
     },
     {
@@ -228,18 +276,6 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-XH2srbItifw",
-      "publishedAt": "2026-10-07T08:22:53-06:00",
-      "text": "Listen to Trent (@trentytok) and various medical professionals explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=XH2srbItifw",
-      "source": "youtube-rss"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -262,42 +298,6 @@
       "text": "A stem cell treatment took a person with type 1 diabetes from daily insulin shots to no insulin in 75 days. Type 1 is different from what I had. In type 1 the body attacks the cells that make insulin, so real food and\u2026",
       "url": "https://tilvids.com/videos/watch/8938e345-4f39-4333-a5ed-84fb939c3258",
       "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-nuLgZMVBcvgpSk5rEq8QwG",
-      "publishedAt": "2026-10-06T07:13:02.599000-06:00",
-      "text": "Your brain runs on insulin too. It helps brain cells take in fuel and keep their connections healthy. When your cells stop listening to insulin, the problem doesn't stay in your blood sugar. Research has tied insulin\u2026",
-      "url": "https://tilvids.com/videos/watch/ae1405fa-56b3-4abf-93d0-8696fd03b54c",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117243803208072710",
-      "publishedAt": "2026-09-09T18:01:02.051000-06:00",
-      "text": "2/2 I used to treat evening grazing like it did not count because dinner already \u201chappened.\u201d Then I noticed the mornings that felt foggy were also the nights the kitchen never really shut down. Protein and plants when\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117243803208072710",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117243799303138181",
-      "publishedAt": "2026-09-09T18:00:02.470000-06:00",
-      "text": "1/2 Yesterday\u2019s feed was full of \u201cbuild muscle for glucose\u201d posters. Fine. True enough. Here is a quieter lever that does not need a cinematic program.When your eating window closes, close the kitchen with it.The late\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117243799303138181",
-      "source": "mastodon"
     }
   ]
 }
