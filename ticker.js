@@ -15,16 +15,34 @@
   var ROOT_ID = 'thp-ticker';
   var DEFAULT_SPEED = 69; // ~25% slower than 55 // seconds per loop
 
+
+  // Fresh copy built daily by the Barry service (has the Metricool keys for X/IG/FB);
+  // falls back to the GitHub Pages copy if that service is slow or down.
+  var LIVE_BASE = 'https://barry-production-c225.up.railway.app/site-ticker/';
+  function fetchJsonWithFallback(primary, fallback) {
+    function get(url, ms) {
+      var ctl = window.AbortController ? new AbortController() : null;
+      var t = ctl ? setTimeout(function () { ctl.abort(); }, ms) : null;
+      return fetch(url, { credentials: 'omit', cache: 'no-cache', signal: ctl ? ctl.signal : undefined })
+        .then(function (r) { if (t) clearTimeout(t); if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+    }
+    if (!primary || primary === fallback) return get(fallback, 15000);
+    return get(primary, 6000).catch(function () { return get(fallback, 15000); });
+  }
+
   function qs(sel, el) { return (el || document).querySelector(sel); }
 
   function resolveConfig(el) {
     var script = document.currentScript;
     var assetBase = (el.getAttribute('data-asset-base') || (script && script.getAttribute('data-asset-base')) || '').replace(/\/?$/, '/');
-    var feed = el.getAttribute('data-feed') || (script && script.getAttribute('data-feed')) || (assetBase + 'feed.json');
+    var explicit = el.getAttribute('data-feed') || (script && script.getAttribute('data-feed'));
+    var feed = explicit || (assetBase + 'feed.json');
+    // The homepage once pointed at a one-time uploaded copy (filesafe); use the daily Pages copy instead.
+    if (/filesafe\.space/.test(feed)) feed = 'https://the-healthy-pitmaster.github.io/site-ticker/feed.json';
     var position = (el.getAttribute('data-position') || 'top').toLowerCase();
     var speed = parseFloat(el.getAttribute('data-speed') || DEFAULT_SPEED);
     if (!isFinite(speed) || speed < 10) speed = DEFAULT_SPEED;
-    return { feed: feed, assetBase: assetBase, position: position, speed: speed };
+    return { feed: feed, live: LIVE_BASE + 'feed.json', assetBase: assetBase, position: position, speed: speed };
   }
 
   function iconUrl(assetBase, platform) {
@@ -106,11 +124,7 @@
     var cfg = resolveConfig(el);
     showStatus(el, 'Loading recent posts…');
 
-    fetch(cfg.feed, { credentials: 'omit', cache: 'no-cache' })
-      .then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
-        return r.json();
-      })
+    fetchJsonWithFallback(cfg.live, cfg.feed)
       .then(function (data) {
         var items = (data && data.items) || [];
         if (!items.length) {

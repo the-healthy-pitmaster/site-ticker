@@ -23,6 +23,54 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/Denver")
 UTC = timezone.utc
+
+def mc_dt(v: Any) -> Optional[datetime]:
+    """Metricool dates come as {"dateTime": "...", "timezone": "Europe/Madrid"}, ISO strings, or epoch ms."""
+    if v is None or v == "":
+        return None
+    if isinstance(v, (int, float)):
+        return datetime.fromtimestamp(v / 1000 if v > 1e11 else v, tz=timezone.utc)
+    if isinstance(v, dict):
+        s = str(v.get("dateTime") or v.get("date") or "")
+        if not s:
+            return None
+        try:
+            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+        if dt.tzinfo is None:
+            try:
+                dt = dt.replace(tzinfo=ZoneInfo(str(v.get("timezone") or "UTC")))
+            except Exception:
+                dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    s = str(v).strip()
+    s = re.sub(r"([+-]\d{2})(\d{2})$", r"\1:\2", s)
+    try:
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+
+
+def mc_fields(r: dict) -> tuple[str, str, str, Optional[datetime]]:
+    """(id, text, url, published) from any Metricool v2 post row shape."""
+    pid = str(r.get("tweetId") or r.get("postId") or r.get("videoId") or r.get("id") or "")
+    text = str(r.get("text") or r.get("content") or r.get("title") or r.get("videoDescription") or r.get("description") or "")
+    url = str(r.get("url") or r.get("link") or r.get("permalink") or r.get("shareUrl") or r.get("mediaUrl") or "")
+    url = url.replace("x.com/user/status/", "x.com/therealjimbbq/status/")
+    dt = None
+    for k in ("publishedAt", "created", "createdAt", "publishedDate", "createTime", "timestamp", "date", "datetime"):
+        dt = mc_dt(r.get(k))
+        if dt:
+            break
+    return pid, text, url, dt
+
+
+def mc_link_only(text: str) -> bool:
+    return not re.sub(r"https?://\S+", "", text or "").strip()
+
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "feed.json"
 
@@ -37,6 +85,7 @@ UA = "TheHealthyPitmaster-site-ticker/1.0 (+https://the-healthy-pitmaster.github
 CLIP = 220
 MIN_ITEMS = 15
 MAX_ITEMS = 24
+PER_PLATFORM = 4
 
 PLATFORM_META = {
     "x": {"platformLabel": "X", "handle": "@therealjimbbq", "profileUrl": "https://x.com/therealjimbbq"},
@@ -259,8 +308,9 @@ def fetch_metricool() -> list[dict]:
             {
                 "userId": user_id,
                 "blogId": blog_id,
-                "from": f"{start.isoformat()}T00:00:00-06:00",
-                "to": f"{end.isoformat()}T23:59:59-06:00",
+                "from": f"{start.isoformat()}T00:00:00",
+                "to": f"{end.isoformat()}T23:59:59",
+                "timezone": "America/Denver",
             }
         )
         url = f"{base}?{qs}"
@@ -311,11 +361,8 @@ def _metricool_row_to_item(platform: str, r: Any) -> Optional[dict]:
             source="metricool",
         )
     if isinstance(r, dict):
-        text = r.get("text") or r.get("content") or r.get("title") or ""
-        url = r.get("url") or r.get("permalink") or ""
-        raw_id = str(r.get("id") or r.get("postId") or "")
-        dt = parse_iso(str(r.get("publishedAt") or r.get("date") or r.get("datetime") or ""))
-        if not dt:
+        raw_id, text, url, dt = mc_fields(r)
+        if not dt or mc_link_only(text):
             return None
         if platform == "x" and raw_id and not url:
             url = f"https://x.com/therealjimbbq/status/{re.sub(r'^x-', '', raw_id)}"
@@ -387,11 +434,31 @@ def main() -> int:
         preserved = load_preserved_metricool(existing, cutoff)
         items.extend(preserved)
         notes_metricool = (
-            f"Metricool unavailable (no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); "
+            f"Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); "
             f"preserved {len(preserved)} Metricool items from existing feed within 14d."
         )
 
     items = dedupe_sort(items)
+    # Keep the ticker a mix of networks: newest few per platform, and only the
+    # first post of a thread (Metricool lists every reply a few seconds apart).
+    capped: list[dict] = []
+    per: dict[str, int] = {}
+    last_ts: dict[str, datetime] = {}
+    for it in items:
+        p = it.get("platform") or ""
+        ts = parse_iso(it.get("publishedAt") or "")
+        if ts and p in last_ts and abs((last_ts[p] - ts).total_seconds()) < 120:
+            last_ts[p] = ts
+            if capped and capped[-1].get("platform") == p:
+                capped[-1] = it  # older post of the same thread = the thread opener
+            continue
+        if ts:
+            last_ts[p] = ts
+        if per.get(p, 0) >= PER_PLATFORM:
+            continue
+        per[p] = per.get(p, 0) + 1
+        capped.append(it)
+    items = capped
     if len(items) > MAX_ITEMS:
         items = items[:MAX_ITEMS]
     # If under MIN_ITEMS, keep more from existing non-metricool older public items

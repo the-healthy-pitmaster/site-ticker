@@ -1,16 +1,40 @@
 {
-  "generatedAt": "2026-10-16T16:24:25Z",
+  "generatedAt": "2026-10-16T22:34:21Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
   "displayFormat": "{platformLabel} {displayName} {handle} \u2014 {text}",
   "example": "X The Healthy Pitmaster @therealjimbbq \u2014 Liver post",
   "notes": [
-    "Refreshed by scripts/build_feed.py. Metricool unavailable (no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 0 Metricool items from existing feed within 14d.",
+    "Refreshed by scripts/build_feed.py. Metricool REST pull (398 rows).",
     "Always includes Mastodon public API + YouTube RSS + TILvids.",
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117452947077029722",
+      "publishedAt": "2026-10-16T16:29:04.252000-06:00",
+      "text": "Oat beta-glucan keeps showing up in the research. A British Journal of Nutrition study linked regular oat fiber to better fasting glucose and insulin sensitivity. Work in the Nutrients journal found oat beta-glucan\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117452947077029722",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-qZX2q5VdFde2cfZ7GzfNDU",
+      "publishedAt": "2026-10-16T15:29:11.453000-06:00",
+      "text": "Psoriasis usually gets treated as just a skin problem. The research keeps finding it shows up right alongside insulin resistance, and people with psoriasis have higher rates of type 2 diabetes. That makes sense to me.\u2026",
+      "url": "https://tilvids.com/videos/watch/ca72a1fa-0bef-4291-87e1-3c213367f74e",
+      "source": "tilvids"
+    },
     {
       "platform": "tilvids",
       "platformLabel": "TILvids",
@@ -48,6 +72,30 @@
       "source": "youtube-rss"
     },
     {
+      "platform": "instagram",
+      "platformLabel": "Instagram",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.instagram.com/therealjimbbq/",
+      "displayName": "The Healthy Pitmaster",
+      "id": "instagram-4008852919859922219_57707921897",
+      "publishedAt": "2026-10-15T19:02:13-06:00",
+      "text": "Same calories. Same carbs. More insulin. Researchers at Virginia Tech fed 32 adults two meals, on two different days. One was ultra-processed. One was real food. They matched them on calories, carbs, fat, protein\u2026",
+      "url": "https://www.instagram.com/p/DeiTn2lCcUr/",
+      "source": "metricool"
+    },
+    {
+      "platform": "facebook",
+      "platformLabel": "Facebook",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.facebook.com/",
+      "displayName": "The Healthy Pitmaster",
+      "id": "facebook-106169732453592_944882818314241",
+      "publishedAt": "2026-10-15T19:00:22-06:00",
+      "text": "Llamada de ciencia en espa\u00f1ol con Pao Tovar sobre el Feel Great System.",
+      "url": "https://facebook.com/415051734907933/posts/944882818314241",
+      "source": "metricool"
+    },
+    {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
       "handle": "@therealjimbbq@mastodon.social",
@@ -58,6 +106,66 @@
       "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117447878569500672",
       "source": "mastodon"
+    },
+    {
+      "platform": "x",
+      "platformLabel": "X",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://x.com/therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "x-2110869493119328726",
+      "publishedAt": "2026-10-15T17:04:39-06:00",
+      "text": "Social Security checks go up 3.6% in January. For the average retiree that's about $75 more a month, from $2,095 to $2,170. It's the biggest raise since 2023. https://t.co/GPjZXEGEgb",
+      "url": "https://x.com/therealjimbbq/status/2110869493119328726",
+      "source": "metricool"
+    },
+    {
+      "platform": "x",
+      "platformLabel": "X",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://x.com/therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "x-2110838965456519309",
+      "publishedAt": "2026-10-15T15:03:21-06:00",
+      "text": "A Florida man ate 6 to 9 pounds of cheese a day, plus sticks of butter, and ended up with cholesterol lumps on his hands and feet. That's not what low carb looks like at my house. Meat, eggs, a pile of green\u2026",
+      "url": "https://x.com/therealjimbbq/status/2110838965456519309",
+      "source": "metricool"
+    },
+    {
+      "platform": "instagram",
+      "platformLabel": "Instagram",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.instagram.com/therealjimbbq/",
+      "displayName": "The Healthy Pitmaster",
+      "id": "instagram-4008732674625606713_57707921897",
+      "publishedAt": "2026-10-15T15:03:19-06:00",
+      "text": "Shrimp and broccoli. One skillet. Broccoli toasted in the pan until the edges get crispy. Then jumbo shrimp in butter with garlic, lemon and a pinch of chili flake. Nine ingredients. Serves 4. Per serving: 275\u2026",
+      "url": "https://www.instagram.com/p/Deh4SDej5Q5/",
+      "source": "metricool"
+    },
+    {
+      "platform": "facebook",
+      "platformLabel": "Facebook",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.facebook.com/",
+      "displayName": "The Healthy Pitmaster",
+      "id": "facebook-106169732453592_1052885437791223",
+      "publishedAt": "2026-10-15T15:03:14-06:00",
+      "text": "One skillet, nine ingredients and dinner for four. I toast the broccoli first until the edges get crispy, then the jumbo shrimp go into butter with garlic, lemon and a pinch of chili flake. Each serving comes in around\u2026",
+      "url": "https://facebook.com/415051734907933/posts/1052885437791223",
+      "source": "metricool"
+    },
+    {
+      "platform": "x",
+      "platformLabel": "X",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://x.com/therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "x-2110809019107496326",
+      "publishedAt": "2026-10-15T13:04:21-06:00",
+      "text": "Jumbo shrimp cooked in butter with garlic, lemon and a pinch of chili flake, over broccoli toasted in the same skillet. One pan, 9 ingredients, about 6 g net carbs and 26 g of protein a serving. https://t.co/snKe6LKDXh\u2026",
+      "url": "https://x.com/therealjimbbq/status/2110809019107496326",
+      "source": "metricool"
     },
     {
       "platform": "youtube",
@@ -72,6 +180,30 @@
       "source": "youtube-rss"
     },
     {
+      "platform": "facebook",
+      "platformLabel": "Facebook",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.facebook.com/",
+      "displayName": "The Healthy Pitmaster",
+      "id": "facebook-106169732453592_3500614993466908",
+      "publishedAt": "2026-10-15T09:59:24-06:00",
+      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
+      "url": "https://facebook.com/415051734907933/posts/3500614993466908",
+      "source": "metricool"
+    },
+    {
+      "platform": "x",
+      "platformLabel": "X",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://x.com/therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "x-2110749068980875599",
+      "publishedAt": "2026-10-15T09:06:08-06:00",
+      "text": "A calf raise you do sitting in a chair cut the blood sugar rise after a meal by 52%, with 60% less extra insulin. That's from Marc Hamilton's lab at the University of Houston. https://t.co/3L4iT4cjGM",
+      "url": "https://x.com/therealjimbbq/status/2110749068980875599",
+      "source": "metricool"
+    },
+    {
       "platform": "youtube",
       "platformLabel": "YouTube",
       "handle": "@therealjimbbq",
@@ -82,6 +214,30 @@
       "text": "Eyes heavy, brain foggy, ready for the couch before the afternoon even starts. That crash may not be a character flaw. Researchers checked people with the gold standard test for insulin resistance, the clamp. A BMI\u2026",
       "url": "https://www.youtube.com/shorts/nrDg9Sx3O3k",
       "source": "youtube-rss"
+    },
+    {
+      "platform": "threads",
+      "platformLabel": "Threads",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.threads.com/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "threads-17897413650612537",
+      "publishedAt": "2026-10-15T07:05:13-06:00",
+      "text": "That heavy, foggy crash after a big lunch isn't a character flaw. A big study in Diabetes tested people with the gold standard insulin test. A BMI over about 28.9 flagged insulin resistance in most of them. After a\u2026",
+      "url": "https://www.threads.com/@therealjimbbq/post/DehBaAAgeOx",
+      "source": "metricool"
+    },
+    {
+      "platform": "pinterest",
+      "platformLabel": "Pinterest",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.pinterest.com/therealjimbbq/",
+      "displayName": "The Healthy Pitmaster",
+      "id": "pinterest-1144547692837534792",
+      "publishedAt": "2026-10-15T07:03:43-06:00",
+      "text": "Tired After Lunch? It Might Be Your Insulin",
+      "url": "https://thehealthypitmaster.com/",
+      "source": "metricool"
     },
     {
       "platform": "tilvids",
@@ -108,16 +264,28 @@
       "source": "mastodon"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "platform": "instagram",
+      "platformLabel": "Instagram",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.instagram.com/therealjimbbq/",
       "displayName": "The Healthy Pitmaster",
-      "id": "masto-117442216043084681",
-      "publishedAt": "2026-10-14T19:00:01.637000-06:00",
-      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117442216043084681",
-      "source": "mastodon"
+      "id": "instagram-4008128064798019400_57707921897",
+      "publishedAt": "2026-10-14T19:02:04-06:00",
+      "text": "Lonely people got type 2 more often. Researchers in England followed about 4,100 older adults who didn't have diabetes. Over about 12 years, the ones who said they felt lonely were about 46% more likely to develop type\u2026",
+      "url": "https://www.instagram.com/p/Defuz0sj09I/",
+      "source": "metricool"
+    },
+    {
+      "platform": "facebook",
+      "platformLabel": "Facebook",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.facebook.com/",
+      "displayName": "The Healthy Pitmaster",
+      "id": "facebook-106169732453592_1052029631210137",
+      "publishedAt": "2026-10-14T19:02:00-06:00",
+      "text": "This is a small swap with a big payoff. Neal and colleagues (PMID 34459569) followed older adults in rural China for almost five years, and the ones who cooked with a salt mixed with potassium had 14 percent fewer\u2026",
+      "url": "https://facebook.com/415051734907933/posts/1052029631210137",
+      "source": "metricool"
     },
     {
       "platform": "tilvids",
@@ -129,174 +297,6 @@
       "publishedAt": "2026-10-14T16:11:08.497000-06:00",
       "text": "Twenty-three years ago, Cleveland Clinic researchers pointed at a natural way to support heart health by managing cholesterol. That finding still shows up in how people talk about plant sterols and lipid numbers today.\u2026",
       "url": "https://tilvids.com/videos/watch/f44383d9-857c-4b9a-bf97-74c0a68d5664",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-sYTnd5wJp6FgwrjnEWrHYE",
-      "publishedAt": "2026-10-14T07:11:38.247000-06:00",
-      "text": "The SEARCH for Diabetes in Youth study projected that 48,000 kids would have type 2 diabetes by 2060 if trends held steady. We hit that number in 2021. Nearly 40 years early. If the 2002 to 2017 trend keeps going, the\u2026",
-      "url": "https://tilvids.com/videos/watch/da7ee957-8a8d-4cf1-9114-541a103c15e2",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-6D_KQSQVyAc",
-      "publishedAt": "2026-10-13T21:01:07-06:00",
-      "text": "Fix Your Gut = Fix Your Life. How restoring your gut microbiome supports better health. Host Brittney Zeedik with guest speaker Emily Erickson, PharmD. Could your gut be the missing piece in your wellness journey?\u2026",
-      "url": "https://www.youtube.com/watch?v=6D_KQSQVyAc",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-piBBmFeo5Ns",
-      "publishedAt": "2026-10-13T07:10:14-06:00",
-      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=piBBmFeo5Ns",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-g7U1qv0pQrA",
-      "publishedAt": "2026-10-12T21:56:19-06:00",
-      "text": "Listen to Dr. Nick (@thefittestdoc) explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=g7U1qv0pQrA",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-mDAmbE3SGD0",
-      "publishedAt": "2026-10-12T11:03:56-06:00",
-      "text": "Harvard researchers followed about 187,000 people for roughly 24 years. People who ate whole fruit like blueberries, grapes and apples had a lower risk of type 2 diabetes, and blueberries stood out the most. More fruit\u2026",
-      "url": "https://www.youtube.com/shorts/mDAmbE3SGD0",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-S95ZV-z0Yqw",
-      "publishedAt": "2026-10-12T08:20:40-06:00",
-      "text": "Listen to Dr. Nick (@thefittestdoc) explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=S95ZV-z0Yqw",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-sRL6PThL_90",
-      "publishedAt": "2026-10-11T07:40:48-06:00",
-      "text": "What if you could drop your blood pressure about 10 points without losing a pound, just by changing when you eat? A team at LSU led by Elizabeth Sutton had men with prediabetes eat all their food inside a six-hour\u2026",
-      "url": "https://www.youtube.com/shorts/sRL6PThL_90",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-cQwhjjx1q5kDrYuz4Kw4VC",
-      "publishedAt": "2026-10-11T07:00:43.418000-06:00",
-      "text": "What if you could drop your blood pressure by about 10 points without losing a single pound, just by changing when you eat? A team at LSU led by Elizabeth Sutton had men with prediabetes eat all their food inside a\u2026",
-      "url": "https://tilvids.com/videos/watch/5fdae342-dafd-481e-83ed-8ea07d8a5912",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117422398046446228",
-      "publishedAt": "2026-10-11T07:00:03.062000-06:00",
-      "text": "This one surprised me. A team at LSU had men with prediabetes eat all their food inside a six-hour window that ended by mid-afternoon. Same food, same amount, no weight loss. After five weeks their insulin came down\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117422398046446228",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-zzZCsDqip6w",
-      "publishedAt": "2026-10-08T15:21:04-06:00",
-      "text": "Meal planning makes staying on track easier. That's why we built this. In about two minutes, you'll see how our free meal planner works: 1. Tell it what's already in your kitchen, so you don't buy it again. 2. Pick\u2026",
-      "url": "https://www.youtube.com/shorts/zzZCsDqip6w",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-3F_nNLCbP-k",
-      "publishedAt": "2026-10-08T15:20:55-06:00",
-      "text": "Meal planning makes staying on track easier. That's why we built this. In about two minutes, you'll see how our free meal planner works: 1. Tell it what's already in your kitchen, so you don't buy it again. 2. Pick\u2026",
-      "url": "https://www.youtube.com/watch?v=3F_nNLCbP-k",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-5xS86-GADsw",
-      "publishedAt": "2026-10-08T08:37:32-06:00",
-      "text": "Listen to Dr. Ngare, MD and Dr. Tiffany Marie, MD explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=5xS86-GADsw",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-1KZeRbmWx91RX9KHWFYHER",
-      "publishedAt": "2026-10-07T07:13:27.015000-06:00",
-      "text": "New research suggests matcha may help shrink tumors and limit how far cancer spreads, especially in aggressive breast cancers. It's early, and it's not a treatment. But I love seeing a simple, real drink get studied\u2026",
-      "url": "https://tilvids.com/videos/watch/062441ba-3199-4082-a3d4-ebca21e54f41",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-hWNfMHd45zxLCmXLpRSH95",
-      "publishedAt": "2026-10-06T16:06:23.995000-06:00",
-      "text": "A stem cell treatment took a person with type 1 diabetes from daily insulin shots to no insulin in 75 days. Type 1 is different from what I had. In type 1 the body attacks the cells that make insulin, so real food and\u2026",
-      "url": "https://tilvids.com/videos/watch/8938e345-4f39-4333-a5ed-84fb939c3258",
       "source": "tilvids"
     }
   ]

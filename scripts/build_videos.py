@@ -29,6 +29,54 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("America/Denver")
 UTC = timezone.utc
+
+def mc_dt(v: Any) -> Optional[datetime]:
+    """Metricool dates come as {"dateTime": "...", "timezone": "Europe/Madrid"}, ISO strings, or epoch ms."""
+    if v is None or v == "":
+        return None
+    if isinstance(v, (int, float)):
+        return datetime.fromtimestamp(v / 1000 if v > 1e11 else v, tz=timezone.utc)
+    if isinstance(v, dict):
+        s = str(v.get("dateTime") or v.get("date") or "")
+        if not s:
+            return None
+        try:
+            dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+        if dt.tzinfo is None:
+            try:
+                dt = dt.replace(tzinfo=ZoneInfo(str(v.get("timezone") or "UTC")))
+            except Exception:
+                dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    s = str(v).strip()
+    s = re.sub(r"([+-]\d{2})(\d{2})$", r"\1:\2", s)
+    try:
+        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+
+
+def mc_fields(r: dict) -> tuple[str, str, str, Optional[datetime]]:
+    """(id, text, url, published) from any Metricool v2 post row shape."""
+    pid = str(r.get("tweetId") or r.get("postId") or r.get("videoId") or r.get("id") or "")
+    text = str(r.get("text") or r.get("content") or r.get("title") or r.get("videoDescription") or r.get("description") or "")
+    url = str(r.get("url") or r.get("link") or r.get("permalink") or r.get("shareUrl") or r.get("mediaUrl") or "")
+    url = url.replace("x.com/user/status/", "x.com/therealjimbbq/status/")
+    dt = None
+    for k in ("publishedAt", "created", "createdAt", "publishedDate", "createTime", "timestamp", "date", "datetime"):
+        dt = mc_dt(r.get(k))
+        if dt:
+            break
+    return pid, text, url, dt
+
+
+def mc_link_only(text: str) -> bool:
+    return not re.sub(r"https?://\S+", "", text or "").strip()
+
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "videos.json"
 
@@ -410,8 +458,9 @@ def metricool_x_posts() -> list[dict]:
         {
             "userId": user_id,
             "blogId": blog_id,
-            "from": f"{start.isoformat()}T00:00:00-06:00",
-            "to": f"{end.isoformat()}T23:59:59-06:00",
+            "from": f"{start.isoformat()}T00:00:00",
+            "to": f"{end.isoformat()}T23:59:59",
+                "timezone": "America/Denver",
             "network": "twitter",
         }
     )
@@ -433,12 +482,12 @@ def metricool_x_posts() -> list[dict]:
                 # [datetime, text, id]
                 out.append({"id": str(r[2]), "text": str(r[1]), "publishedAt": str(r[0]), "source": "metricool"})
             elif isinstance(r, dict):
-                pid = str(r.get("id") or r.get("postId") or r.get("tweetId") or "")
+                pid, text, _url, dt = mc_fields(r)
                 out.append(
                     {
                         "id": pid,
-                        "text": r.get("text") or r.get("content") or "",
-                        "publishedAt": r.get("publishedAt") or r.get("date") or r.get("datetime") or "",
+                        "text": text,
+                        "publishedAt": dt.isoformat() if dt else "",
                         "source": "metricool",
                     }
                 )
@@ -648,7 +697,7 @@ def main() -> int:
     spots = [
         youtube_spot(today),
         peertube_spot(today - timedelta(days=1)),
-        x_spot(today - timedelta(days=2)),
+        x_spot(today),  # newest X video, so the box changes as soon as Jim posts one
     ]
     payload = {
         "generatedAt": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),

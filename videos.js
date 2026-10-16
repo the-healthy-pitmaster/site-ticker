@@ -9,6 +9,21 @@
   // PeerTube instances (peertube.wtf, tilvids.com) share the same embed player
   var PEERTUBE_PLATFORMS = { peertube: 1, tilvids: 1 };
 
+
+  // Fresh copy built daily by the Barry service (has the Metricool keys for X/IG/FB);
+  // falls back to the GitHub Pages copy if that service is slow or down.
+  var LIVE_BASE = 'https://barry-production-c225.up.railway.app/site-ticker/';
+  function fetchJsonWithFallback(primary, fallback) {
+    function get(url, ms) {
+      var ctl = window.AbortController ? new AbortController() : null;
+      var t = ctl ? setTimeout(function () { ctl.abort(); }, ms) : null;
+      return fetch(url, { credentials: 'omit', cache: 'no-cache', signal: ctl ? ctl.signal : undefined })
+        .then(function (r) { if (t) clearTimeout(t); if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+    }
+    if (!primary || primary === fallback) return get(fallback, 15000);
+    return get(primary, 6000).catch(function () { return get(fallback, 15000); });
+  }
+
   function qs(sel, el) { return (el || document).querySelector(sel); }
   function escapeHtml(s) {
     return String(s == null ? '' : s)
@@ -119,11 +134,8 @@
     mountMutedPreview(card, spot);
   }
   function boot() {
-    fetch(resolveFeed(), { credentials: 'omit', cache: 'no-cache' })
-      .then(function (r) {
-        if (!r.ok) throw new Error('videos.json HTTP ' + r.status);
-        return r.json();
-      })
+    var feed = resolveFeed();
+    fetchJsonWithFallback(LIVE_BASE + 'videos.json', feed)
       .then(function (data) {
         ((data && data.spots) || []).forEach(applySpot);
         document.documentElement.setAttribute('data-videos-ready', '1');
