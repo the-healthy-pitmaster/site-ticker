@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-16T22:35:52Z",
+  "generatedAt": "2026-10-17T15:19:16Z",
   "timezone": "America/Denver",
   "spots": [
     {
       "spot": 1,
       "dayOffset": 0,
       "platform": "youtube",
-      "title": "Crash After Lunch? It May Be Your Insulin",
-      "url": "https://www.youtube.com/shorts/nrDg9Sx3O3k",
-      "embedUrl": "https://www.youtube.com/embed/nrDg9Sx3O3k",
-      "thumbUrl": "https://i3.ytimg.com/vi/nrDg9Sx3O3k/hqdefault.jpg",
+      "title": "Your Gut Already Makes GLP-1",
+      "url": "https://www.youtube.com/shorts/YrEOsrThRSY",
+      "embedUrl": "https://www.youtube.com/embed/YrEOsrThRSY",
+      "thumbUrl": "https://i2.ytimg.com/vi/YrEOsrThRSY/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-15T13:05:50+00:00",
-      "fallback": true
+      "publishedAt": "2026-10-17T13:03:53+00:00",
+      "fallback": false
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "The Science Behind FGS - 10/16/2026, 1:52:32 AM",
-      "url": "https://peertube.wtf/w/d5DJiGVy3RcUi7tdWCh46C",
-      "embedUrl": "https://peertube.wtf/videos/embed/d5DJiGVy3RcUi7tdWCh46C",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/ba52fbc0-4278-47f9-ae9a-190a1f06e8f0.jpg",
+      "title": "Insulin resistance and psoriasis: is there a link?",
+      "url": "https://peertube.wtf/w/oQxopXo39TQFMArJErCn3S",
+      "embedUrl": "https://peertube.wtf/videos/embed/oQxopXo39TQFMArJErCn3S",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/9eacdc5a-5808-445f-8d01-74910a8d8bf5.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-16T02:35:15.684Z",
+      "publishedAt": "2026-10-16T21:29:04.097Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
@@ -32,12 +32,12 @@
       "spot": 3,
       "dayOffset": 2,
       "platform": "x",
-      "title": "Juice looks healthy on the label. But Harvard followed about 187,000 people for 24 years, and whole fruit, especially bl",
-      "url": "https://x.com/therealjimbbq/status/2109631146971574768",
-      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2109631146971574768",
-      "thumbUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2109630980776505346/pu/img/vP7OsLP5bW0I-c0Y.jpg",
-      "previewUrl": "https://video.twimg.com/ext_tw_video/2109630980776505346/pu/vid/avc1/320x568/XNpq0aTPoKKkUgrF.mp4?tag=12",
-      "publishedAt": "2026-10-12T13:03:55Z",
+      "title": "What if the sugar problem isn't mainly missing the gym, but overusing the chair?",
+      "url": "https://x.com/therealjimbbq/status/2098041696143487131",
+      "embedUrl": "https://platform.twitter.com/embed/Tweet.html?id=2098041696143487131",
+      "thumbUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2098041475862851584/pu/img/Qa8dT0NHj2g6H9UF.jpg",
+      "previewUrl": "https://video.twimg.com/ext_tw_video/2098041475862851584/pu/vid/avc1/320x568/E7trFZcWwU9-K3KS.mp4?tag=12",
+      "publishedAt": "2026-09-10T13:31:34Z",
       "fallback": true
     }
   ]

@@ -1,16 +1,40 @@
 {
-  "generatedAt": "2026-10-16T22:34:21Z",
+  "generatedAt": "2026-10-17T15:19:10Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
   "displayFormat": "{platformLabel} {displayName} {handle} \u2014 {text}",
   "example": "X The Healthy Pitmaster @therealjimbbq \u2014 Liver post",
   "notes": [
-    "Refreshed by scripts/build_feed.py. Metricool REST pull (398 rows).",
+    "Refreshed by scripts/build_feed.py. Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 13 Metricool items from existing feed within 14d.",
     "Always includes Mastodon public API + YouTube RSS + TILvids.",
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-YrEOsrThRSY",
+      "publishedAt": "2026-10-17T07:03:53-06:00",
+      "text": "Most people quit their GLP-1 shots in the first year. A JAMA Network Open study followed about 125,000 adults, and more than half had stopped within a year. Without diabetes, it was almost two out of three. Here's what\u2026",
+      "url": "https://www.youtube.com/shorts/YrEOsrThRSY",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117456372243607208",
+      "publishedAt": "2026-10-17T07:00:08.186000-06:00",
+      "text": "More than half of people on a GLP-1 shot stopped within a year. That's from a JAMA Network Open study of about 125,000 adults. Without diabetes, it was almost two out of three.Here's the part nobody mentions. GLP-1\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117456372243607208",
+      "source": "mastodon"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
@@ -33,6 +57,18 @@
       "publishedAt": "2026-10-16T15:29:11.453000-06:00",
       "text": "Psoriasis usually gets treated as just a skin problem. The research keeps finding it shows up right alongside insulin resistance, and people with psoriasis have higher rates of type 2 diabetes. That makes sense to me.\u2026",
       "url": "https://tilvids.com/videos/watch/ca72a1fa-0bef-4291-87e1-3c213367f74e",
+      "source": "tilvids"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-o8KgRvcv2ikbTQTcAs4pFx",
+      "publishedAt": "2026-10-16T08:57:16.452000-06:00",
+      "text": "Most people quit their GLP-1 medications in the first year. A JAMA Network Open study followed about 125,000 adults on a GLP-1 shot. Within a year, more than half had stopped. For people without diabetes, it was almost\u2026",
+      "url": "https://tilvids.com/videos/watch/b33decd0-214a-4178-977f-56e9b26ac2c9",
       "source": "tilvids"
     },
     {
@@ -252,18 +288,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117445047628940211",
-      "publishedAt": "2026-10-15T07:00:08.225000-06:00",
-      "text": "A crash after lunch is not always a character flaw. Researchers tested about 2,300 people with the gold standard clamp test, many in Europe. A BMI over about 28.9 turned out to be one of the simplest flags for insulin\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117445047628940211",
-      "source": "mastodon"
-    },
-    {
       "platform": "instagram",
       "platformLabel": "Instagram",
       "handle": "@therealjimbbq",
@@ -274,30 +298,6 @@
       "text": "Lonely people got type 2 more often. Researchers in England followed about 4,100 older adults who didn't have diabetes. Over about 12 years, the ones who said they felt lonely were about 46% more likely to develop type\u2026",
       "url": "https://www.instagram.com/p/Defuz0sj09I/",
       "source": "metricool"
-    },
-    {
-      "platform": "facebook",
-      "platformLabel": "Facebook",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.facebook.com/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "facebook-106169732453592_1052029631210137",
-      "publishedAt": "2026-10-14T19:02:00-06:00",
-      "text": "This is a small swap with a big payoff. Neal and colleagues (PMID 34459569) followed older adults in rural China for almost five years, and the ones who cooked with a salt mixed with potassium had 14 percent fewer\u2026",
-      "url": "https://facebook.com/415051734907933/posts/1052029631210137",
-      "source": "metricool"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-warpXhf4Rmm6Ucp5Q4EbMJ",
-      "publishedAt": "2026-10-14T16:11:08.497000-06:00",
-      "text": "Twenty-three years ago, Cleveland Clinic researchers pointed at a natural way to support heart health by managing cholesterol. That finding still shows up in how people talk about plant sterols and lipid numbers today.\u2026",
-      "url": "https://tilvids.com/videos/watch/f44383d9-857c-4b9a-bf97-74c0a68d5664",
-      "source": "tilvids"
     }
   ]
 }
