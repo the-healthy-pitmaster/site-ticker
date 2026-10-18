@@ -1,16 +1,64 @@
 {
-  "generatedAt": "2026-10-17T15:19:10Z",
+  "generatedAt": "2026-10-18T15:40:25Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
   "displayFormat": "{platformLabel} {displayName} {handle} \u2014 {text}",
   "example": "X The Healthy Pitmaster @therealjimbbq \u2014 Liver post",
   "notes": [
-    "Refreshed by scripts/build_feed.py. Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 13 Metricool items from existing feed within 14d.",
+    "Refreshed by scripts/build_feed.py. Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 12 Metricool items from existing feed within 14d.",
     "Always includes Mastodon public API + YouTube RSS + TILvids.",
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117462074036789521",
+      "publishedAt": "2026-10-18T07:10:10.611000-06:00",
+      "text": "Researchers at McMaster scanned the brains of almost 9,000 healthy middle-aged adults. None had symptoms. The people eating the most ultra-processed food had about 40 percent higher odds of tiny areas of brain damage\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117462074036789521",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-rkJCgjpJXVo",
+      "publishedAt": "2026-10-18T06:56:03-06:00",
+      "text": "Researchers at McMaster in Canada put almost 9,000 healthy, middle-aged adults in an MRI. Nobody had symptoms. The heaviest ultra-processed eaters had about 40 percent higher odds of tiny areas of brain damage they\u2026",
+      "url": "https://www.youtube.com/shorts/rkJCgjpJXVo",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-hYnR2XoSouTeEJFgcVcF32",
+      "publishedAt": "2026-10-17T15:22:06.898000-06:00",
+      "text": "Poor sleep does more than make you tired. Research shows it can lower your insulin sensitivity, and that raises your risk of type 2 diabetes. When your cells stop listening to insulin, your blood sugar has a harder\u2026",
+      "url": "https://tilvids.com/videos/watch/89715517-98ba-4aeb-b93d-88707baeec19",
+      "source": "tilvids"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-19ZwMsXMnq3aSuoFeF4bY2",
+      "publishedAt": "2026-10-17T14:42:55.238000-06:00",
+      "text": "This just came out in JAMA Network Open. Researchers at McMaster in Canada put almost 9,000 healthy, middle-aged adults in an MRI. Nobody had symptoms. But the people eating the most ultra-processed food were about 40\u2026",
+      "url": "https://tilvids.com/videos/watch/0141679d-9796-41ab-8718-2f40a0faf3e1",
+      "source": "tilvids"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -72,18 +120,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-87nxt2jEPdjh3TMMt5j5Dn",
-      "publishedAt": "2026-10-16T07:00:20.691000-06:00",
-      "text": "Sixty-seven years ago, the American Medical Association put out a diet that was high in protein, high in fat and low in carbs. People have eaten close to that way for thousands of years. Then the advice flipped to low\u2026",
-      "url": "https://tilvids.com/videos/watch/3993b593-d3f6-4fef-bee6-bdb43a6298b7",
-      "source": "tilvids"
-    },
-    {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
       "handle": "@therealjimbbq@mastodon.social",
@@ -130,18 +166,6 @@
       "text": "Llamada de ciencia en espa\u00f1ol con Pao Tovar sobre el Feel Great System.",
       "url": "https://facebook.com/415051734907933/posts/944882818314241",
       "source": "metricool"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117447878569500672",
-      "publishedAt": "2026-10-15T19:00:04.986000-06:00",
-      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117447878569500672",
-      "source": "mastodon"
     },
     {
       "platform": "x",
@@ -240,18 +264,6 @@
       "source": "metricool"
     },
     {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-nrDg9Sx3O3k",
-      "publishedAt": "2026-10-15T07:05:50-06:00",
-      "text": "Eyes heavy, brain foggy, ready for the couch before the afternoon even starts. That crash may not be a character flaw. Researchers checked people with the gold standard test for insulin resistance, the clamp. A BMI\u2026",
-      "url": "https://www.youtube.com/shorts/nrDg9Sx3O3k",
-      "source": "youtube-rss"
-    },
-    {
       "platform": "threads",
       "platformLabel": "Threads",
       "handle": "@therealjimbbq",
@@ -274,18 +286,6 @@
       "text": "Tired After Lunch? It Might Be Your Insulin",
       "url": "https://thehealthypitmaster.com/",
       "source": "metricool"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-wKkqHi39Le4Ga28fjew3EW",
-      "publishedAt": "2026-10-15T07:00:13.067000-06:00",
-      "text": "Do you crash hard after a big lunch? Heavy eyes, brain fog, ready for the couch before the afternoon even starts. A study published in Diabetes found a simple rule. A BMI over about 28.9 flagged insulin resistance in\u2026",
-      "url": "https://tilvids.com/videos/watch/f8ff1d18-2434-40f7-9d00-cb2b352216da",
-      "source": "tilvids"
     },
     {
       "platform": "instagram",
