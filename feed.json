@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:40:25Z",
+  "generatedAt": "2026-10-19T18:35:13Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -12,6 +12,90 @@
   ],
   "items": [
     {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-QSSGMyriSjo",
+      "publishedAt": "2026-10-19T07:49:52-06:00",
+      "text": "Llamada de ciencia en espa\u00f1ol con Pao Tovar sobre el Feel Great System.",
+      "url": "https://www.youtube.com/watch?v=QSSGMyriSjo",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-r5YYLiFycao",
+      "publishedAt": "2026-10-19T07:43:22-06:00",
+      "text": "GLP-1 is all over the news, but your own gut has been making it all along. Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about what GLP-1 really does, why skipping\u2026",
+      "url": "https://www.youtube.com/watch?v=r5YYLiFycao",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-jbmT9bpjFHM",
+      "publishedAt": "2026-10-19T07:39:38-06:00",
+      "text": "Ever wonder why your blood sugar creeps up even when you think you eat pretty well? Tonight's science call goes down to the cell: how extra calories get stored as fat inside cells, why those cells start turning glucose\u2026",
+      "url": "https://www.youtube.com/watch?v=jbmT9bpjFHM",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-vRqpHzaDkb9CKBCEtN6qTZ",
+      "publishedAt": "2026-10-19T06:31:11.277000-06:00",
+      "text": "Kale gets all the credit for fiber. But let's be honest, most of us don't dream about eating it. A cup of cooked broccoli has about 5 grams of fiber, and a cup of cooked Brussels sprouts has about 4. That's roughly\u2026",
+      "url": "https://tilvids.com/videos/watch/f1bf8226-2756-499e-8bee-93a8b8aea32f",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117464629424527929",
+      "publishedAt": "2026-10-18T18:00:02.712000-06:00",
+      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117464629424527929",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-wkw4WDYnFujYS4CvrEcSPA",
+      "publishedAt": "2026-10-18T15:26:58.738000-06:00",
+      "text": "Clean water and modern sanitation added years to our lives. Our plates may be taking some of them back. Refined carbs and sugar keep insulin pushed up all day long. Over time your cells stop listening, and that insulin\u2026",
+      "url": "https://tilvids.com/videos/watch/f5abd24c-3365-45ee-90da-d86ed2d15ec8",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-ElkIubBvxgM",
+      "publishedAt": "2026-10-18T13:03:43-06:00",
+      "text": "Listen to Dr. Ngare, MD and Dr. Tiffany Marie, MD explain how this amazing system works!",
+      "url": "https://www.youtube.com/watch?v=ElkIubBvxgM",
+      "source": "youtube-rss"
+    },
+    {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
       "handle": "@therealjimbbq@mastodon.social",
@@ -22,18 +106,6 @@
       "text": "Researchers at McMaster scanned the brains of almost 9,000 healthy middle-aged adults. None had symptoms. The people eating the most ultra-processed food had about 40 percent higher odds of tiny areas of brain damage\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117462074036789521",
       "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-rkJCgjpJXVo",
-      "publishedAt": "2026-10-18T06:56:03-06:00",
-      "text": "Researchers at McMaster in Canada put almost 9,000 healthy, middle-aged adults in an MRI. Nobody had symptoms. The heaviest ultra-processed eaters had about 40 percent higher odds of tiny areas of brain damage they\u2026",
-      "url": "https://www.youtube.com/shorts/rkJCgjpJXVo",
-      "source": "youtube-rss"
     },
     {
       "platform": "tilvids",
@@ -60,18 +132,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-YrEOsrThRSY",
-      "publishedAt": "2026-10-17T07:03:53-06:00",
-      "text": "Most people quit their GLP-1 shots in the first year. A JAMA Network Open study followed about 125,000 adults, and more than half had stopped within a year. Without diabetes, it was almost two out of three. Here's what\u2026",
-      "url": "https://www.youtube.com/shorts/YrEOsrThRSY",
-      "source": "youtube-rss"
-    },
-    {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
       "handle": "@therealjimbbq@mastodon.social",
@@ -94,54 +154,6 @@
       "text": "Oat beta-glucan keeps showing up in the research. A British Journal of Nutrition study linked regular oat fiber to better fasting glucose and insulin sensitivity. Work in the Nutrients journal found oat beta-glucan\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117452947077029722",
       "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-qZX2q5VdFde2cfZ7GzfNDU",
-      "publishedAt": "2026-10-16T15:29:11.453000-06:00",
-      "text": "Psoriasis usually gets treated as just a skin problem. The research keeps finding it shows up right alongside insulin resistance, and people with psoriasis have higher rates of type 2 diabetes. That makes sense to me.\u2026",
-      "url": "https://tilvids.com/videos/watch/ca72a1fa-0bef-4291-87e1-3c213367f74e",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-o8KgRvcv2ikbTQTcAs4pFx",
-      "publishedAt": "2026-10-16T08:57:16.452000-06:00",
-      "text": "Most people quit their GLP-1 medications in the first year. A JAMA Network Open study followed about 125,000 adults on a GLP-1 shot. Within a year, more than half had stopped. For people without diabetes, it was almost\u2026",
-      "url": "https://tilvids.com/videos/watch/b33decd0-214a-4178-977f-56e9b26ac2c9",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117450710125539724",
-      "publishedAt": "2026-10-16T07:00:11.154000-06:00",
-      "text": "In 1965 a Scottish man named Angus Barbieri stopped eating and didn't start again for 382 days. He was under hospital supervision the whole time, took vitamins and drank water, tea and coffee. He went from 456 pounds\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117450710125539724",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-MSd01gDP5nU",
-      "publishedAt": "2026-10-15T23:48:16-06:00",
-      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=MSd01gDP5nU",
-      "source": "youtube-rss"
     },
     {
       "platform": "instagram",
@@ -226,18 +238,6 @@
       "text": "Jumbo shrimp cooked in butter with garlic, lemon and a pinch of chili flake, over broccoli toasted in the same skillet. One pan, 9 ingredients, about 6 g net carbs and 26 g of protein a serving. https://t.co/snKe6LKDXh\u2026",
       "url": "https://x.com/therealjimbbq/status/2110809019107496326",
       "source": "metricool"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-fkmPK-O0NuY",
-      "publishedAt": "2026-10-15T12:29:04-06:00",
-      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
-      "url": "https://www.youtube.com/watch?v=fkmPK-O0NuY",
-      "source": "youtube-rss"
     },
     {
       "platform": "facebook",

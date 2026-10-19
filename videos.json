@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T15:40:33Z",
+  "generatedAt": "2026-10-19T18:35:37Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -12,18 +12,18 @@
       "thumbUrl": "https://i3.ytimg.com/vi/rkJCgjpJXVo/hqdefault.jpg",
       "previewUrl": "",
       "publishedAt": "2026-10-18T12:56:03+00:00",
-      "fallback": false
+      "fallback": true
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Poor sleep and insulin resistance: why rest matters",
-      "url": "https://peertube.wtf/w/aovGbsmTKxN2r7A7nyYpCe",
-      "embedUrl": "https://peertube.wtf/videos/embed/aovGbsmTKxN2r7A7nyYpCe",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/01301dd9-03aa-4091-8522-90e80ad6cc1b.jpg",
+      "title": "Living longer but sicker: is the modern diet to blame?",
+      "url": "https://peertube.wtf/w/e3E487SDSGgTpMxmhzANbH",
+      "embedUrl": "https://peertube.wtf/videos/embed/e3E487SDSGgTpMxmhzANbH",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/6885e60c-e6df-4392-bf85-87c5047f1862.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-17T21:22:07.400Z",
+      "publishedAt": "2026-10-18T21:26:59.345Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
