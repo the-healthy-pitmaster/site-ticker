@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-19T18:35:37Z",
+  "generatedAt": "2026-10-20T16:38:56Z",
   "timezone": "America/Denver",
   "spots": [
     {
       "spot": 1,
       "dayOffset": 0,
       "platform": "youtube",
-      "title": "Ultra-Processed Food and Silent Brain Damage: 8,783 MRIs",
-      "url": "https://www.youtube.com/shorts/rkJCgjpJXVo",
-      "embedUrl": "https://www.youtube.com/embed/rkJCgjpJXVo",
-      "thumbUrl": "https://i3.ytimg.com/vi/rkJCgjpJXVo/hqdefault.jpg",
+      "title": "Laughing After Lunch Cut the Blood Sugar Spike by a Third",
+      "url": "https://www.youtube.com/shorts/wjMYqjzUWsQ",
+      "embedUrl": "https://www.youtube.com/embed/wjMYqjzUWsQ",
+      "thumbUrl": "https://i4.ytimg.com/vi/wjMYqjzUWsQ/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-18T12:56:03+00:00",
-      "fallback": true
+      "publishedAt": "2026-10-20T13:06:17+00:00",
+      "fallback": false
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Living longer but sicker: is the modern diet to blame?",
-      "url": "https://peertube.wtf/w/e3E487SDSGgTpMxmhzANbH",
-      "embedUrl": "https://peertube.wtf/videos/embed/e3E487SDSGgTpMxmhzANbH",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/6885e60c-e6df-4392-bf85-87c5047f1862.jpg",
+      "title": "The Science Behind FGS - 10/19/2026, 11:59:26 PM",
+      "url": "https://peertube.wtf/w/4cg8q5DkNaNsSpSDiS1tsY",
+      "embedUrl": "https://peertube.wtf/videos/embed/4cg8q5DkNaNsSpSDiS1tsY",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/94a83726-d225-4066-92a4-b54543202e4d.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-18T21:26:59.345Z",
+      "publishedAt": "2026-10-20T01:27:29.809Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
