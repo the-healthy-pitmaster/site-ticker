@@ -393,10 +393,8 @@
     this.current = s;
     this.next = null;
     var box = this.ensureBox();
-    var label = SOURCE_LABEL[s.source] || '';
     box.innerHTML =
-      '<div class="thp-live-head"><span class="thp-live-pill"><i></i>LIVE NOW</span>' +
-      '<span class="thp-live-src">on ' + esc(label) + '</span></div>' +
+      '<div class="thp-live-head"><span class="thp-live-pill"><i></i>LIVE NOW</span></div>' +
       '<div class="thp-live-frame">' + this.smallPlayerHtml(s) + '</div>' +
       (s.title ? '<p class="thp-live-title">' + esc(s.title) + '</p>' : '') +
       '<div class="thp-live-actions"><button type="button" class="btn btn-copper btn-sm" data-act="big">Watch bigger ⤢</button></div>';
