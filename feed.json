@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T16:57:32Z",
+  "generatedAt": "2026-10-22T16:56:38Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,78 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117484742287603612",
+      "publishedAt": "2026-10-22T07:15:00.634000-06:00",
+      "text": "Steroids like prednisone can push blood sugar into the diabetic range, even without diabetes.Pittsburgh researchers tracked hospital patients on high-dose steroids. 64% hit 200 or higher, including over half with no\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117484742287603612",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-GmIROsvwi-Q",
+      "publishedAt": "2026-10-22T06:55:53-06:00",
+      "text": "Sixty-four percent of hospital patients on high-dose steroids hit a blood sugar of 200 or higher. Prednisone is a stronger, man-made version of cortisol, your own stress hormone. One of cortisol's jobs is to tell your\u2026",
+      "url": "https://www.youtube.com/shorts/GmIROsvwi-Q",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-ezLLyAtUej7XWSdiXKfyEx",
+      "publishedAt": "2026-10-21T21:03:22.752000-06:00",
+      "text": "Sixty-four percent. That's how many hospital patients on high-dose steroids hit a blood sugar of 200 or higher in a University of Pittsburgh study. Prednisone is a stronger, man-made version of cortisol, your own\u2026",
+      "url": "https://tilvids.com/videos/watch/6dfdefba-9a9d-49bf-b16e-16ffb7c494bb",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117481853773439973",
+      "publishedAt": "2026-10-21T19:00:25.433000-06:00",
+      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117481853773439973",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117481046554239283",
+      "publishedAt": "2026-10-21T15:35:08.236000-06:00",
+      "text": "In 2024 a team in China took a 25-year-old woman's own cells, turned them back into stem cells, then grew new insulin-making cells from them. They tucked those just under the lining of her belly muscles instead of the\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117481046554239283",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-kebdqQNeXomD52uwPWDtEh",
+      "publishedAt": "2026-10-21T15:24:34.774000-06:00",
+      "text": "Tiger Woods took golf seriously from the time he was a little kid. Michael Jordan found his stride later. Two very different starts, and the same thing underneath both of them: commitment. Your health works the same\u2026",
+      "url": "https://tilvids.com/videos/watch/9bb4992b-c516-4318-8ceb-d07408e16b80",
+      "source": "tilvids"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -48,30 +120,6 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117476189947593927",
-      "publishedAt": "2026-10-20T19:00:02.281000-06:00",
-      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117476189947593927",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117475573189045864",
-      "publishedAt": "2026-10-20T16:23:11.363000-06:00",
-      "text": "In 2018 Goldman Sachs put out a biotech report called The Genome Revolution. One question in it stopped me. Is fixing a patient for good a sustainable business model?Their example was Gilead's hepatitis C drugs, which\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117475573189045864",
-      "source": "mastodon"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -96,64 +144,16 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117474774456566537",
-      "publishedAt": "2026-10-20T13:00:03.616000-06:00",
-      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117474774456566537",
-      "source": "mastodon"
-    },
-    {
       "platform": "youtube",
       "platformLabel": "YouTube",
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-J8_jcw0AsIE",
-      "publishedAt": "2026-10-20T07:40:23-06:00",
-      "text": "Why are so many of us tired, hungry, and sick all the time? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, explains the science in plain English: how insulin runs your body's\u2026",
-      "url": "https://www.youtube.com/watch?v=J8_jcw0AsIE",
+      "id": "yt-r5YYLiFycao",
+      "publishedAt": "2026-10-19T07:43:22-06:00",
+      "text": "GLP-1 is all over the news, but your own gut has been making it all along. Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about what GLP-1 really does, why skipping\u2026",
+      "url": "https://www.youtube.com/watch?v=r5YYLiFycao",
       "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-SSyN1fcDnLE",
-      "publishedAt": "2026-10-20T07:38:16-06:00",
-      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, looks at what happens when\u2026",
-      "url": "https://www.youtube.com/watch?v=SSyN1fcDnLE",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-rH3qybfkaPaun9fZcwxW2C",
-      "publishedAt": "2026-10-20T06:31:19.757000-06:00",
-      "text": "Researchers in Japan gave 19 people with type 2 diabetes the same lunch on two different days. One day they sat through a dull 40-minute lecture. The next day they watched a 40-minute comedy show. After the lecture\u2026",
-      "url": "https://tilvids.com/videos/watch/d02f745b-3d92-408f-93cc-df75c7ee2fce",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-sAKYRevidDQrBjWBjEjr8B",
-      "publishedAt": "2026-10-19T15:28:04.580000-06:00",
-      "text": "When you cut way back on carbs, your body doesn't run out of fuel. It starts burning stored fat, and your liver turns some of that fat into ketones. Ketones are a fuel your brain and muscles can run on when sugar isn't\u2026",
-      "url": "https://tilvids.com/videos/watch/d767ff40-16dc-4b31-9c6c-6c2ad0de9c6d",
-      "source": "tilvids"
     },
     {
       "platform": "instagram",
