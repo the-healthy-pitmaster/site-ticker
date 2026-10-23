@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:56:38Z",
+  "generatedAt": "2026-10-23T16:48:46Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,78 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117490306343748596",
+      "publishedAt": "2026-10-23T06:50:01.491000-06:00",
+      "text": "Skin tags get treated as a cosmetic nuisance. One dermatology study says they deserve a second look.People with skin tags: 23% had diabetes. People without: 8.5%.The likely link is high insulin, a growth signal for\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117490306343748596",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-R7CapJTX5aU",
+      "publishedAt": "2026-10-23T06:46:00-06:00",
+      "text": "Skin tags on your neck, underarms or chest can be an early outside sign of insulin resistance and high blood sugar. In one dermatology study, people with skin tags had diabetes almost three times as often as people\u2026",
+      "url": "https://www.youtube.com/shorts/R7CapJTX5aU",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117487515714854347",
+      "publishedAt": "2026-10-22T19:00:19.849000-06:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117487515714854347",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-jBnUnPc7Px2vvYRmB8tVw7",
+      "publishedAt": "2026-10-22T18:10:36.769000-06:00",
+      "text": "Are skin tags a sign of diabetes? In 92 seconds you'll learn: - Why skin tags show up on the neck, underarms and bra line - How skin tags and insulin resistance are linked - Why more tags tracked with higher fasting\u2026",
+      "url": "https://tilvids.com/videos/watch/96b506ab-91aa-49e4-bacb-fcefcbfee74e",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117486873885984352",
+      "publishedAt": "2026-10-22T16:17:06.270000-06:00",
+      "text": "A big study called SEARCH for Diabetes in Youth projected that about 48,000 American kids would have type 2 diabetes by 2060 if trends held steady. By 2021 we were already there, nearly 40 years early. If the faster\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117486873885984352",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-g46x9BGrwwGFPKeCCV6eoe",
+      "publishedAt": "2026-10-22T15:23:19.691000-06:00",
+      "text": "A tablespoon or two of apple cider vinegar with a meal has been studied for years, and the results keep pointing the same direction. In several small trials, people who took vinegar with a carb-heavy meal had a smaller\u2026",
+      "url": "https://tilvids.com/videos/watch/79e7b939-8bfc-4d6e-96c3-10c787d887f5",
+      "source": "tilvids"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
@@ -48,30 +120,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117481853773439973",
-      "publishedAt": "2026-10-21T19:00:25.433000-06:00",
-      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117481853773439973",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117481046554239283",
-      "publishedAt": "2026-10-21T15:35:08.236000-06:00",
-      "text": "In 2024 a team in China took a 25-year-old woman's own cells, turned them back into stem cells, then grew new insulin-making cells from them. They tucked those just under the lining of her belly muscles instead of the\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117481046554239283",
-      "source": "mastodon"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -89,30 +137,6 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-YfM_gR9VVxY",
-      "publishedAt": "2026-10-21T07:42:20-06:00",
-      "text": "Llamada de ciencia en espa\u00f1ol con Pao Tovar sobre el Feel Great System.",
-      "url": "https://www.youtube.com/watch?v=YfM_gR9VVxY",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117479119348788098",
-      "publishedAt": "2026-10-21T07:25:01.413000-06:00",
-      "text": "Your inner ear burns a lot of fuel, so it feels swings in blood sugar and insulin.Researchers in Egypt took 60 older adults with metabolic syndrome and constant ringing in their ears. Half walked on a treadmill and ate\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117479119348788098",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
       "id": "yt-0NaLxsTioSQ",
       "publishedAt": "2026-10-21T06:40:46-06:00",
       "text": "Your inner ear burns a lot of fuel, so it's sensitive to swings in blood sugar and insulin. Researchers in Egypt followed 60 older adults with metabolic syndrome and constant ringing in their ears. Half walked on a\u2026",
@@ -120,39 +144,15 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-7XeymtGoy9uNQvsvtiCqon",
-      "publishedAt": "2026-10-20T15:26:37.132000-06:00",
-      "text": "Plain black coffee might do more than wake you up. Coffee has a plant compound called chlorogenic acid, and studies suggest it may help your body respond better to insulin. The key word is plain. Once you load it up\u2026",
-      "url": "https://tilvids.com/videos/watch/384d1838-3bf0-4932-aff2-6f2b9a8a2f41",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-e3eesrgQ9neSJfCjc593xk",
-      "publishedAt": "2026-10-20T13:52:23.862000-06:00",
-      "text": "Could the ringing in your ears be a blood sugar problem? Your inner ear burns a lot of fuel, so it is sensitive to swings in blood sugar and insulin. Researchers in Egypt followed 60 older adults with metabolic\u2026",
-      "url": "https://tilvids.com/videos/watch/699671d3-1911-438a-92c2-c6e096e45141",
-      "source": "tilvids"
-    },
-    {
       "platform": "youtube",
       "platformLabel": "YouTube",
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-r5YYLiFycao",
-      "publishedAt": "2026-10-19T07:43:22-06:00",
-      "text": "GLP-1 is all over the news, but your own gut has been making it all along. Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about what GLP-1 really does, why skipping\u2026",
-      "url": "https://www.youtube.com/watch?v=r5YYLiFycao",
+      "id": "yt-wjMYqjzUWsQ",
+      "publishedAt": "2026-10-20T07:06:17-06:00",
+      "text": "Researchers in Japan gave 19 people with type 2 diabetes the same lunch on two different days. One day they sat through a dull 40-minute lecture. The next day they watched a 40-minute comedy show. After the lecture\u2026",
+      "url": "https://www.youtube.com/shorts/wjMYqjzUWsQ",
       "source": "youtube-rss"
     },
     {
