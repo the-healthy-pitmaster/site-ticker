@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:48:46Z",
+  "generatedAt": "2026-10-24T15:41:40Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,78 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-MYrqPfvW5xk",
+      "publishedAt": "2026-10-24T09:35:02-06:00",
+      "text": "Replay of a Feel Great System live session with Dr. Tiffany and Jim Grasser, The Healthy Pitmaster. #FeelGreatSystem #MetabolicHealth #BloodSugar",
+      "url": "https://www.youtube.com/watch?v=MYrqPfvW5xk",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117496008563330750",
+      "publishedAt": "2026-10-24T07:00:10.434000-06:00",
+      "text": "Your hairline might flag high insulin before your glucose test does.Finnish researchers found men balding before 35 were more likely to have high insulin, belly fat and high blood pressure. In 324 women, high fasting\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117496008563330750",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-oFYDJ770INk",
+      "publishedAt": "2026-10-24T06:55:46-06:00",
+      "text": "Male pattern baldness before 35 showed up alongside high insulin, belly fat, high blood pressure and bad cholesterol in Finnish research. Women with high fasting insulin were about 65% more likely to have real hair\u2026",
+      "url": "https://www.youtube.com/shorts/oFYDJ770INk",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117492513570484945",
+      "publishedAt": "2026-10-23T16:11:21.027000-06:00",
+      "text": "Cutting sleep short can make your body worse at handling sugar. A 2022 review in Sleep Medicine Reviews pulled together randomized trials where people had their sleep cut on purpose. Their insulin sensitivity went\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117492513570484945",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-pJyfEhFypj8nsMYBrL6GqN",
+      "publishedAt": "2026-10-23T15:29:17.022000-06:00",
+      "text": "Coffee is one of the most heavily sprayed crops in the world, and those chemicals don't always stay on the farm. Researchers in the Dominican Republic compared coffee farm workers who were exposed to pesticides with\u2026",
+      "url": "https://tilvids.com/videos/watch/c0334dd2-479e-4fee-a98d-4c940a96b526",
+      "source": "tilvids"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-jVFxbkK5YXuiVHBPKavHP2",
+      "publishedAt": "2026-10-23T08:57:53.649000-06:00",
+      "text": "Pattern hair loss (androgenetic alopecia) is usually blamed on genes alone. Two studies out of Finland suggest blood sugar hormones may be part of the picture too. Men who started balding before age 35 were more likely\u2026",
+      "url": "https://tilvids.com/videos/watch/99434815-48fe-478a-8b25-b2a906df27a3",
+      "source": "tilvids"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
@@ -60,18 +132,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117486873885984352",
-      "publishedAt": "2026-10-22T16:17:06.270000-06:00",
-      "text": "A big study called SEARCH for Diabetes in Youth projected that about 48,000 American kids would have type 2 diabetes by 2060 if trends held steady. By 2021 we were already there, nearly 40 years early. If the faster\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117486873885984352",
-      "source": "mastodon"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -84,18 +144,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117484742287603612",
-      "publishedAt": "2026-10-22T07:15:00.634000-06:00",
-      "text": "Steroids like prednisone can push blood sugar into the diabetic range, even without diabetes.Pittsburgh researchers tracked hospital patients on high-dose steroids. 64% hit 200 or higher, including over half with no\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117484742287603612",
-      "source": "mastodon"
-    },
-    {
       "platform": "youtube",
       "platformLabel": "YouTube",
       "handle": "@therealjimbbq",
@@ -105,54 +153,6 @@
       "publishedAt": "2026-10-22T06:55:53-06:00",
       "text": "Sixty-four percent of hospital patients on high-dose steroids hit a blood sugar of 200 or higher. Prednisone is a stronger, man-made version of cortisol, your own stress hormone. One of cortisol's jobs is to tell your\u2026",
       "url": "https://www.youtube.com/shorts/GmIROsvwi-Q",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-ezLLyAtUej7XWSdiXKfyEx",
-      "publishedAt": "2026-10-21T21:03:22.752000-06:00",
-      "text": "Sixty-four percent. That's how many hospital patients on high-dose steroids hit a blood sugar of 200 or higher in a University of Pittsburgh study. Prednisone is a stronger, man-made version of cortisol, your own\u2026",
-      "url": "https://tilvids.com/videos/watch/6dfdefba-9a9d-49bf-b16e-16ffb7c494bb",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-kebdqQNeXomD52uwPWDtEh",
-      "publishedAt": "2026-10-21T15:24:34.774000-06:00",
-      "text": "Tiger Woods took golf seriously from the time he was a little kid. Michael Jordan found his stride later. Two very different starts, and the same thing underneath both of them: commitment. Your health works the same\u2026",
-      "url": "https://tilvids.com/videos/watch/9bb4992b-c516-4318-8ceb-d07408e16b80",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-0NaLxsTioSQ",
-      "publishedAt": "2026-10-21T06:40:46-06:00",
-      "text": "Your inner ear burns a lot of fuel, so it's sensitive to swings in blood sugar and insulin. Researchers in Egypt followed 60 older adults with metabolic syndrome and constant ringing in their ears. Half walked on a\u2026",
-      "url": "https://www.youtube.com/shorts/0NaLxsTioSQ",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-wjMYqjzUWsQ",
-      "publishedAt": "2026-10-20T07:06:17-06:00",
-      "text": "Researchers in Japan gave 19 people with type 2 diabetes the same lunch on two different days. One day they sat through a dull 40-minute lecture. The next day they watched a 40-minute comedy show. After the lecture\u2026",
-      "url": "https://www.youtube.com/shorts/wjMYqjzUWsQ",
       "source": "youtube-rss"
     },
     {
