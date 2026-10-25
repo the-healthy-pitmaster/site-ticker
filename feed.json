@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:41:40Z",
+  "generatedAt": "2026-10-25T15:52:21Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,102 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117501690604852022",
+      "publishedAt": "2026-10-25T07:05:11.447000-06:00",
+      "text": "I keep seeing people tape their mouths shut to stop snoring. But loud snoring can be a sign of sleep apnea, and tape won't fix that.In a study of 2,656 adults, people whose breathing stalled 15 or more times an hour\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117501690604852022",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-6zO55mh9Y5w",
+      "publishedAt": "2026-10-25T06:55:58-06:00",
+      "text": "Mouth taping might quiet your snoring, but it doesn't treat sleep apnea, and untreated sleep apnea is tied to higher fasting blood sugar. Every time your breathing stalls at night your body takes a stress hit, and over\u2026",
+      "url": "https://www.youtube.com/shorts/6zO55mh9Y5w",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-DQW2mpaHVY4",
+      "publishedAt": "2026-10-24T20:00:04-06:00",
+      "text": "REPLAY: The Feel Great System \u2014 Live with Dr. Tiffany & Jim - 24-12-04",
+      "url": "https://www.youtube.com/watch?v=DQW2mpaHVY4",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117498123839515764",
+      "publishedAt": "2026-10-24T15:58:07.013000-06:00",
+      "text": "October is breast cancer awareness month, so this one from my back catalog feels right. A recent study on triple negative breast cancer, one of the most aggressive kinds, found matcha shrank tumors and slowed the\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117498123839515764",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-1AEXQhhJX8ck3QdAxRHevb",
+      "publishedAt": "2026-10-24T15:30:52.431000-06:00",
+      "text": "Everybody is talking about GLP-1 right now because of drugs like Ozempic and Wegovy. They work for a lot of people, but they can come with side effects, especially stomach trouble. Chlorogenic acid is a compound you\u2026",
+      "url": "https://tilvids.com/videos/watch/04d74cbc-97a4-4e66-8af2-ba74b9dccac8",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117497487082552806",
+      "publishedAt": "2026-10-24T13:16:10.766000-06:00",
+      "text": "RE: https://flipboard.com/@womenshealth/fitness-50mcvr3iz/-/a-7mXkvoQxS8qHu73c9_upRw%3Aa%3A3195376-%2F0If blood sugar is what you care about, the best time is right after you eat. Your muscles pull glucose out of the\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117497487082552806",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117497477806002190",
+      "publishedAt": "2026-10-24T13:13:49.217000-06:00",
+      "text": "RE: https://flipboard.com/@verywell/all-stories-vm3qt2d8z/-/a-wkEc86BERtO_CKP6vFGn_g%3Aa%3A1722411086-%2F0Dried fruit catches a lot of people off guard. Take the water out and a small handful can carry the sugar of\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117497477806002190",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-jZPD5ULHwaXNob5ekCVGLb",
+      "publishedAt": "2026-10-24T12:55:18.920000-06:00",
+      "text": "Mouth taping went viral as a sleep hack, but the research behind it is still small. A recent review of ten studies found a clear benefit in only two. Loud snoring can be a sign of obstructive sleep apnea, where\u2026",
+      "url": "https://tilvids.com/videos/watch/99d73fe4-f527-4b06-8fdd-b7c17a98344a",
+      "source": "tilvids"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -24,18 +120,6 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117496008563330750",
-      "publishedAt": "2026-10-24T07:00:10.434000-06:00",
-      "text": "Your hairline might flag high insulin before your glucose test does.Finnish researchers found men balding before 35 were more likely to have high insulin, belly fat and high blood pressure. In 324 women, high fasting\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117496008563330750",
-      "source": "mastodon"
-    },
-    {
       "platform": "youtube",
       "platformLabel": "YouTube",
       "handle": "@therealjimbbq",
@@ -46,18 +130,6 @@
       "text": "Male pattern baldness before 35 showed up alongside high insulin, belly fat, high blood pressure and bad cholesterol in Finnish research. Women with high fasting insulin were about 65% more likely to have real hair\u2026",
       "url": "https://www.youtube.com/shorts/oFYDJ770INk",
       "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117492513570484945",
-      "publishedAt": "2026-10-23T16:11:21.027000-06:00",
-      "text": "Cutting sleep short can make your body worse at handling sugar. A 2022 review in Sleep Medicine Reviews pulled together randomized trials where people had their sleep cut on purpose. Their insulin sensitivity went\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117492513570484945",
-      "source": "mastodon"
     },
     {
       "platform": "tilvids",
@@ -82,78 +154,6 @@
       "text": "Pattern hair loss (androgenetic alopecia) is usually blamed on genes alone. Two studies out of Finland suggest blood sugar hormones may be part of the picture too. Men who started balding before age 35 were more likely\u2026",
       "url": "https://tilvids.com/videos/watch/99434815-48fe-478a-8b25-b2a906df27a3",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117490306343748596",
-      "publishedAt": "2026-10-23T06:50:01.491000-06:00",
-      "text": "Skin tags get treated as a cosmetic nuisance. One dermatology study says they deserve a second look.People with skin tags: 23% had diabetes. People without: 8.5%.The likely link is high insulin, a growth signal for\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117490306343748596",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-R7CapJTX5aU",
-      "publishedAt": "2026-10-23T06:46:00-06:00",
-      "text": "Skin tags on your neck, underarms or chest can be an early outside sign of insulin resistance and high blood sugar. In one dermatology study, people with skin tags had diabetes almost three times as often as people\u2026",
-      "url": "https://www.youtube.com/shorts/R7CapJTX5aU",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117487515714854347",
-      "publishedAt": "2026-10-22T19:00:19.849000-06:00",
-      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117487515714854347",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-jBnUnPc7Px2vvYRmB8tVw7",
-      "publishedAt": "2026-10-22T18:10:36.769000-06:00",
-      "text": "Are skin tags a sign of diabetes? In 92 seconds you'll learn: - Why skin tags show up on the neck, underarms and bra line - How skin tags and insulin resistance are linked - Why more tags tracked with higher fasting\u2026",
-      "url": "https://tilvids.com/videos/watch/96b506ab-91aa-49e4-bacb-fcefcbfee74e",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-g46x9BGrwwGFPKeCCV6eoe",
-      "publishedAt": "2026-10-22T15:23:19.691000-06:00",
-      "text": "A tablespoon or two of apple cider vinegar with a meal has been studied for years, and the results keep pointing the same direction. In several small trials, people who took vinegar with a carb-heavy meal had a smaller\u2026",
-      "url": "https://tilvids.com/videos/watch/79e7b939-8bfc-4d6e-96c3-10c787d887f5",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-GmIROsvwi-Q",
-      "publishedAt": "2026-10-22T06:55:53-06:00",
-      "text": "Sixty-four percent of hospital patients on high-dose steroids hit a blood sugar of 200 or higher. Prednisone is a stronger, man-made version of cortisol, your own stress hormone. One of cortisol's jobs is to tell your\u2026",
-      "url": "https://www.youtube.com/shorts/GmIROsvwi-Q",
-      "source": "youtube-rss"
     },
     {
       "platform": "instagram",
