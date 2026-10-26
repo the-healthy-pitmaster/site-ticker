@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:52:21Z",
+  "generatedAt": "2026-10-26T18:32:33Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,90 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt--EUBWyTdE-8",
+      "publishedAt": "2026-10-26T09:41:17-06:00",
+      "text": "A cholesterol test can come back looking fine while your fasting insulin never gets checked at all, and that gap matters for heart disease. High insulin is one of the earliest signs of insulin resistance, and it can\u2026",
+      "url": "https://www.youtube.com/shorts/-EUBWyTdE-8",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117507393719571602",
+      "publishedAt": "2026-10-26T07:15:34.130000-06:00",
+      "text": "Most of us get our cholesterol checked every year, but I can't remember the last time anyone offered to check my fasting insulin.In 1996, Quebec researchers followed men without diabetes for five years, and 114 of them\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117507393719571602",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117504267990343187",
+      "publishedAt": "2026-10-25T18:00:39.362000-06:00",
+      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117504267990343187",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117503719537097826",
+      "publishedAt": "2026-10-25T15:41:10.528000-06:00",
+      "text": "In 1957 the American Medical Association put out a guide on losing weight. It told people to eat plenty of protein and fat and to cut way back on carbs.Twenty years later the official advice flipped to low fat and lots\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117503719537097826",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-eErp6NjQgcTUayarxzaCXz",
+      "publishedAt": "2026-10-25T15:30:06.334000-06:00",
+      "text": "Wilhelm Ebstein was a German doctor born in 1836, and most people only know his name from a rare heart defect called Ebstein's anomaly. What he wrote about food is the part I find really interesting. In 1882 he\u2026",
+      "url": "https://tilvids.com/videos/watch/6ea4b7d4-4dc8-4164-8983-0796ba6ffb3f",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-DQW2mpaHVY4",
+      "publishedAt": "2026-10-25T10:54:50-06:00",
+      "text": "REPLAY: The Feel Great System \u2014 Live with Dr. Tiffany & Jim - 24-12-04",
+      "url": "https://www.youtube.com/watch?v=DQW2mpaHVY4",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-4PeRE2xBvbyPxhWUqXuVHe",
+      "publishedAt": "2026-10-25T08:45:49.961000-06:00",
+      "text": "A cholesterol panel can come back looking great while your insulin has been running high for years, and most routine checkups never look at it. In a 1996 study in the New England Journal of Medicine, researchers\u2026",
+      "url": "https://tilvids.com/videos/watch/1ee3e98d-708a-4873-a1d9-de247f08019b",
+      "source": "tilvids"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
@@ -36,30 +120,6 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-DQW2mpaHVY4",
-      "publishedAt": "2026-10-24T20:00:04-06:00",
-      "text": "REPLAY: The Feel Great System \u2014 Live with Dr. Tiffany & Jim - 24-12-04",
-      "url": "https://www.youtube.com/watch?v=DQW2mpaHVY4",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117498123839515764",
-      "publishedAt": "2026-10-24T15:58:07.013000-06:00",
-      "text": "October is breast cancer awareness month, so this one from my back catalog feels right. A recent study on triple negative breast cancer, one of the most aggressive kinds, found matcha shrank tumors and slowed the\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117498123839515764",
-      "source": "mastodon"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -70,30 +130,6 @@
       "text": "Everybody is talking about GLP-1 right now because of drugs like Ozempic and Wegovy. They work for a lot of people, but they can come with side effects, especially stomach trouble. Chlorogenic acid is a compound you\u2026",
       "url": "https://tilvids.com/videos/watch/04d74cbc-97a4-4e66-8af2-ba74b9dccac8",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117497487082552806",
-      "publishedAt": "2026-10-24T13:16:10.766000-06:00",
-      "text": "RE: https://flipboard.com/@womenshealth/fitness-50mcvr3iz/-/a-7mXkvoQxS8qHu73c9_upRw%3Aa%3A3195376-%2F0If blood sugar is what you care about, the best time is right after you eat. Your muscles pull glucose out of the\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117497487082552806",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117497477806002190",
-      "publishedAt": "2026-10-24T13:13:49.217000-06:00",
-      "text": "RE: https://flipboard.com/@verywell/all-stories-vm3qt2d8z/-/a-wkEc86BERtO_CKP6vFGn_g%3Aa%3A1722411086-%2F0Dried fruit catches a lot of people off guard. Take the water out and a small handful can carry the sugar of\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117497477806002190",
-      "source": "mastodon"
     },
     {
       "platform": "tilvids",
@@ -118,42 +154,6 @@
       "text": "Replay of a Feel Great System live session with Dr. Tiffany and Jim Grasser, The Healthy Pitmaster. #FeelGreatSystem #MetabolicHealth #BloodSugar",
       "url": "https://www.youtube.com/watch?v=MYrqPfvW5xk",
       "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-oFYDJ770INk",
-      "publishedAt": "2026-10-24T06:55:46-06:00",
-      "text": "Male pattern baldness before 35 showed up alongside high insulin, belly fat, high blood pressure and bad cholesterol in Finnish research. Women with high fasting insulin were about 65% more likely to have real hair\u2026",
-      "url": "https://www.youtube.com/shorts/oFYDJ770INk",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-pJyfEhFypj8nsMYBrL6GqN",
-      "publishedAt": "2026-10-23T15:29:17.022000-06:00",
-      "text": "Coffee is one of the most heavily sprayed crops in the world, and those chemicals don't always stay on the farm. Researchers in the Dominican Republic compared coffee farm workers who were exposed to pesticides with\u2026",
-      "url": "https://tilvids.com/videos/watch/c0334dd2-479e-4fee-a98d-4c940a96b526",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-jVFxbkK5YXuiVHBPKavHP2",
-      "publishedAt": "2026-10-23T08:57:53.649000-06:00",
-      "text": "Pattern hair loss (androgenetic alopecia) is usually blamed on genes alone. Two studies out of Finland suggest blood sugar hormones may be part of the picture too. Men who started balding before age 35 were more likely\u2026",
-      "url": "https://tilvids.com/videos/watch/99434815-48fe-478a-8b25-b2a906df27a3",
-      "source": "tilvids"
     },
     {
       "platform": "instagram",
