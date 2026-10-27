@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T18:32:33Z",
+  "generatedAt": "2026-10-27T17:47:53Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,78 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-6uGYgNgd1jQ",
+      "publishedAt": "2026-10-27T09:36:14-06:00",
+      "text": "Boy kibble, the ground beef and white rice bowl all over your feed, is half right. The beef gives you protein that keeps you full, but eating a big pile of white rice at most meals is tied to a higher risk of type 2\u2026",
+      "url": "https://www.youtube.com/shorts/6uGYgNgd1jQ",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117512955639591051",
+      "publishedAt": "2026-10-27T06:50:02.258000-06:00",
+      "text": "There's a trend where guys dump a pound of ground beef on white rice and eat that same bowl for most meals. I think they're half right, because the beef is doing good work.The rice is the part I'd change. A 2012 BMJ\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117512955639591051",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117509928437051015",
+      "publishedAt": "2026-10-26T18:00:10.831000-06:00",
+      "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117509928437051015",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117509405708569300",
+      "publishedAt": "2026-10-26T15:47:14.621000-06:00",
+      "text": "Good news for the black coffee crowd on a Monday. Plain coffee is loaded with chlorogenic acid. A randomized trial in the Journal of Medicinal Food (Zu\u00f1iga, 2018) found it improved insulin sensitivity in people with\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117509405708569300",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-pmUExzrdiHwTV7dja9qgTZ",
+      "publishedAt": "2026-10-26T15:23:43.011000-06:00",
+      "text": "When your body stops responding well to insulin, it makes more of it to keep your blood sugar in check. That extra insulin also tells your body to store fat, and your liver is one of the first places it ends up. Over\u2026",
+      "url": "https://tilvids.com/videos/watch/bd2d8530-3e91-4c8a-9195-2769022c5243",
+      "source": "tilvids"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-94rmVizrAJdNyt6VXo39V5",
+      "publishedAt": "2026-10-26T14:42:29.867000-06:00",
+      "text": "The boy kibble trend is simple: cook a pound of ground beef, pile it on white rice and eat that same bowl for most of your meals. I like the beef part a lot, because it's real food with plenty of protein, but the rice\u2026",
+      "url": "https://tilvids.com/videos/watch/4143f83b-9fc1-4c49-b4ea-906a860440f6",
+      "source": "tilvids"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -33,30 +105,6 @@
       "publishedAt": "2026-10-26T07:15:34.130000-06:00",
       "text": "Most of us get our cholesterol checked every year, but I can't remember the last time anyone offered to check my fasting insulin.In 1996, Quebec researchers followed men without diabetes for five years, and 114 of them\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117507393719571602",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117504267990343187",
-      "publishedAt": "2026-10-25T18:00:39.362000-06:00",
-      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117504267990343187",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117503719537097826",
-      "publishedAt": "2026-10-25T15:41:10.528000-06:00",
-      "text": "In 1957 the American Medical Association put out a guide on losing weight. It told people to eat plenty of protein and fat and to cut way back on carbs.Twenty years later the official advice flipped to low fat and lots\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117503719537097826",
       "source": "mastodon"
     },
     {
@@ -96,18 +144,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117501690604852022",
-      "publishedAt": "2026-10-25T07:05:11.447000-06:00",
-      "text": "I keep seeing people tape their mouths shut to stop snoring. But loud snoring can be a sign of sleep apnea, and tape won't fix that.In a study of 2,656 adults, people whose breathing stalled 15 or more times an hour\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117501690604852022",
-      "source": "mastodon"
-    },
-    {
       "platform": "youtube",
       "platformLabel": "YouTube",
       "handle": "@therealjimbbq",
@@ -117,42 +153,6 @@
       "publishedAt": "2026-10-25T06:55:58-06:00",
       "text": "Mouth taping might quiet your snoring, but it doesn't treat sleep apnea, and untreated sleep apnea is tied to higher fasting blood sugar. Every time your breathing stalls at night your body takes a stress hit, and over\u2026",
       "url": "https://www.youtube.com/shorts/6zO55mh9Y5w",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-1AEXQhhJX8ck3QdAxRHevb",
-      "publishedAt": "2026-10-24T15:30:52.431000-06:00",
-      "text": "Everybody is talking about GLP-1 right now because of drugs like Ozempic and Wegovy. They work for a lot of people, but they can come with side effects, especially stomach trouble. Chlorogenic acid is a compound you\u2026",
-      "url": "https://tilvids.com/videos/watch/04d74cbc-97a4-4e66-8af2-ba74b9dccac8",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-jZPD5ULHwaXNob5ekCVGLb",
-      "publishedAt": "2026-10-24T12:55:18.920000-06:00",
-      "text": "Mouth taping went viral as a sleep hack, but the research behind it is still small. A recent review of ten studies found a clear benefit in only two. Loud snoring can be a sign of obstructive sleep apnea, where\u2026",
-      "url": "https://tilvids.com/videos/watch/99d73fe4-f527-4b06-8fdd-b7c17a98344a",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-MYrqPfvW5xk",
-      "publishedAt": "2026-10-24T09:35:02-06:00",
-      "text": "Replay of a Feel Great System live session with Dr. Tiffany and Jim Grasser, The Healthy Pitmaster. #FeelGreatSystem #MetabolicHealth #BloodSugar",
-      "url": "https://www.youtube.com/watch?v=MYrqPfvW5xk",
       "source": "youtube-rss"
     },
     {
