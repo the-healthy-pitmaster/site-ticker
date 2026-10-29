@@ -1,26 +1,110 @@
 {
-  "generatedAt": "2026-10-28T18:12:07Z",
+  "generatedAt": "2026-10-29T18:18:02Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
   "displayFormat": "{platformLabel} {displayName} {handle} \u2014 {text}",
   "example": "X The Healthy Pitmaster @therealjimbbq \u2014 Liver post",
   "notes": [
-    "Refreshed by scripts/build_feed.py. Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 12 Metricool items from existing feed within 14d.",
+    "Refreshed by scripts/build_feed.py. Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 7 Metricool items from existing feed within 14d.",
     "Always includes Mastodon public API + YouTube RSS + TILvids.",
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-e8M9DWF2Pig",
+      "publishedAt": "2026-10-29T11:37:35-06:00",
+      "text": "If your doctor says everything looks fine but you know something's off, this one is for you. The Two Sista' Docs explain which numbers often don't get checked, like fasting insulin and inflammation markers, and the\u2026",
+      "url": "https://www.youtube.com/watch?v=e8M9DWF2Pig",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-BwTIX3xFtNg",
+      "publishedAt": "2026-10-29T10:00:04-06:00",
+      "text": "Why are so many of us tired, hungry, and sick all the time? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, explains the science in plain English: how insulin runs your body's\u2026",
+      "url": "https://www.youtube.com/watch?v=BwTIX3xFtNg",
+      "source": "youtube-rss"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
       "handle": "@therealjimbbq@mastodon.social",
       "profileUrl": "https://mastodon.social/@therealjimbbq",
       "displayName": "The Healthy Pitmaster",
-      "id": "masto-117519354450950769",
-      "publishedAt": "2026-10-28T09:57:20.332000-06:00",
-      "text": "RE: https://flipboard.com/@lowcarbnocarb/life-interests-idbp5rsgz/-/a-bW5VXBKeRzOrfhP6ZiWIwA%3Aa%3A2596107385-%2F0Protecting your brain after 50 has a lot more to do with blood sugar than most people realize. The brain\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117519354450950769",
+      "id": "masto-117524996866138690",
+      "publishedAt": "2026-10-29T09:52:16.753000-06:00",
+      "text": "RE: https://www.threads.com/@beemoneysavvy/post/De9VAQeDBIDThis is so true. People hear self-employed and picture free time, when really it means you decide when the work gets done, not whether it does. The hours just\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117524996866138690",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117524932034315161",
+      "publishedAt": "2026-10-29T09:35:47.497000-06:00",
+      "text": "RE: https://lgbtqia.space/@aceofcosmicspace/117518598641583762That feeling of having the words right there and your brain just refusing is so frustrating. One thing that can make brain fog worse is blood sugar swinging\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117524932034315161",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117524379045624664",
+      "publishedAt": "2026-10-29T07:15:09.601000-06:00",
+      "text": "Lymphatic walking is all over TikTok right now, but the muscle I'd pay attention to is the soleus, a flat one deep in your calf.In a 2022 University of Houston study, people did seated calf raises, heel up and heel\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117524379045624664",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt--hYF6gK_x0g",
+      "publishedAt": "2026-10-29T06:51:17-06:00",
+      "text": "Seated calf raises can lower your blood sugar after a meal, and the muscle doing the work is the soleus, a flat muscle deep in your calf. Lymphatic walking is all over TikTok right now, with arm swings and chest\u2026",
+      "url": "https://www.youtube.com/shorts/-hYF6gK_x0g",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-iqmnggYEq74hAv1yau4Dhq",
+      "publishedAt": "2026-10-28T21:25:33.648000-06:00",
+      "text": "Lymphatic walking is all over TikTok right now, with people swinging their arms and tapping their chest, and one science writer tried it for a month and mostly felt silly. The muscle that actually matters for your\u2026",
+      "url": "https://tilvids.com/videos/watch/8d11c252-59e0-4e34-bc87-ee86ec5b79c4",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117521488810328085",
+      "publishedAt": "2026-10-28T19:00:08.199000-06:00",
+      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117521488810328085",
       "source": "mastodon"
     },
     {
@@ -36,30 +120,6 @@
       "source": "youtube-rss"
     },
     {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117518677802807700",
-      "publishedAt": "2026-10-28T07:05:15.507000-06:00",
-      "text": "If your raise felt smaller this year, your health insurance may be why. KFF's new survey found workers now pay $7,471 a year toward family coverage, up 9% from last year, while wages rose 3.7%. At small companies it's\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117518677802807700",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-LL-ZamQwTLI",
-      "publishedAt": "2026-10-28T06:46:06-06:00",
-      "text": "Health insurance costs in 2026 went up faster than paychecks did. Workers now pay about $7,471 a year toward family coverage, while wages only rose about 3.7 percent, so a lot of people got a raise and still ended up\u2026",
-      "url": "https://www.youtube.com/shorts/LL-ZamQwTLI",
-      "source": "youtube-rss"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -70,42 +130,6 @@
       "text": "A new KFF survey of almost 2,000 employers found that workers now pay $7,471 a year toward family health coverage, which is up 9% from last year. Wages only went up 3.7%, so for a lot of families the premium hike\u2026",
       "url": "https://tilvids.com/videos/watch/6d52af2d-24a0-4273-b298-b3d1b104a0af",
       "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-OI-IccqGVxs",
-      "publishedAt": "2026-10-27T20:29:02-06:00",
-      "text": "If your doctor says everything looks fine but you know something's off, this one is for you. The Two Sista' Docs explain which numbers often don't get checked, like fasting insulin and inflammation markers, and the\u2026",
-      "url": "https://www.youtube.com/watch?v=OI-IccqGVxs",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117515826312673936",
-      "publishedAt": "2026-10-27T19:00:05.268000-06:00",
-      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117515826312673936",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117515134357439636",
-      "publishedAt": "2026-10-27T16:04:06.853000-06:00",
-      "text": "If you live with psoriasis, this one is worth a minute. Research keeps finding that people with insulin resistance are more likely to have psoriasis, and systematic reviews tie metabolic syndrome to it too. The common\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117515134357439636",
-      "source": "mastodon"
     },
     {
       "platform": "tilvids",
@@ -120,18 +144,6 @@
       "source": "tilvids"
     },
     {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-6uGYgNgd1jQ",
-      "publishedAt": "2026-10-27T09:36:14-06:00",
-      "text": "Boy kibble, the ground beef and white rice bowl all over your feed, is half right. The beef gives you protein that keeps you full, but eating a big pile of white rice at most meals is tied to a higher risk of type 2\u2026",
-      "url": "https://www.youtube.com/shorts/6uGYgNgd1jQ",
-      "source": "youtube-rss"
-    },
-    {
       "platform": "tilvids",
       "platformLabel": "TILvids",
       "handle": "@therealjimbbq",
@@ -141,18 +153,6 @@
       "publishedAt": "2026-10-26T15:23:43.011000-06:00",
       "text": "When your body stops responding well to insulin, it makes more of it to keep your blood sugar in check. That extra insulin also tells your body to store fat, and your liver is one of the first places it ends up. Over\u2026",
       "url": "https://tilvids.com/videos/watch/bd2d8530-3e91-4c8a-9195-2769022c5243",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-94rmVizrAJdNyt6VXo39V5",
-      "publishedAt": "2026-10-26T14:42:29.867000-06:00",
-      "text": "The boy kibble trend is simple: cook a pound of ground beef, pile it on white rice and eat that same bowl for most of your meals. I like the beef part a lot, because it's real food with plenty of protein, but the rice\u2026",
-      "url": "https://tilvids.com/videos/watch/4143f83b-9fc1-4c49-b4ea-906a860440f6",
       "source": "tilvids"
     },
     {
@@ -237,66 +237,6 @@
       "publishedAt": "2026-10-15T13:04:21-06:00",
       "text": "Jumbo shrimp cooked in butter with garlic, lemon and a pinch of chili flake, over broccoli toasted in the same skillet. One pan, 9 ingredients, about 6 g net carbs and 26 g of protein a serving. https://t.co/snKe6LKDXh\u2026",
       "url": "https://x.com/therealjimbbq/status/2110809019107496326",
-      "source": "metricool"
-    },
-    {
-      "platform": "facebook",
-      "platformLabel": "Facebook",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.facebook.com/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "facebook-106169732453592_3500614993466908",
-      "publishedAt": "2026-10-15T09:59:24-06:00",
-      "text": "Listen to Dr. Dieter, MD (Reclaim Your Health) explain how this amazing system works!",
-      "url": "https://facebook.com/415051734907933/posts/3500614993466908",
-      "source": "metricool"
-    },
-    {
-      "platform": "x",
-      "platformLabel": "X",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://x.com/therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "x-2110749068980875599",
-      "publishedAt": "2026-10-15T09:06:08-06:00",
-      "text": "A calf raise you do sitting in a chair cut the blood sugar rise after a meal by 52%, with 60% less extra insulin. That's from Marc Hamilton's lab at the University of Houston. https://t.co/3L4iT4cjGM",
-      "url": "https://x.com/therealjimbbq/status/2110749068980875599",
-      "source": "metricool"
-    },
-    {
-      "platform": "threads",
-      "platformLabel": "Threads",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.threads.com/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "threads-17897413650612537",
-      "publishedAt": "2026-10-15T07:05:13-06:00",
-      "text": "That heavy, foggy crash after a big lunch isn't a character flaw. A big study in Diabetes tested people with the gold standard insulin test. A BMI over about 28.9 flagged insulin resistance in most of them. After a\u2026",
-      "url": "https://www.threads.com/@therealjimbbq/post/DehBaAAgeOx",
-      "source": "metricool"
-    },
-    {
-      "platform": "pinterest",
-      "platformLabel": "Pinterest",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.pinterest.com/therealjimbbq/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "pinterest-1144547692837534792",
-      "publishedAt": "2026-10-15T07:03:43-06:00",
-      "text": "Tired After Lunch? It Might Be Your Insulin",
-      "url": "https://thehealthypitmaster.com/",
-      "source": "metricool"
-    },
-    {
-      "platform": "instagram",
-      "platformLabel": "Instagram",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.instagram.com/therealjimbbq/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "instagram-4008128064798019400_57707921897",
-      "publishedAt": "2026-10-14T19:02:04-06:00",
-      "text": "Lonely people got type 2 more often. Researchers in England followed about 4,100 older adults who didn't have diabetes. Over about 12 years, the ones who said they felt lonely were about 46% more likely to develop type\u2026",
-      "url": "https://www.instagram.com/p/Defuz0sj09I/",
       "source": "metricool"
     }
   ]
