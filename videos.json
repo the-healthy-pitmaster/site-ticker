@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T18:18:11Z",
+  "generatedAt": "2026-10-30T17:53:41Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -12,18 +12,18 @@
       "thumbUrl": "https://i2.ytimg.com/vi/-hYF6gK_x0g/hqdefault.jpg",
       "previewUrl": "",
       "publishedAt": "2026-10-29T12:51:17+00:00",
-      "fallback": false
+      "fallback": true
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Skip the lymphatic walking. Your calf muscle does the real work",
-      "url": "https://peertube.wtf/w/a1ZggqhhuC7AgGu6QNwPLQ",
-      "embedUrl": "https://peertube.wtf/videos/embed/a1ZggqhhuC7AgGu6QNwPLQ",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/a2e16453-de61-440a-8876-2bfc0e861cbc.jpg",
+      "title": "Theobromine in yerba mate: what it did for waist size and HDL",
+      "url": "https://peertube.wtf/w/3ufGgSgXwf2jVHXuPUSMpx",
+      "embedUrl": "https://peertube.wtf/videos/embed/3ufGgSgXwf2jVHXuPUSMpx",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/89ad13cb-c21f-40a9-9324-dbca5b0db424.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-29T03:46:03.778Z",
+      "publishedAt": "2026-10-29T21:28:06.302Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

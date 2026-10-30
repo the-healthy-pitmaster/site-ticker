@@ -1,16 +1,100 @@
 {
-  "generatedAt": "2026-10-29T18:18:02Z",
+  "generatedAt": "2026-10-30T17:53:35Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
   "displayFormat": "{platformLabel} {displayName} {handle} \u2014 {text}",
   "example": "X The Healthy Pitmaster @therealjimbbq \u2014 Liver post",
   "notes": [
-    "Refreshed by scripts/build_feed.py. Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 7 Metricool items from existing feed within 14d.",
+    "Refreshed by scripts/build_feed.py. Metricool returned no posts (or no METRICOOL_USER_TOKEN/METRICOOL_USER_ID); preserved 0 Metricool items from existing feed within 14d.",
     "Always includes Mastodon public API + YouTube RSS + TILvids.",
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117529916760462010",
+      "publishedAt": "2026-10-30T06:43:28.450000-06:00",
+      "text": "Your morning coffee might come with more than caffeine. A lot of conventional coffee is grown with heavy pesticide use.A study out of the Dominican Republic found coffee farm workers exposed to pesticides had\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117529916760462010",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-7Z2QSjkwBJz39EJCcF8RAS",
+      "publishedAt": "2026-10-30T06:23:54.750000-06:00",
+      "text": "People mix up ketosis and ketoacidosis all the time, so I wanted to clear it up. Ketosis is a natural, safe state where your body burns fat for fuel instead of carbs. It happens when your insulin comes down, like it\u2026",
+      "url": "https://tilvids.com/videos/watch/388d5cc3-78de-4105-ae0c-18537a780e32",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-BwTIX3xFtNg",
+      "publishedAt": "2026-10-29T23:50:37-06:00",
+      "text": "Why are so many of us tired, hungry, and sick all the time? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, explains the science in plain English: how insulin runs your body's\u2026",
+      "url": "https://www.youtube.com/watch?v=BwTIX3xFtNg",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117527150696152869",
+      "publishedAt": "2026-10-29T19:00:01.598000-06:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117527150696152869",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-l2H3MTnQAO0",
+      "publishedAt": "2026-10-29T18:01:46-06:00",
+      "text": "Llamada de ciencia en espa\u00f1ol con Pao Tovar sobre el Feel Great System: fibra, insulina y salud metab\u00f3lica. / Spanish-language science call with Pao Tovar on the Feel Great System: fiber, insulin and metabolic health.\u2026",
+      "url": "https://www.youtube.com/watch?v=l2H3MTnQAO0",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117526499209693626",
+      "publishedAt": "2026-10-29T16:14:20.746000-06:00",
+      "text": "Clean water and sewers did more for how long we live than almost anything in medicine. They beat back the infections that used to take people young.Now the thing wearing us down is on our plates. Refined carbs like\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117526499209693626",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-eMSVC5UY1c77Cq4UQgadUM",
+      "publishedAt": "2026-10-29T15:28:17.299000-06:00",
+      "text": "Metabolic syndrome affects millions of people, and it pushes up the risk of both heart disease and type 2 diabetes. Theobromine is a natural compound related to caffeine, and you'll find it in yerba mate and in cacao.\u2026",
+      "url": "https://tilvids.com/videos/watch/6faea7d4-1bc4-4de8-a957-c936b700237d",
+      "source": "tilvids"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -21,18 +105,6 @@
       "publishedAt": "2026-10-29T11:37:35-06:00",
       "text": "If your doctor says everything looks fine but you know something's off, this one is for you. The Two Sista' Docs explain which numbers often don't get checked, like fasting insulin and inflammation markers, and the\u2026",
       "url": "https://www.youtube.com/watch?v=e8M9DWF2Pig",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-BwTIX3xFtNg",
-      "publishedAt": "2026-10-29T10:00:04-06:00",
-      "text": "Why are so many of us tired, hungry, and sick all the time? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, explains the science in plain English: how insulin runs your body's\u2026",
-      "url": "https://www.youtube.com/watch?v=BwTIX3xFtNg",
       "source": "youtube-rss"
     },
     {
@@ -154,90 +226,6 @@
       "text": "When your body stops responding well to insulin, it makes more of it to keep your blood sugar in check. That extra insulin also tells your body to store fat, and your liver is one of the first places it ends up. Over\u2026",
       "url": "https://tilvids.com/videos/watch/bd2d8530-3e91-4c8a-9195-2769022c5243",
       "source": "tilvids"
-    },
-    {
-      "platform": "instagram",
-      "platformLabel": "Instagram",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.instagram.com/therealjimbbq/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "instagram-4008852919859922219_57707921897",
-      "publishedAt": "2026-10-15T19:02:13-06:00",
-      "text": "Same calories. Same carbs. More insulin. Researchers at Virginia Tech fed 32 adults two meals, on two different days. One was ultra-processed. One was real food. They matched them on calories, carbs, fat, protein\u2026",
-      "url": "https://www.instagram.com/p/DeiTn2lCcUr/",
-      "source": "metricool"
-    },
-    {
-      "platform": "facebook",
-      "platformLabel": "Facebook",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.facebook.com/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "facebook-106169732453592_944882818314241",
-      "publishedAt": "2026-10-15T19:00:22-06:00",
-      "text": "Llamada de ciencia en espa\u00f1ol con Pao Tovar sobre el Feel Great System.",
-      "url": "https://facebook.com/415051734907933/posts/944882818314241",
-      "source": "metricool"
-    },
-    {
-      "platform": "x",
-      "platformLabel": "X",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://x.com/therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "x-2110869493119328726",
-      "publishedAt": "2026-10-15T17:04:39-06:00",
-      "text": "Social Security checks go up 3.6% in January. For the average retiree that's about $75 more a month, from $2,095 to $2,170. It's the biggest raise since 2023. https://t.co/GPjZXEGEgb",
-      "url": "https://x.com/therealjimbbq/status/2110869493119328726",
-      "source": "metricool"
-    },
-    {
-      "platform": "x",
-      "platformLabel": "X",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://x.com/therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "x-2110838965456519309",
-      "publishedAt": "2026-10-15T15:03:21-06:00",
-      "text": "A Florida man ate 6 to 9 pounds of cheese a day, plus sticks of butter, and ended up with cholesterol lumps on his hands and feet. That's not what low carb looks like at my house. Meat, eggs, a pile of green\u2026",
-      "url": "https://x.com/therealjimbbq/status/2110838965456519309",
-      "source": "metricool"
-    },
-    {
-      "platform": "instagram",
-      "platformLabel": "Instagram",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.instagram.com/therealjimbbq/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "instagram-4008732674625606713_57707921897",
-      "publishedAt": "2026-10-15T15:03:19-06:00",
-      "text": "Shrimp and broccoli. One skillet. Broccoli toasted in the pan until the edges get crispy. Then jumbo shrimp in butter with garlic, lemon and a pinch of chili flake. Nine ingredients. Serves 4. Per serving: 275\u2026",
-      "url": "https://www.instagram.com/p/Deh4SDej5Q5/",
-      "source": "metricool"
-    },
-    {
-      "platform": "facebook",
-      "platformLabel": "Facebook",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.facebook.com/",
-      "displayName": "The Healthy Pitmaster",
-      "id": "facebook-106169732453592_1052885437791223",
-      "publishedAt": "2026-10-15T15:03:14-06:00",
-      "text": "One skillet, nine ingredients and dinner for four. I toast the broccoli first until the edges get crispy, then the jumbo shrimp go into butter with garlic, lemon and a pinch of chili flake. Each serving comes in around\u2026",
-      "url": "https://facebook.com/415051734907933/posts/1052885437791223",
-      "source": "metricool"
-    },
-    {
-      "platform": "x",
-      "platformLabel": "X",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://x.com/therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "x-2110809019107496326",
-      "publishedAt": "2026-10-15T13:04:21-06:00",
-      "text": "Jumbo shrimp cooked in butter with garlic, lemon and a pinch of chili flake, over broccoli toasted in the same skillet. One pan, 9 ingredients, about 6 g net carbs and 26 g of protein a serving. https://t.co/snKe6LKDXh\u2026",
-      "url": "https://x.com/therealjimbbq/status/2110809019107496326",
-      "source": "metricool"
     }
   ]
 }
