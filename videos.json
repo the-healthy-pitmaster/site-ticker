@@ -1,29 +1,29 @@
 {
-  "generatedAt": "2026-10-30T17:53:41Z",
+  "generatedAt": "2026-10-31T17:05:38Z",
   "timezone": "America/Denver",
   "spots": [
     {
       "spot": 1,
       "dayOffset": 0,
       "platform": "youtube",
-      "title": "Calf Raises and Blood Sugar: The Soleus Muscle Lymphatic Walking Misses",
-      "url": "https://www.youtube.com/shorts/-hYF6gK_x0g",
-      "embedUrl": "https://www.youtube.com/embed/-hYF6gK_x0g",
-      "thumbUrl": "https://i2.ytimg.com/vi/-hYF6gK_x0g/hqdefault.jpg",
+      "title": "Waking Up to Pee at Night? It Could Be Insulin",
+      "url": "https://www.youtube.com/shorts/EvGjf8hTlak",
+      "embedUrl": "https://www.youtube.com/embed/EvGjf8hTlak",
+      "thumbUrl": "https://i2.ytimg.com/vi/EvGjf8hTlak/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-29T12:51:17+00:00",
-      "fallback": true
+      "publishedAt": "2026-10-31T13:06:13+00:00",
+      "fallback": false
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Theobromine in yerba mate: what it did for waist size and HDL",
-      "url": "https://peertube.wtf/w/3ufGgSgXwf2jVHXuPUSMpx",
-      "embedUrl": "https://peertube.wtf/videos/embed/3ufGgSgXwf2jVHXuPUSMpx",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/89ad13cb-c21f-40a9-9324-dbca5b0db424.jpg",
+      "title": "Waking up at 3 a.m. to pee? Your insulin might be the reason",
+      "url": "https://peertube.wtf/w/fd5359jwsU5iYF8G7CdvJr",
+      "embedUrl": "https://peertube.wtf/videos/embed/fd5359jwsU5iYF8G7CdvJr",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/b3b4dcef-e22d-4d3b-b7bc-e54193c7ce1a.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-29T21:28:06.302Z",
+      "publishedAt": "2026-10-31T05:49:51.143Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

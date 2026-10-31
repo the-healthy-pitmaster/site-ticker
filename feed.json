@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T17:53:35Z",
+  "generatedAt": "2026-10-31T17:05:33Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,90 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-EvGjf8hTlak",
+      "publishedAt": "2026-10-31T07:06:13-06:00",
+      "text": "Waking up to pee at night, which doctors call nocturia, isn't always a bladder problem. A large national health survey covering 2005 to 2020 found that people with more insulin resistance were more likely to be up at\u2026",
+      "url": "https://www.youtube.com/shorts/EvGjf8hTlak",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117535624817239496",
+      "publishedAt": "2026-10-31T06:55:06.571000-06:00",
+      "text": "If you keep waking up at 3 a.m. to pee, your bladder might not be the whole story. A 2024 study of 16,450 American adults found that people with the highest insulin resistance scores had about 45% higher odds of\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117535624817239496",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-xh9oD5yJbG5qfFUhAiNyht",
+      "publishedAt": "2026-10-30T23:49:56.564000-06:00",
+      "text": "If you keep getting up in the middle of the night to use the bathroom, it might not be your bladder at all. Researchers looked at national health survey data from 2005 to 2020 and scored each person's insulin\u2026",
+      "url": "https://tilvids.com/videos/watch/fd4c5e97-eee0-441f-9eaa-c90f2750b1bb",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-P0EWn3dMdZA",
+      "publishedAt": "2026-10-30T15:46:01-06:00",
+      "text": "Dr. Ben Bikman explains why fat cells can't grow without insulin. This is the part I wish I'd understood years ago. It isn't just about calories. When insulin stays high all day, your body is told to store fat and hold\u2026",
+      "url": "https://www.youtube.com/shorts/P0EWn3dMdZA",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117532018953717679",
+      "publishedAt": "2026-10-30T15:38:05.316000-06:00",
+      "text": "Kale gets all the credit, and I'll be honest, it's not my favorite thing to eat. There are easier ways to get more fiber on your plate.Broccoli has about 5 grams of fiber per cooked cup and it's great sauteed in\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117532018953717679",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-n3MjxJAWz2fZipX5Xqj7iX",
+      "publishedAt": "2026-10-30T15:22:35.199000-06:00",
+      "text": "Most people have never heard of beta glucan, but it might be one of the easiest ways to bring your bad cholesterol down. Beta glucan is a soluble fiber. In a clinical trial called the BELT study, published in\u2026",
+      "url": "https://tilvids.com/videos/watch/aa735426-0c1f-4c1f-9241-e60d4b035819",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117531160629045459",
+      "publishedAt": "2026-10-30T11:59:48.322000-06:00",
+      "text": "RE: https://flipboard.com/@yahoofinance/yfinance-66t9sgmmz/-/a-H6Zp33BeRMq_vjR_eHuVXQ%3Aa%3A2621335121-%2F0A lot of people still plan as if their full Social Security check is guaranteed, and this is a good reminder\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117531160629045459",
+      "source": "mastodon"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
@@ -213,18 +297,6 @@
       "publishedAt": "2026-10-27T15:25:21.217000-06:00",
       "text": "Working nights throws off your body's natural clock. That can mess with your hormones, your energy and your mood, and it raises your chances of developing type 2 diabetes. That's a real worry, but you're not stuck. A\u2026",
       "url": "https://tilvids.com/videos/watch/4db433b2-6288-4795-9aed-9ad2c5dc016f",
-      "source": "tilvids"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-pmUExzrdiHwTV7dja9qgTZ",
-      "publishedAt": "2026-10-26T15:23:43.011000-06:00",
-      "text": "When your body stops responding well to insulin, it makes more of it to keep your blood sugar in check. That extra insulin also tells your body to store fat, and your liver is one of the first places it ends up. Over\u2026",
-      "url": "https://tilvids.com/videos/watch/bd2d8530-3e91-4c8a-9195-2769022c5243",
       "source": "tilvids"
     }
   ]
