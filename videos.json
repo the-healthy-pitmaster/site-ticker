@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T17:05:38Z",
+  "generatedAt": "2026-11-01T17:48:54Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -12,18 +12,18 @@
       "thumbUrl": "https://i2.ytimg.com/vi/EvGjf8hTlak/hqdefault.jpg",
       "previewUrl": "",
       "publishedAt": "2026-10-31T13:06:13+00:00",
-      "fallback": false
+      "fallback": true
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Waking up at 3 a.m. to pee? Your insulin might be the reason",
-      "url": "https://peertube.wtf/w/fd5359jwsU5iYF8G7CdvJr",
-      "embedUrl": "https://peertube.wtf/videos/embed/fd5359jwsU5iYF8G7CdvJr",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/b3b4dcef-e22d-4d3b-b7bc-e54193c7ce1a.jpg",
+      "title": "Abscisic acid: the plant hormone that lowered blood sugar and insulin after a meal",
+      "url": "https://peertube.wtf/w/rmCPyybYaMGANsMiHjB25R",
+      "embedUrl": "https://peertube.wtf/videos/embed/rmCPyybYaMGANsMiHjB25R",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/7feff5d5-8391-46ed-92d1-f8d1c7df2f6b.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-31T05:49:51.143Z",
+      "publishedAt": "2026-10-31T21:24:38.111Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
