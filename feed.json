@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:48:48Z",
+  "generatedAt": "2026-11-02T21:35:52Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,78 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-KW2f46FWm7I",
+      "publishedAt": "2026-11-02T09:14:55-07:00",
+      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, looks at what happens when\u2026",
+      "url": "https://www.youtube.com/watch?v=KW2f46FWm7I",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117547279329380318",
+      "publishedAt": "2026-11-02T07:19:00.181000-07:00",
+      "text": "Apple cider vinegar might be doing more than flavoring your salad.A 2021 meta-analysis of randomized trials (Hadi et al., BMC Complementary Medicine and Therapies) found ACV lowered fasting blood sugar, especially when\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117547279329380318",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-hTH1jXKeBAYq4yzunvqgfR",
+      "publishedAt": "2026-11-02T06:31:02.327000-07:00",
+      "text": "Ever heard of gout? Did you know the fix may be simpler than you think? It turns out insulin resistance, the same problem behind type 2 diabetes, plays a big role in gout. When you're insulin resistant, your body keeps\u2026",
+      "url": "https://tilvids.com/videos/watch/88ca6be4-3985-4437-8cae-7b8173e3d4a9",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117544139925341792",
+      "publishedAt": "2026-11-01T18:00:36.678000-07:00",
+      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117544139925341792",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117543717189782738",
+      "publishedAt": "2026-11-01T16:13:06.309000-07:00",
+      "text": "The clocks fell back last night, and a lot of us will feel a little off for a few days. Night shift workers live with that feeling all year. Working against your body clock can throw off your hormones and raise your\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117543717189782738",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-i7UTEo38MnadCgFVskEUX4",
+      "publishedAt": "2026-11-01T15:23:43.896000-07:00",
+      "text": "I get asked all the time which sweeteners I use, so here are my three and why. Stevia comes from the leaves of the stevia plant. It has zero calories and won't spike your blood sugar. I use it in drinks and cooking\u2026",
+      "url": "https://tilvids.com/videos/watch/8aa26a37-21cf-4ada-bf07-0a7497f0e7e9",
+      "source": "tilvids"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -225,78 +297,6 @@
       "publishedAt": "2026-10-29T15:28:17.299000-06:00",
       "text": "Metabolic syndrome affects millions of people, and it pushes up the risk of both heart disease and type 2 diabetes. Theobromine is a natural compound related to caffeine, and you'll find it in yerba mate and in cacao.\u2026",
       "url": "https://tilvids.com/videos/watch/6faea7d4-1bc4-4de8-a957-c936b700237d",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-e8M9DWF2Pig",
-      "publishedAt": "2026-10-29T11:37:35-06:00",
-      "text": "If your doctor says everything looks fine but you know something's off, this one is for you. The Two Sista' Docs explain which numbers often don't get checked, like fasting insulin and inflammation markers, and the\u2026",
-      "url": "https://www.youtube.com/watch?v=e8M9DWF2Pig",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117524996866138690",
-      "publishedAt": "2026-10-29T09:52:16.753000-06:00",
-      "text": "RE: https://www.threads.com/@beemoneysavvy/post/De9VAQeDBIDThis is so true. People hear self-employed and picture free time, when really it means you decide when the work gets done, not whether it does. The hours just\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117524996866138690",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117524932034315161",
-      "publishedAt": "2026-10-29T09:35:47.497000-06:00",
-      "text": "RE: https://lgbtqia.space/@aceofcosmicspace/117518598641583762That feeling of having the words right there and your brain just refusing is so frustrating. One thing that can make brain fog worse is blood sugar swinging\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117524932034315161",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117524379045624664",
-      "publishedAt": "2026-10-29T07:15:09.601000-06:00",
-      "text": "Lymphatic walking is all over TikTok right now, but the muscle I'd pay attention to is the soleus, a flat one deep in your calf.In a 2022 University of Houston study, people did seated calf raises, heel up and heel\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117524379045624664",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt--hYF6gK_x0g",
-      "publishedAt": "2026-10-29T06:51:17-06:00",
-      "text": "Seated calf raises can lower your blood sugar after a meal, and the muscle doing the work is the soleus, a flat muscle deep in your calf. Lymphatic walking is all over TikTok right now, with arm swings and chest\u2026",
-      "url": "https://www.youtube.com/shorts/-hYF6gK_x0g",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-iqmnggYEq74hAv1yau4Dhq",
-      "publishedAt": "2026-10-28T21:25:33.648000-06:00",
-      "text": "Lymphatic walking is all over TikTok right now, with people swinging their arms and tapping their chest, and one science writer tried it for a month and mostly felt silly. The muscle that actually matters for your\u2026",
-      "url": "https://tilvids.com/videos/watch/8d11c252-59e0-4e34-bc87-ee86ec5b79c4",
       "source": "tilvids"
     }
   ]
