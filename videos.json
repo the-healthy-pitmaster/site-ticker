@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T21:35:58Z",
+  "generatedAt": "2026-11-03T19:19:32Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,12 +18,12 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "3 sweeteners that won't spike your blood sugar, and why I use them",
-      "url": "https://peertube.wtf/w/kmDHiCP7innXZ2KM6nrFZj",
-      "embedUrl": "https://peertube.wtf/videos/embed/kmDHiCP7innXZ2KM6nrFZj",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/57754c84-2f4a-4588-bc30-e0e07c861122.jpg",
+      "title": "Why is your morning blood sugar high? The dawn phenomenon explained",
+      "url": "https://peertube.wtf/w/uPosmJzVVdxr2JpBYPpWCv",
+      "embedUrl": "https://peertube.wtf/videos/embed/uPosmJzVVdxr2JpBYPpWCv",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/60655e94-4c4a-47af-869b-ad1ed5d918ef.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-01T22:23:21.605Z",
+      "publishedAt": "2026-11-02T22:31:39.513Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
