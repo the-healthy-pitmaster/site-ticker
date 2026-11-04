@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:19:32Z",
+  "generatedAt": "2026-11-04T19:36:38Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -17,16 +17,16 @@
     {
       "spot": 2,
       "dayOffset": 1,
-      "platform": "peertube",
-      "title": "Why is your morning blood sugar high? The dawn phenomenon explained",
-      "url": "https://peertube.wtf/w/uPosmJzVVdxr2JpBYPpWCv",
-      "embedUrl": "https://peertube.wtf/videos/embed/uPosmJzVVdxr2JpBYPpWCv",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/60655e94-4c4a-47af-869b-ad1ed5d918ef.jpg",
+      "platform": "tilvids",
+      "title": "When you eat matters: early time-restricted eating and insulin resistance",
+      "url": "https://tilvids.com/videos/watch/b3ff4e1d-00b5-45de-baf7-703466644435",
+      "embedUrl": "https://tilvids.com/videos/embed/oea4FHVSVG8zNPnsQoiR2g",
+      "thumbUrl": "https://tilvids.com/lazy-static/thumbnails/f627283c-ff5a-48b7-b9c4-2413346de00d.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-02T22:31:39.513Z",
+      "publishedAt": "2026-11-03T22:25:50.069Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
-      "source": "peertube"
+      "source": "tilvids-fill"
     },
     {
       "spot": 3,

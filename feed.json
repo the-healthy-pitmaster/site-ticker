@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T19:19:25Z",
+  "generatedAt": "2026-11-04T19:36:26Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,90 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-TG89yYLGQh0",
+      "publishedAt": "2026-11-04T09:18:34-07:00",
+      "text": "What would it take to lose more fat, get more out of your insulin, have more energy, and see better bloodwork? Tonight Trent Tueller walks through the daily protocol behind those results and what the science says about\u2026",
+      "url": "https://www.youtube.com/watch?v=TG89yYLGQh0",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-qUChGc89Jfc",
+      "publishedAt": "2026-11-04T06:58:00-07:00",
+      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
+      "url": "https://www.youtube.com/watch?v=qUChGc89Jfc",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-prZN8mDh82mMEMR9zZfmvp",
+      "publishedAt": "2026-11-04T06:35:52.434000-07:00",
+      "text": "CPAP machines are often associated with better cardiovascular outcomes, but how strong is the evidence? I examined a major randomized trial, a manufacturer-funded meta-analysis, and a lifestyle study that produced a\u2026",
+      "url": "https://tilvids.com/videos/watch/bde366aa-bd88-43a0-badc-4cadfd7d4f59",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117555698353288023",
+      "publishedAt": "2026-11-03T19:00:04.326000-07:00",
+      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117555698353288023",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117555065743947910",
+      "publishedAt": "2026-11-03T16:19:11.512000-07:00",
+      "text": "A lot of people hear \"ketones\" and picture ketoacidosis, a real hospital emergency. They aren't the same thing.Ketosis is what happens when insulin comes down and your body burns fat for fuel. Ketones stay low and\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117555065743947910",
+      "source": "mastodon"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-oea4FHVSVG8zNPnsQoiR2g",
+      "publishedAt": "2026-11-03T15:25:50.069000-07:00",
+      "text": "Timing your meals can be a real tool for reversing insulin resistance. Time-restricted eating isn't just a diet trend. Newer research shows that shifting your eating window earlier in the day lines your meals up with\u2026",
+      "url": "https://tilvids.com/videos/watch/b3ff4e1d-00b5-45de-baf7-703466644435",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117554282691411972",
+      "publishedAt": "2026-11-03T13:00:03.115000-07:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117554282691411972",
+      "source": "mastodon"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -214,90 +298,6 @@
       "text": "Waking up to pee at night, which doctors call nocturia, isn't always a bladder problem. A large national health survey covering 2005 to 2020 found that people with more insulin resistance were more likely to be up at\u2026",
       "url": "https://www.youtube.com/shorts/EvGjf8hTlak",
       "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117535624817239496",
-      "publishedAt": "2026-10-31T06:55:06.571000-06:00",
-      "text": "If you keep waking up at 3 a.m. to pee, your bladder might not be the whole story. A 2024 study of 16,450 American adults found that people with the highest insulin resistance scores had about 45% higher odds of\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117535624817239496",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-xh9oD5yJbG5qfFUhAiNyht",
-      "publishedAt": "2026-10-30T23:49:56.564000-06:00",
-      "text": "If you keep getting up in the middle of the night to use the bathroom, it might not be your bladder at all. Researchers looked at national health survey data from 2005 to 2020 and scored each person's insulin\u2026",
-      "url": "https://tilvids.com/videos/watch/fd4c5e97-eee0-441f-9eaa-c90f2750b1bb",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-P0EWn3dMdZA",
-      "publishedAt": "2026-10-30T15:46:01-06:00",
-      "text": "Dr. Ben Bikman explains why fat cells can't grow without insulin. This is the part I wish I'd understood years ago. It isn't just about calories. When insulin stays high all day, your body is told to store fat and hold\u2026",
-      "url": "https://www.youtube.com/shorts/P0EWn3dMdZA",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117532018953717679",
-      "publishedAt": "2026-10-30T15:38:05.316000-06:00",
-      "text": "Kale gets all the credit, and I'll be honest, it's not my favorite thing to eat. There are easier ways to get more fiber on your plate.Broccoli has about 5 grams of fiber per cooked cup and it's great sauteed in\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117532018953717679",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-n3MjxJAWz2fZipX5Xqj7iX",
-      "publishedAt": "2026-10-30T15:22:35.199000-06:00",
-      "text": "Most people have never heard of beta glucan, but it might be one of the easiest ways to bring your bad cholesterol down. Beta glucan is a soluble fiber. In a clinical trial called the BELT study, published in\u2026",
-      "url": "https://tilvids.com/videos/watch/aa735426-0c1f-4c1f-9241-e60d4b035819",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117531160629045459",
-      "publishedAt": "2026-10-30T11:59:48.322000-06:00",
-      "text": "RE: https://flipboard.com/@yahoofinance/yfinance-66t9sgmmz/-/a-H6Zp33BeRMq_vjR_eHuVXQ%3Aa%3A2621335121-%2F0A lot of people still plan as if their full Social Security check is guaranteed, and this is a good reminder\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117531160629045459",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117529916760462010",
-      "publishedAt": "2026-10-30T06:43:28.450000-06:00",
-      "text": "Your morning coffee might come with more than caffeine. A lot of conventional coffee is grown with heavy pesticide use.A study out of the Dominican Republic found coffee farm workers exposed to pesticides had\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117529916760462010",
-      "source": "mastodon"
     }
   ]
 }
