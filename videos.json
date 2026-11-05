@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T19:36:38Z",
+  "generatedAt": "2026-11-05T19:45:14Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -17,16 +17,16 @@
     {
       "spot": 2,
       "dayOffset": 1,
-      "platform": "tilvids",
+      "platform": "peertube",
       "title": "When you eat matters: early time-restricted eating and insulin resistance",
-      "url": "https://tilvids.com/videos/watch/b3ff4e1d-00b5-45de-baf7-703466644435",
-      "embedUrl": "https://tilvids.com/videos/embed/oea4FHVSVG8zNPnsQoiR2g",
-      "thumbUrl": "https://tilvids.com/lazy-static/thumbnails/f627283c-ff5a-48b7-b9c4-2413346de00d.jpg",
+      "url": "https://peertube.wtf/w/4oV8VEYWAYFmq1hksSFmA3",
+      "embedUrl": "https://peertube.wtf/videos/embed/4oV8VEYWAYFmq1hksSFmA3",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/6501bd38-27fb-4b35-965b-593b42b944c1.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-03T22:25:50.069Z",
-      "fallback": false,
+      "publishedAt": "2026-11-03T22:26:02.677Z",
+      "fallback": true,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
-      "source": "tilvids-fill"
+      "source": "peertube"
     },
     {
       "spot": 3,

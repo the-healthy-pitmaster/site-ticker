@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T19:36:26Z",
+  "generatedAt": "2026-11-05T19:45:06Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,10 +17,10 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-TG89yYLGQh0",
-      "publishedAt": "2026-11-04T09:18:34-07:00",
-      "text": "What would it take to lose more fat, get more out of your insulin, have more energy, and see better bloodwork? Tonight Trent Tueller walks through the daily protocol behind those results and what the science says about\u2026",
-      "url": "https://www.youtube.com/watch?v=TG89yYLGQh0",
+      "id": "yt-qUChGc89Jfc",
+      "publishedAt": "2026-11-05T12:08:05-07:00",
+      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
+      "url": "https://www.youtube.com/watch?v=qUChGc89Jfc",
       "source": "youtube-rss"
     },
     {
@@ -29,10 +29,58 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-qUChGc89Jfc",
-      "publishedAt": "2026-11-04T06:58:00-07:00",
-      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
-      "url": "https://www.youtube.com/watch?v=qUChGc89Jfc",
+      "id": "yt-knTyFXRhPYQ",
+      "publishedAt": "2026-11-05T07:04:06-07:00",
+      "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol la ciencia detr\u00e1s del sistema Feel Great: c\u00f3mo la insulina maneja la energ\u00eda del cuerpo, qu\u00e9 pasa cuando\u2026",
+      "url": "https://www.youtube.com/watch?v=knTyFXRhPYQ",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-pXLjy5RowXMmAWcBnCZ4Zh",
+      "publishedAt": "2026-11-05T06:30:49.015000-07:00",
+      "text": "Metformin can cause B12 deficiency, which is linked to neuropathy. Learn how B12 affects nerve health and how to address the issue. Let's get healthy together. Science, not medical advice. #Health #Nutrition #Science\u2026",
+      "url": "https://tilvids.com/videos/watch/c20b68dd-5a7f-49fa-a9ce-efaea71263ee",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117561361989949935",
+      "publishedAt": "2026-11-04T19:00:24.572000-07:00",
+      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117561361989949935",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117560629100892084",
+      "publishedAt": "2026-11-04T15:54:01.562000-07:00",
+      "text": "Figs make a plant hormone called abscisic acid. Plants use it to handle stress, and it turns out it may help us handle blood sugar too.In a study of healthy adults, a fig extract rich in abscisic acid lowered the blood\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117560629100892084",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-TG89yYLGQh0",
+      "publishedAt": "2026-11-04T09:18:34-07:00",
+      "text": "What would it take to lose more fat, get more out of your insulin, have more energy, and see better bloodwork? Tonight Trent Tueller walks through the daily protocol behind those results and what the science says about\u2026",
+      "url": "https://www.youtube.com/watch?v=TG89yYLGQh0",
       "source": "youtube-rss"
     },
     {
@@ -249,54 +297,6 @@
       "publishedAt": "2026-11-01T07:04:20-07:00",
       "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Nick breaks down how fiber cushions a blood sugar spike, why a smaller spike means less\u2026",
       "url": "https://www.youtube.com/watch?v=3QHm_juv5ls",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-5SSfySrGwpAnvFES1UeESL",
-      "publishedAt": "2026-11-01T06:22:31.250000-07:00",
-      "text": "Most people think chocolate is just candy. 90% dark chocolate is a different animal, and it's one of the few treats I'm happy to keep around. It has a low glycemic index, so a square or two won't send your blood sugar\u2026",
-      "url": "https://tilvids.com/videos/watch/277eb625-a0e3-4010-a35f-70edf85e6ea0",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117537870373919463",
-      "publishedAt": "2026-10-31T16:26:10.918000-06:00",
-      "text": "When your body runs low on sugar and starts burning fat for fuel, it makes molecules called ketones. That happens during fasting, hard exercise or eating very low carb.Your brain can run on ketones when glucose is in\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117537870373919463",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-uH5oTengpKBiVaz4NTZUig",
-      "publishedAt": "2026-10-31T15:25:05.028000-06:00",
-      "text": "I'd never heard of abscisic acid until I came across this research, and now I can't stop thinking about it. Abscisic acid is a hormone plants make to handle stress. It turns out it may help people too. In one study\u2026",
-      "url": "https://tilvids.com/videos/watch/e87c15d4-f680-492b-830e-2cdefaaa8351",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-EvGjf8hTlak",
-      "publishedAt": "2026-10-31T07:06:13-06:00",
-      "text": "Waking up to pee at night, which doctors call nocturia, isn't always a bladder problem. A large national health survey covering 2005 to 2020 found that people with more insulin resistance were more likely to be up at\u2026",
-      "url": "https://www.youtube.com/shorts/EvGjf8hTlak",
       "source": "youtube-rss"
     }
   ]
