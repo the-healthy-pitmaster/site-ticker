@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T19:45:14Z",
+  "generatedAt": "2026-11-06T19:08:53Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,13 +18,13 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "When you eat matters: early time-restricted eating and insulin resistance",
-      "url": "https://peertube.wtf/w/4oV8VEYWAYFmq1hksSFmA3",
-      "embedUrl": "https://peertube.wtf/videos/embed/4oV8VEYWAYFmq1hksSFmA3",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/6501bd38-27fb-4b35-965b-593b42b944c1.jpg",
+      "title": "Metformin and Neuropathy: The B12 Connection",
+      "url": "https://peertube.wtf/w/gHqVXGfdNZvH6XE7ycA32t",
+      "embedUrl": "https://peertube.wtf/videos/embed/gHqVXGfdNZvH6XE7ycA32t",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/45b7c2c9-ec8c-4420-85e5-23e74c1419ec.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-03T22:26:02.677Z",
-      "fallback": true,
+      "publishedAt": "2026-11-05T14:33:34.153Z",
+      "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
     },
