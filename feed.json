@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T19:08:44Z",
+  "generatedAt": "2026-11-07T17:39:16Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,42 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-n1ChwpRp1ew",
+      "publishedAt": "2026-11-07T06:56:35-07:00",
+      "text": "Ever wonder why your blood sugar creeps up even when you think you eat pretty well? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, goes down to the cell: how extra calories\u2026",
+      "url": "https://www.youtube.com/watch?v=n1ChwpRp1ew",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-tP3sqJPW5NSpKbqSzx6en7",
+      "publishedAt": "2026-11-07T06:23:10.718000-07:00",
+      "text": "The American Diabetes Association teaches people how to live with type 2 diabetes. I'm in the business of teaching people how to reverse it. Type 2 diabetes is driven by insulin resistance, and for many people it can\u2026",
+      "url": "https://tilvids.com/videos/watch/e13836df-552b-4800-b2cd-d2b964769974",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117571932631027508",
+      "publishedAt": "2026-11-06T15:48:39.761000-07:00",
+      "text": "Most people think gout is just about uric acid and rich food. Insulin resistance sits underneath a lot of those flare-ups too.High insulin from insulin resistance can push uric acid higher in the blood, which raises\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117571932631027508",
+      "source": "mastodon"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -262,42 +298,6 @@
       "text": "Did you know everyone gets a natural rise in blood sugar early in the morning? It's called the dawn phenomenon. Your body's wake-up hormones (cortisol, glucagon, adrenaline and growth hormone) tell your liver to\u2026",
       "url": "https://tilvids.com/videos/watch/f17cf1bc-38d7-4e2b-8563-37800b40f063",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117547279329380318",
-      "publishedAt": "2026-11-02T07:19:00.181000-07:00",
-      "text": "Apple cider vinegar might be doing more than flavoring your salad.A 2021 meta-analysis of randomized trials (Hadi et al., BMC Complementary Medicine and Therapies) found ACV lowered fasting blood sugar, especially when\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117547279329380318",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-hTH1jXKeBAYq4yzunvqgfR",
-      "publishedAt": "2026-11-02T06:31:02.327000-07:00",
-      "text": "Ever heard of gout? Did you know the fix may be simpler than you think? It turns out insulin resistance, the same problem behind type 2 diabetes, plays a big role in gout. When you're insulin resistant, your body keeps\u2026",
-      "url": "https://tilvids.com/videos/watch/88ca6be4-3985-4437-8cae-7b8173e3d4a9",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117544139925341792",
-      "publishedAt": "2026-11-01T18:00:36.678000-07:00",
-      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117544139925341792",
-      "source": "mastodon"
     }
   ]
 }
