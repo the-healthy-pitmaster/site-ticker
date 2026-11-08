@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:39:16Z",
+  "generatedAt": "2026-11-08T17:48:49Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,30 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-6545EBxjb2shVx8PS6Umvc",
+      "publishedAt": "2026-11-08T06:28:22.646000-07:00",
+      "text": "Most people think better blood sugar control only comes from weight loss. But strength training improves insulin sensitivity even without changing the scale, because muscle acts like a glucose sink, pulling glucose out\u2026",
+      "url": "https://tilvids.com/videos/watch/290e9117-e50a-4021-9ffb-8c032490c85d",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117577675180166903",
+      "publishedAt": "2026-11-07T16:09:04.046000-07:00",
+      "text": "For a lot of women, PCOS and insulin resistance show up together.High insulin can push the ovaries to make more male hormones. That imbalance can mean irregular periods, trouble getting pregnant, acne or extra hair.\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117577675180166903",
+      "source": "mastodon"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -274,30 +298,6 @@
       "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117549800299837609",
       "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117549338321283253",
-      "publishedAt": "2026-11-02T16:02:38.028000-07:00",
-      "text": "Fatty liver isn't just a drinking problem anymore. Non-alcoholic fatty liver disease now leads to more cirrhosis in the US than alcohol does.The big driver is insulin resistance. Your body pumps out extra insulin to\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117549338321283253",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-vPyp5HBSNTSvzRY2NRCyM2",
-      "publishedAt": "2026-11-02T15:30:20.857000-07:00",
-      "text": "Did you know everyone gets a natural rise in blood sugar early in the morning? It's called the dawn phenomenon. Your body's wake-up hormones (cortisol, glucagon, adrenaline and growth hormone) tell your liver to\u2026",
-      "url": "https://tilvids.com/videos/watch/f17cf1bc-38d7-4e2b-8563-37800b40f063",
-      "source": "tilvids"
     }
   ]
 }
