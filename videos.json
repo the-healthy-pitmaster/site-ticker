@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:48:55Z",
+  "generatedAt": "2026-11-09T22:09:23Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,12 +18,12 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Type 2 diabetes can be reversed",
-      "url": "https://peertube.wtf/w/71vuCpRM94pKGa3vMtim6J",
-      "embedUrl": "https://peertube.wtf/videos/embed/71vuCpRM94pKGa3vMtim6J",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/bd10c6ac-937a-436e-95ab-d8c5c38e16eb.jpg",
+      "title": "Muscle is a glucose sink: strength training and blood sugar",
+      "url": "https://peertube.wtf/w/jzffKg9xfky7s3NKPoVnPK",
+      "embedUrl": "https://peertube.wtf/videos/embed/jzffKg9xfky7s3NKPoVnPK",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/86fb3e71-37d6-4f18-bea0-d16b8529b1f4.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-07T13:23:12.428Z",
+      "publishedAt": "2026-11-08T13:28:09.970Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

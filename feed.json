@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:48:49Z",
+  "generatedAt": "2026-11-09T22:09:17Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,42 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-fVHadtT4tnhfAj4Ce55W5N",
+      "publishedAt": "2026-11-09T06:26:44.597000-07:00",
+      "text": "Did you know insulin resistance isn't just about diabetes? It's connected to heart disease, obesity, and breast cancer too. Here's what you need to know, and how to fight back. Insulin resistance can be reversed, and\u2026",
+      "url": "https://tilvids.com/videos/watch/78dfb9e2-80c2-4cea-ad8b-36717700eb2e",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117583775036310867",
+      "publishedAt": "2026-11-08T18:00:20.492000-07:00",
+      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117583775036310867",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117583207663526433",
+      "publishedAt": "2026-11-08T15:36:03.094000-07:00",
+      "text": "A lot of people figure insulin resistance doesn't apply to them because they aren't diabetic. It sits under obesity, heart disease and now breast cancer.A systematic review found women with insulin resistance had a\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117583207663526433",
+      "source": "mastodon"
+    },
     {
       "platform": "tilvids",
       "platformLabel": "TILvids",
@@ -262,42 +298,6 @@
       "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol, de forma sencilla, c\u00f3mo la insulina maneja la energ\u00eda del cuerpo y qu\u00e9 dice la ciencia sobre la fibra y\u2026",
       "url": "https://www.youtube.com/watch?v=8_eOcFHqzBA",
       "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-jEr797ZD8bGYLDVABvt7iK",
-      "publishedAt": "2026-11-03T06:24:16.082000-07:00",
-      "text": "Did you know insulin resistance can throw a woman's hormones way off? When your cells stop listening to insulin, your body pumps out more and more of it to keep your blood sugar in check. In women, all that extra\u2026",
-      "url": "https://tilvids.com/videos/watch/97223b2e-6cc4-4b3f-8a4c-c311a56f22c5",
-      "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-n_QWTgiIYWk",
-      "publishedAt": "2026-11-02T21:55:37-07:00",
-      "text": "Feel Great System + Transformation Stories. Join Trent Tueller and special guest Geoff Storie live as they dig into the science behind the Feel Great System and share real transformation stories. #FeelGreat\u2026",
-      "url": "https://www.youtube.com/watch?v=n_QWTgiIYWk",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117549800299837609",
-      "publishedAt": "2026-11-02T18:00:07.160000-07:00",
-      "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117549800299837609",
-      "source": "mastodon"
     }
   ]
 }
