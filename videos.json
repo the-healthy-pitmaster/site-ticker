@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:09:23Z",
+  "generatedAt": "2026-11-10T19:30:44Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,12 +18,12 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Muscle is a glucose sink: strength training and blood sugar",
-      "url": "https://peertube.wtf/w/jzffKg9xfky7s3NKPoVnPK",
-      "embedUrl": "https://peertube.wtf/videos/embed/jzffKg9xfky7s3NKPoVnPK",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/86fb3e71-37d6-4f18-bea0-d16b8529b1f4.jpg",
+      "title": "Insulin Resistance: More Than Diabetes",
+      "url": "https://peertube.wtf/w/hG9bWnuwXKrdUhfLrZcv3s",
+      "embedUrl": "https://peertube.wtf/videos/embed/hG9bWnuwXKrdUhfLrZcv3s",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/6400b454-b3f7-42bd-b51b-2c1962c90a65.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-08T13:28:09.970Z",
+      "publishedAt": "2026-11-09T13:26:46.339Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

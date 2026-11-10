@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T22:09:17Z",
+  "generatedAt": "2026-11-10T19:30:38Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,66 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-n1ChwpRp1ew",
+      "publishedAt": "2026-11-10T07:19:34-07:00",
+      "text": "Ever wonder why your blood sugar creeps up even when you think you eat pretty well? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, goes down to the cell: how extra calories\u2026",
+      "url": "https://www.youtube.com/watch?v=n1ChwpRp1ew",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-N6cIksdEcdQ",
+      "publishedAt": "2026-11-10T07:06:50-07:00",
+      "text": "Are your energy, blood sugar and waistline telling you something your doctor hasn't explained yet? Tonight Trent Tueller breaks down what the science says about insulin, fat loss and everyday energy, in plain English.\u2026",
+      "url": "https://www.youtube.com/watch?v=N6cIksdEcdQ",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-t461ErDJxCatdpFLYt5q1T",
+      "publishedAt": "2026-11-10T06:30:54.829000-07:00",
+      "text": "A short walk after dinner can lower blood sugar spikes and improve insulin sensitivity. Learn how this small change can support better health. Better insulin sensitivity is how insulin resistance gets reversed, one\u2026",
+      "url": "https://tilvids.com/videos/watch/db151043-9c73-4007-8596-62b400f12f63",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117589436828982323",
+      "publishedAt": "2026-11-09T18:00:12.601000-07:00",
+      "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117589436828982323",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117588901336916919",
+      "publishedAt": "2026-11-09T15:44:01.719000-07:00",
+      "text": "There's a growing pile of research tying insulin resistance to multiple sclerosis.A review of 18 studies found people with MS had much higher insulin resistance than healthy people, worse in the more severe cases.\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117588901336916919",
+      "source": "mastodon"
+    },
     {
       "platform": "tilvids",
       "platformLabel": "TILvids",
@@ -70,18 +130,6 @@
       "text": "For a lot of women, PCOS and insulin resistance show up together.High insulin can push the ovaries to make more male hormones. That imbalance can mean irregular periods, trouble getting pregnant, acne or extra hair.\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117577675180166903",
       "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-n1ChwpRp1ew",
-      "publishedAt": "2026-11-07T06:56:35-07:00",
-      "text": "Ever wonder why your blood sugar creeps up even when you think you eat pretty well? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, goes down to the cell: how extra calories\u2026",
-      "url": "https://www.youtube.com/watch?v=n1ChwpRp1ew",
-      "source": "youtube-rss"
     },
     {
       "platform": "tilvids",
@@ -250,54 +298,6 @@
       "text": "A lot of people hear \"ketones\" and picture ketoacidosis, a real hospital emergency. They aren't the same thing.Ketosis is what happens when insulin comes down and your body burns fat for fuel. Ketones stay low and\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117555065743947910",
       "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-oea4FHVSVG8zNPnsQoiR2g",
-      "publishedAt": "2026-11-03T15:25:50.069000-07:00",
-      "text": "Timing your meals can be a real tool for reversing insulin resistance. Time-restricted eating isn't just a diet trend. Newer research shows that shifting your eating window earlier in the day lines your meals up with\u2026",
-      "url": "https://tilvids.com/videos/watch/b3ff4e1d-00b5-45de-baf7-703466644435",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117554282691411972",
-      "publishedAt": "2026-11-03T13:00:03.115000-07:00",
-      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117554282691411972",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-KW2f46FWm7I",
-      "publishedAt": "2026-11-03T07:14:36-07:00",
-      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, looks at what happens when\u2026",
-      "url": "https://www.youtube.com/watch?v=KW2f46FWm7I",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-8_eOcFHqzBA",
-      "publishedAt": "2026-11-03T06:55:55-07:00",
-      "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol, de forma sencilla, c\u00f3mo la insulina maneja la energ\u00eda del cuerpo y qu\u00e9 dice la ciencia sobre la fibra y\u2026",
-      "url": "https://www.youtube.com/watch?v=8_eOcFHqzBA",
-      "source": "youtube-rss"
     }
   ]
 }
