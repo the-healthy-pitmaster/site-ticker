@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T19:30:38Z",
+  "generatedAt": "2026-11-11T19:26:03Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,10 +17,10 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-n1ChwpRp1ew",
-      "publishedAt": "2026-11-10T07:19:34-07:00",
-      "text": "Ever wonder why your blood sugar creeps up even when you think you eat pretty well? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, goes down to the cell: how extra calories\u2026",
-      "url": "https://www.youtube.com/watch?v=n1ChwpRp1ew",
+      "id": "yt-N6cIksdEcdQ",
+      "publishedAt": "2026-11-11T10:48:56-07:00",
+      "text": "Are your energy, blood sugar and waistline telling you something your doctor hasn't explained yet? Tonight Trent Tueller breaks down what the science says about insulin, fat loss and everyday energy, in plain English.\u2026",
+      "url": "https://www.youtube.com/watch?v=N6cIksdEcdQ",
       "source": "youtube-rss"
     },
     {
@@ -29,10 +29,70 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-N6cIksdEcdQ",
-      "publishedAt": "2026-11-10T07:06:50-07:00",
-      "text": "Are your energy, blood sugar and waistline telling you something your doctor hasn't explained yet? Tonight Trent Tueller breaks down what the science says about insulin, fat loss and everyday energy, in plain English.\u2026",
-      "url": "https://www.youtube.com/watch?v=N6cIksdEcdQ",
+      "id": "yt-O55Vouh86V4",
+      "publishedAt": "2026-11-11T06:55:05-07:00",
+      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
+      "url": "https://www.youtube.com/watch?v=O55Vouh86V4",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-nqwgkM4oEyRZCDEBBPuVZF",
+      "publishedAt": "2026-11-11T06:32:26.038000-07:00",
+      "text": "Metabolic syndrome raises the risk of Parkinson's by 30%, and insulin resistance is at the center of it. Discover how improving your metabolic health can protect your body and brain. Insulin resistance can be reversed\u2026",
+      "url": "https://tilvids.com/videos/watch/ad7c69db-291c-401f-a6ef-3c6fd94b1f75",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117595334268512600",
+      "publishedAt": "2026-11-10T19:00:00.350000-07:00",
+      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117595334268512600",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117594651109682170",
+      "publishedAt": "2026-11-10T16:06:16.229000-07:00",
+      "text": "Most people never connect ALS with metabolic health, so I went digging into the research.One study linked metabolic syndrome (high blood sugar, high blood pressure, cholesterol) to a higher risk of ALS. Other research\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117594651109682170",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117593918842532541",
+      "publishedAt": "2026-11-10T13:00:02.712000-07:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117593918842532541",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-n1ChwpRp1ew",
+      "publishedAt": "2026-11-10T07:19:34-07:00",
+      "text": "Ever wonder why your blood sugar creeps up even when you think you eat pretty well? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, goes down to the cell: how extra calories\u2026",
+      "url": "https://www.youtube.com/watch?v=n1ChwpRp1ew",
       "source": "youtube-rss"
     },
     {
@@ -237,66 +297,6 @@
       "publishedAt": "2026-11-04T19:00:24.572000-07:00",
       "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117561361989949935",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117560629100892084",
-      "publishedAt": "2026-11-04T15:54:01.562000-07:00",
-      "text": "Figs make a plant hormone called abscisic acid. Plants use it to handle stress, and it turns out it may help us handle blood sugar too.In a study of healthy adults, a fig extract rich in abscisic acid lowered the blood\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117560629100892084",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-TG89yYLGQh0",
-      "publishedAt": "2026-11-04T09:18:34-07:00",
-      "text": "What would it take to lose more fat, get more out of your insulin, have more energy, and see better bloodwork? Tonight Trent Tueller walks through the daily protocol behind those results and what the science says about\u2026",
-      "url": "https://www.youtube.com/watch?v=TG89yYLGQh0",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-prZN8mDh82mMEMR9zZfmvp",
-      "publishedAt": "2026-11-04T06:35:52.434000-07:00",
-      "text": "CPAP machines are often associated with better cardiovascular outcomes, but how strong is the evidence? I examined a major randomized trial, a manufacturer-funded meta-analysis, and a lifestyle study that produced a\u2026",
-      "url": "https://tilvids.com/videos/watch/bde366aa-bd88-43a0-badc-4cadfd7d4f59",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117555698353288023",
-      "publishedAt": "2026-11-03T19:00:04.326000-07:00",
-      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117555698353288023",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117555065743947910",
-      "publishedAt": "2026-11-03T16:19:11.512000-07:00",
-      "text": "A lot of people hear \"ketones\" and picture ketoacidosis, a real hospital emergency. They aren't the same thing.Ketosis is what happens when insulin comes down and your body burns fat for fuel. Ketones stay low and\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117555065743947910",
       "source": "mastodon"
     }
   ]
