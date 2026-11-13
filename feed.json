@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T19:44:28Z",
+  "generatedAt": "2026-11-13T19:26:16Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,20 +17,8 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-O55Vouh86V4",
-      "publishedAt": "2026-11-12T08:22:39-07:00",
-      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
-      "url": "https://www.youtube.com/watch?v=O55Vouh86V4",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
       "id": "yt-06QJpK9907o",
-      "publishedAt": "2026-11-12T08:07:35-07:00",
+      "publishedAt": "2026-11-13T08:16:03-07:00",
       "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol la ciencia detr\u00e1s del sistema Feel Great: c\u00f3mo la insulina maneja la energ\u00eda del cuerpo, qu\u00e9 pasa cuando\u2026",
       "url": "https://www.youtube.com/watch?v=06QJpK9907o",
       "source": "youtube-rss"
@@ -41,10 +29,70 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
+      "id": "yt-cVKmyJLu-t4",
+      "publishedAt": "2026-11-13T07:01:20-07:00",
+      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
+      "url": "https://www.youtube.com/watch?v=cVKmyJLu-t4",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-hSXeCku7JLf671Dy8bk5k2",
+      "publishedAt": "2026-11-13T06:23:11.851000-07:00",
+      "text": "Your labs shout LDL and A1c. They whisper a cheaper insulin-resistance check: triglycerides divided by HDL. Across a big review, average cutoffs that kept showing up were about 2.53 for women and 2.8 for men. Two\u2026",
+      "url": "https://tilvids.com/videos/watch/88af7261-86e0-4715-83b2-85703a223057",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
       "id": "yt-cWxAAEwiM74",
-      "publishedAt": "2026-11-12T06:59:32-07:00",
+      "publishedAt": "2026-11-12T23:41:14-07:00",
       "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
       "url": "https://www.youtube.com/watch?v=cWxAAEwiM74",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117606659059642576",
+      "publishedAt": "2026-11-12T19:00:02.976000-07:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117606659059642576",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117605844926854375",
+      "publishedAt": "2026-11-12T15:33:00.312000-07:00",
+      "text": "Long before anyone called it a diet trend, the ketogenic diet was a medical treatment for kids with epilepsy.In a 2008 randomized trial of 145 children whose seizures didn't respond to medication, 38% of the kids on\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117605844926854375",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-O55Vouh86V4",
+      "publishedAt": "2026-11-12T08:22:39-07:00",
+      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
+      "url": "https://www.youtube.com/watch?v=O55Vouh86V4",
       "source": "youtube-rss"
     },
     {
@@ -250,54 +298,6 @@
       "text": "For a lot of women, PCOS and insulin resistance show up together.High insulin can push the ovaries to make more male hormones. That imbalance can mean irregular periods, trouble getting pregnant, acne or extra hair.\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117577675180166903",
       "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-tP3sqJPW5NSpKbqSzx6en7",
-      "publishedAt": "2026-11-07T06:23:10.718000-07:00",
-      "text": "The American Diabetes Association teaches people how to live with type 2 diabetes. I'm in the business of teaching people how to reverse it. Type 2 diabetes is driven by insulin resistance, and for many people it can\u2026",
-      "url": "https://tilvids.com/videos/watch/e13836df-552b-4800-b2cd-d2b964769974",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117571932631027508",
-      "publishedAt": "2026-11-06T15:48:39.761000-07:00",
-      "text": "Most people think gout is just about uric acid and rich food. Insulin resistance sits underneath a lot of those flare-ups too.High insulin from insulin resistance can push uric acid higher in the blood, which raises\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117571932631027508",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-knTyFXRhPYQ",
-      "publishedAt": "2026-11-06T08:55:15-07:00",
-      "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol la ciencia detr\u00e1s del sistema Feel Great: c\u00f3mo la insulina maneja la energ\u00eda del cuerpo, qu\u00e9 pasa cuando\u2026",
-      "url": "https://www.youtube.com/watch?v=knTyFXRhPYQ",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-rrif8m2P2aVc6shJ2fmERn",
-      "publishedAt": "2026-11-06T06:31:14.210000-07:00",
-      "text": "A strong connection exists between insulin resistance and multiple sclerosis. Discover how the ketogenic diet could improve outcomes for MS patients by addressing insulin resistance. Let's get healthy together.\u2026",
-      "url": "https://tilvids.com/videos/watch/cdfcaffe-3942-416f-907a-8e4c1294a4a7",
-      "source": "tilvids"
     }
   ]
 }
