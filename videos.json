@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T19:26:23Z",
+  "generatedAt": "2026-11-14T17:50:20Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,12 +18,12 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Dark Chocolate: A Sweet Solution for Kidney Health",
-      "url": "https://peertube.wtf/w/rTotHEQsCMmb5LkAYGDi32",
-      "embedUrl": "https://peertube.wtf/videos/embed/rTotHEQsCMmb5LkAYGDi32",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/75f16614-1688-4caa-b6e6-91e35e694017.jpg",
+      "title": "Triglyceride/HDL Ratio: The Insulin Resistance Check on Your Labs",
+      "url": "https://peertube.wtf/w/2EzzCzD8f2PkMSYaoj4uRX",
+      "embedUrl": "https://peertube.wtf/videos/embed/2EzzCzD8f2PkMSYaoj4uRX",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/b0a011ba-c05f-499e-8c37-622030b36491.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-12T13:32:41.027Z",
+      "publishedAt": "2026-11-13T13:23:06.220Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
