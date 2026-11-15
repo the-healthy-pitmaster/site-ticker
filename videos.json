@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T17:50:20Z",
+  "generatedAt": "2026-11-15T18:41:12Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -24,7 +24,7 @@
       "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/b0a011ba-c05f-499e-8c37-622030b36491.jpg",
       "previewUrl": "",
       "publishedAt": "2026-11-13T13:23:06.220Z",
-      "fallback": false,
+      "fallback": true,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"
     },
