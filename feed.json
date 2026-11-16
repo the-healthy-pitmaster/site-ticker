@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T18:41:06Z",
+  "generatedAt": "2026-11-16T21:50:33Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,42 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-cVKmyJLu-t4",
+      "publishedAt": "2026-11-16T07:19:23-07:00",
+      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
+      "url": "https://www.youtube.com/watch?v=cVKmyJLu-t4",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-I_MtEPOml_A",
+      "publishedAt": "2026-11-16T07:00:27-07:00",
+      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
+      "url": "https://www.youtube.com/watch?v=I_MtEPOml_A",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117623410759924549",
+      "publishedAt": "2026-11-15T18:00:13.715000-07:00",
+      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117623410759924549",
+      "source": "mastodon"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
@@ -33,18 +69,6 @@
       "publishedAt": "2026-11-13T08:16:03-07:00",
       "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol la ciencia detr\u00e1s del sistema Feel Great: c\u00f3mo la insulina maneja la energ\u00eda del cuerpo, qu\u00e9 pasa cuando\u2026",
       "url": "https://www.youtube.com/watch?v=06QJpK9907o",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-cVKmyJLu-t4",
-      "publishedAt": "2026-11-13T07:01:20-07:00",
-      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
-      "url": "https://www.youtube.com/watch?v=cVKmyJLu-t4",
       "source": "youtube-rss"
     },
     {
@@ -274,30 +298,6 @@
       "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117583775036310867",
       "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117583207663526433",
-      "publishedAt": "2026-11-08T15:36:03.094000-07:00",
-      "text": "A lot of people figure insulin resistance doesn't apply to them because they aren't diabetic. It sits under obesity, heart disease and now breast cancer.A systematic review found women with insulin resistance had a\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117583207663526433",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-6545EBxjb2shVx8PS6Umvc",
-      "publishedAt": "2026-11-08T06:28:22.646000-07:00",
-      "text": "Most people think better blood sugar control only comes from weight loss. But strength training improves insulin sensitivity even without changing the scale, because muscle acts like a glucose sink, pulling glucose out\u2026",
-      "url": "https://tilvids.com/videos/watch/290e9117-e50a-4021-9ffb-8c032490c85d",
-      "source": "tilvids"
     }
   ]
 }
