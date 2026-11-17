@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-16T21:50:49Z",
+  "generatedAt": "2026-11-17T20:41:07Z",
   "timezone": "America/Denver",
   "spots": [
     {
       "spot": 1,
       "dayOffset": 0,
       "platform": "youtube",
-      "title": "Waking Up to Pee at Night? It Could Be Insulin",
-      "url": "https://www.youtube.com/shorts/EvGjf8hTlak",
-      "embedUrl": "https://www.youtube.com/embed/EvGjf8hTlak",
-      "thumbUrl": "https://i2.ytimg.com/vi/EvGjf8hTlak/hqdefault.jpg",
+      "title": "Reclaim Your Health with Dr. Dieter",
+      "url": "https://www.youtube.com/watch?v=I_MtEPOml_A",
+      "embedUrl": "https://www.youtube.com/embed/I_MtEPOml_A",
+      "thumbUrl": "https://i2.ytimg.com/vi/I_MtEPOml_A/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-10-31T13:06:13+00:00",
-      "fallback": true
+      "publishedAt": "2026-11-17T17:50:40+00:00",
+      "fallback": false
     },
     {
       "spot": 2,

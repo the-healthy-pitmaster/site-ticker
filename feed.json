@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T21:50:33Z",
+  "generatedAt": "2026-11-17T20:40:58Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,10 +17,10 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-cVKmyJLu-t4",
-      "publishedAt": "2026-11-16T07:19:23-07:00",
-      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
-      "url": "https://www.youtube.com/watch?v=cVKmyJLu-t4",
+      "id": "yt-I_MtEPOml_A",
+      "publishedAt": "2026-11-17T10:50:40-07:00",
+      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
+      "url": "https://www.youtube.com/watch?v=I_MtEPOml_A",
       "source": "youtube-rss"
     },
     {
@@ -29,10 +29,46 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-I_MtEPOml_A",
-      "publishedAt": "2026-11-16T07:00:27-07:00",
-      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
-      "url": "https://www.youtube.com/watch?v=I_MtEPOml_A",
+      "id": "yt-o2W1kv8iJOI",
+      "publishedAt": "2026-11-17T07:06:56-07:00",
+      "text": "Struggling with painful periods, stubborn weight or hormone swings and wondering what's really going on? Tonight Dr. Jessica Wilson and Denise Tueller explain the hormone and metabolism connection behind endometriosis\u2026",
+      "url": "https://www.youtube.com/watch?v=o2W1kv8iJOI",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-bXvEc9R2e6aJDkXybqL8Gr",
+      "publishedAt": "2026-11-17T06:27:40.439000-07:00",
+      "text": "More than half of adults on a GLP-1 shot quit within a year, per a JAMA Network Open study of about 125,000 people. Here's the thing. GLP-1 isn't something a drug company invented. Your gut already makes it, and it\u2026",
+      "url": "https://tilvids.com/videos/watch/58bb9257-26bd-421b-a995-3f5e7bbd3445",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117629074354246495",
+      "publishedAt": "2026-11-16T18:00:33.319000-07:00",
+      "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117629074354246495",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-cVKmyJLu-t4",
+      "publishedAt": "2026-11-16T07:19:23-07:00",
+      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
+      "url": "https://www.youtube.com/watch?v=cVKmyJLu-t4",
       "source": "youtube-rss"
     },
     {
@@ -261,42 +297,6 @@
       "publishedAt": "2026-11-09T18:00:12.601000-07:00",
       "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117589436828982323",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117588901336916919",
-      "publishedAt": "2026-11-09T15:44:01.719000-07:00",
-      "text": "There's a growing pile of research tying insulin resistance to multiple sclerosis.A review of 18 studies found people with MS had much higher insulin resistance than healthy people, worse in the more severe cases.\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117588901336916919",
-      "source": "mastodon"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-fVHadtT4tnhfAj4Ce55W5N",
-      "publishedAt": "2026-11-09T06:26:44.597000-07:00",
-      "text": "Did you know insulin resistance isn't just about diabetes? It's connected to heart disease, obesity, and breast cancer too. Here's what you need to know, and how to fight back. Insulin resistance can be reversed, and\u2026",
-      "url": "https://tilvids.com/videos/watch/78dfb9e2-80c2-4cea-ad8b-36717700eb2e",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117583775036310867",
-      "publishedAt": "2026-11-08T18:00:20.492000-07:00",
-      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117583775036310867",
       "source": "mastodon"
     }
   ]
