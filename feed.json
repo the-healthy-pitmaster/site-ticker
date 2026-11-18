@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T20:40:58Z",
+  "generatedAt": "2026-11-18T20:15:45Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,10 +17,10 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-I_MtEPOml_A",
-      "publishedAt": "2026-11-17T10:50:40-07:00",
-      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
-      "url": "https://www.youtube.com/watch?v=I_MtEPOml_A",
+      "id": "yt-o2W1kv8iJOI",
+      "publishedAt": "2026-11-18T08:19:02-07:00",
+      "text": "Struggling with painful periods, stubborn weight or hormone swings and wondering what's really going on? Tonight Dr. Jessica Wilson and Denise Tueller explain the hormone and metabolism connection behind endometriosis\u2026",
+      "url": "https://www.youtube.com/watch?v=o2W1kv8iJOI",
       "source": "youtube-rss"
     },
     {
@@ -29,10 +29,58 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-o2W1kv8iJOI",
-      "publishedAt": "2026-11-17T07:06:56-07:00",
-      "text": "Struggling with painful periods, stubborn weight or hormone swings and wondering what's really going on? Tonight Dr. Jessica Wilson and Denise Tueller explain the hormone and metabolism connection behind endometriosis\u2026",
-      "url": "https://www.youtube.com/watch?v=o2W1kv8iJOI",
+      "id": "yt-0gskR48SXBw",
+      "publishedAt": "2026-11-18T07:09:11-07:00",
+      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
+      "url": "https://www.youtube.com/watch?v=0gskR48SXBw",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-5SYfvmpVga28ruKEnBu94g",
+      "publishedAt": "2026-11-18T06:31:04.185000-07:00",
+      "text": "Heavy eyes and brain fog after a big lunch are not a character flaw. A study in Diabetes found a BMI over about 28.9 was a simple flag for insulin resistance when checked against the gold standard clamp test. After a\u2026",
+      "url": "https://tilvids.com/videos/watch/27826893-5d48-4920-9660-0e544bbe008d",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117634972469082374",
+      "publishedAt": "2026-11-17T19:00:31.365000-07:00",
+      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117634972469082374",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117634181489574894",
+      "publishedAt": "2026-11-17T15:39:21.910000-07:00",
+      "text": "A short walk after dinner is one of the easiest blood sugar tools I know.In a 2016 study in Diabetologia, 41 adults with type 2 diabetes swapped one daily walk for ten minutes of walking after meals. After dinner\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117634181489574894",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-I_MtEPOml_A",
+      "publishedAt": "2026-11-17T10:50:40-07:00",
+      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
+      "url": "https://www.youtube.com/watch?v=I_MtEPOml_A",
       "source": "youtube-rss"
     },
     {
@@ -249,54 +297,6 @@
       "publishedAt": "2026-11-10T16:06:16.229000-07:00",
       "text": "Most people never connect ALS with metabolic health, so I went digging into the research.One study linked metabolic syndrome (high blood sugar, high blood pressure, cholesterol) to a higher risk of ALS. Other research\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117594651109682170",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117593918842532541",
-      "publishedAt": "2026-11-10T13:00:02.712000-07:00",
-      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117593918842532541",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-n1ChwpRp1ew",
-      "publishedAt": "2026-11-10T07:19:34-07:00",
-      "text": "Ever wonder why your blood sugar creeps up even when you think you eat pretty well? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, goes down to the cell: how extra calories\u2026",
-      "url": "https://www.youtube.com/watch?v=n1ChwpRp1ew",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-t461ErDJxCatdpFLYt5q1T",
-      "publishedAt": "2026-11-10T06:30:54.829000-07:00",
-      "text": "A short walk after dinner can lower blood sugar spikes and improve insulin sensitivity. Learn how this small change can support better health. Better insulin sensitivity is how insulin resistance gets reversed, one\u2026",
-      "url": "https://tilvids.com/videos/watch/db151043-9c73-4007-8596-62b400f12f63",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117589436828982323",
-      "publishedAt": "2026-11-09T18:00:12.601000-07:00",
-      "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117589436828982323",
       "source": "mastodon"
     }
   ]
