@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T20:15:45Z",
+  "generatedAt": "2026-11-19T20:19:36Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,10 +17,10 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-o2W1kv8iJOI",
-      "publishedAt": "2026-11-18T08:19:02-07:00",
-      "text": "Struggling with painful periods, stubborn weight or hormone swings and wondering what's really going on? Tonight Dr. Jessica Wilson and Denise Tueller explain the hormone and metabolism connection behind endometriosis\u2026",
-      "url": "https://www.youtube.com/watch?v=o2W1kv8iJOI",
+      "id": "yt-rwKMlJX5Y6Q",
+      "publishedAt": "2026-11-19T12:09:08-07:00",
+      "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
+      "url": "https://www.youtube.com/watch?v=rwKMlJX5Y6Q",
       "source": "youtube-rss"
     },
     {
@@ -30,9 +30,81 @@
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
       "id": "yt-0gskR48SXBw",
-      "publishedAt": "2026-11-18T07:09:11-07:00",
+      "publishedAt": "2026-11-19T10:48:56-07:00",
       "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
       "url": "https://www.youtube.com/watch?v=0gskR48SXBw",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-sk1QycCA_9M",
+      "publishedAt": "2026-11-19T10:00:45-07:00",
+      "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
+      "url": "https://www.youtube.com/watch?v=sk1QycCA_9M",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-VIiS-3iSpPw",
+      "publishedAt": "2026-11-19T07:09:31-07:00",
+      "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol la ciencia detr\u00e1s del sistema Feel Great: c\u00f3mo la insulina maneja la energ\u00eda del cuerpo, qu\u00e9 pasa cuando\u2026",
+      "url": "https://www.youtube.com/watch?v=VIiS-3iSpPw",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-vCUrhbcmXzzasNESRxpQL9",
+      "publishedAt": "2026-11-19T06:25:05.732000-07:00",
+      "text": "Did you know your body doesn't need carbohydrates to survive? Protein, fats, and key vitamins are the true essentials. Learn how to prioritize the nutrients your body actually needs for health and wellness. Building\u2026",
+      "url": "https://tilvids.com/videos/watch/f0001c91-8f93-44bd-868f-c5f9256d2868",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117640633360883831",
+      "publishedAt": "2026-11-18T19:00:09.713000-07:00",
+      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117640633360883831",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117639855919663610",
+      "publishedAt": "2026-11-18T15:42:26.940000-07:00",
+      "text": "Good news if you like dark chocolate.About 1 in 10 kidney stones are made of uric acid. Researchers in Spain found that theobromine, a natural compound in cocoa, stops uric acid from forming crystals, the building\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117639855919663610",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-o2W1kv8iJOI",
+      "publishedAt": "2026-11-18T08:19:02-07:00",
+      "text": "Struggling with painful periods, stubborn weight or hormone swings and wondering what's really going on? Tonight Dr. Jessica Wilson and Denise Tueller explain the hormone and metabolism connection behind endometriosis\u2026",
+      "url": "https://www.youtube.com/watch?v=o2W1kv8iJOI",
       "source": "youtube-rss"
     },
     {
@@ -226,78 +298,6 @@
       "text": "Uric acid stones make up about 10% of all kidney stones. Theobromine, the compound in dark chocolate, may help keep them from forming. High uric acid often travels with insulin resistance, and insulin resistance can be\u2026",
       "url": "https://tilvids.com/videos/watch/e9c535f2-d458-4ce4-bbf6-f85464e9abed",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117600999756916134",
-      "publishedAt": "2026-11-11T19:00:48.901000-07:00",
-      "text": "Live now: Two Sista' Docs on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117600999756916134",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117600282124881526",
-      "publishedAt": "2026-11-11T15:58:18.641000-07:00",
-      "text": "Battling depression? What's on your plate might be part of the story.A 2022 review of 26 studies and more than 260,000 adults found people eating the most ultra-processed food had a 28% higher risk of depression. Every\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117600282124881526",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-N6cIksdEcdQ",
-      "publishedAt": "2026-11-11T10:48:56-07:00",
-      "text": "Are your energy, blood sugar and waistline telling you something your doctor hasn't explained yet? Tonight Trent Tueller breaks down what the science says about insulin, fat loss and everyday energy, in plain English.\u2026",
-      "url": "https://www.youtube.com/watch?v=N6cIksdEcdQ",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-nqwgkM4oEyRZCDEBBPuVZF",
-      "publishedAt": "2026-11-11T06:32:26.038000-07:00",
-      "text": "Metabolic syndrome raises the risk of Parkinson's by 30%, and insulin resistance is at the center of it. Discover how improving your metabolic health can protect your body and brain. Insulin resistance can be reversed\u2026",
-      "url": "https://tilvids.com/videos/watch/ad7c69db-291c-401f-a6ef-3c6fd94b1f75",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117595334268512600",
-      "publishedAt": "2026-11-10T19:00:00.350000-07:00",
-      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117595334268512600",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117594651109682170",
-      "publishedAt": "2026-11-10T16:06:16.229000-07:00",
-      "text": "Most people never connect ALS with metabolic health, so I went digging into the research.One study linked metabolic syndrome (high blood sugar, high blood pressure, cholesterol) to a higher risk of ALS. Other research\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117594651109682170",
-      "source": "mastodon"
     }
   ]
 }
