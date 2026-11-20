@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:19:56Z",
+  "generatedAt": "2026-11-20T19:51:09Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -7,23 +7,23 @@
       "dayOffset": 0,
       "platform": "youtube",
       "title": "Reclaim Your Health with Dr. Dieter",
-      "url": "https://www.youtube.com/watch?v=rwKMlJX5Y6Q",
-      "embedUrl": "https://www.youtube.com/embed/rwKMlJX5Y6Q",
-      "thumbUrl": "https://i3.ytimg.com/vi/rwKMlJX5Y6Q/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sk1QycCA_9M",
+      "embedUrl": "https://www.youtube.com/embed/sk1QycCA_9M",
+      "thumbUrl": "https://i4.ytimg.com/vi/sk1QycCA_9M/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-19T19:09:08+00:00",
-      "fallback": false
+      "publishedAt": "2026-11-20T06:54:39+00:00",
+      "fallback": true
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Why Do I Crash After Lunch?",
-      "url": "https://peertube.wtf/w/uKkMRywmj5K2b5qqzDKZ37",
-      "embedUrl": "https://peertube.wtf/videos/embed/uKkMRywmj5K2b5qqzDKZ37",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/e4f40520-a783-4511-842e-70d4cdb19092.jpg",
+      "title": "Carbs Aren't Essential!",
+      "url": "https://peertube.wtf/w/xg4aTJXYX1TYYDJtZZ5fB9",
+      "embedUrl": "https://peertube.wtf/videos/embed/xg4aTJXYX1TYYDJtZZ5fB9",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/6e532974-019d-43bb-a5d9-78679038b96f.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-18T13:30:45.727Z",
+      "publishedAt": "2026-11-19T13:25:12.491Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T20:19:36Z",
+  "generatedAt": "2026-11-20T19:50:55Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,54 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-g5svysoWu2zhVMvjBftuTN",
+      "publishedAt": "2026-11-20T06:24:52.101000-07:00",
+      "text": "We often think vaping is harmless, but recent research links it to insulin resistance, a risk factor for diabetes, heart disease, and more. Let's dive into the facts and rethink what \"safe\" really means when it comes\u2026",
+      "url": "https://tilvids.com/videos/watch/7a186462-ae35-4a4f-a497-e47f3b26b1a4",
+      "source": "tilvids"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-sk1QycCA_9M",
+      "publishedAt": "2026-11-19T23:54:39-07:00",
+      "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
+      "url": "https://www.youtube.com/watch?v=sk1QycCA_9M",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117646299256372768",
+      "publishedAt": "2026-11-19T19:01:04.413000-07:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117646299256372768",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117645533227649268",
+      "publishedAt": "2026-11-19T15:46:15.688000-07:00",
+      "text": "Pie season is almost here, and if you watch your blood sugar that can feel like a minefield.Good news. These are the three sweeteners I keep in my kitchen:1. Stevia, from the leaves of a plant. Zero calories. 2. Monk\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117645533227649268",
+      "source": "mastodon"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -33,18 +81,6 @@
       "publishedAt": "2026-11-19T10:48:56-07:00",
       "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
       "url": "https://www.youtube.com/watch?v=0gskR48SXBw",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-sk1QycCA_9M",
-      "publishedAt": "2026-11-19T10:00:45-07:00",
-      "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
-      "url": "https://www.youtube.com/watch?v=sk1QycCA_9M",
       "source": "youtube-rss"
     },
     {
@@ -262,42 +298,6 @@
       "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
       "url": "https://mastodon.social/@therealjimbbq/117606659059642576",
       "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117605844926854375",
-      "publishedAt": "2026-11-12T15:33:00.312000-07:00",
-      "text": "Long before anyone called it a diet trend, the ketogenic diet was a medical treatment for kids with epilepsy.In a 2008 randomized trial of 145 children whose seizures didn't respond to medication, 38% of the kids on\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117605844926854375",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-O55Vouh86V4",
-      "publishedAt": "2026-11-12T08:22:39-07:00",
-      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
-      "url": "https://www.youtube.com/watch?v=O55Vouh86V4",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-uShsibf2PCrBJusXMcgARB",
-      "publishedAt": "2026-11-12T06:32:37.493000-07:00",
-      "text": "Uric acid stones make up about 10% of all kidney stones. Theobromine, the compound in dark chocolate, may help keep them from forming. High uric acid often travels with insulin resistance, and insulin resistance can be\u2026",
-      "url": "https://tilvids.com/videos/watch/e9c535f2-d458-4ce4-bbf6-f85464e9abed",
-      "source": "tilvids"
     }
   ]
 }
