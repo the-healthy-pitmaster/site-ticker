@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T19:51:09Z",
+  "generatedAt": "2026-11-21T18:56:54Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -18,12 +18,12 @@
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Carbs Aren't Essential!",
-      "url": "https://peertube.wtf/w/xg4aTJXYX1TYYDJtZZ5fB9",
-      "embedUrl": "https://peertube.wtf/videos/embed/xg4aTJXYX1TYYDJtZZ5fB9",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/6e532974-019d-43bb-a5d9-78679038b96f.jpg",
+      "title": "Is Vaping Truly Safe?",
+      "url": "https://peertube.wtf/w/vagKaYThQfUdx1oq4ahSE7",
+      "embedUrl": "https://peertube.wtf/videos/embed/vagKaYThQfUdx1oq4ahSE7",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/c6d58ee8-1bbf-4317-b17d-b76bb722f8cc.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-19T13:25:12.491Z",
+      "publishedAt": "2026-11-20T13:24:52.952Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

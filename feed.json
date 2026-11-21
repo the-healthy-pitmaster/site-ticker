@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T19:50:55Z",
+  "generatedAt": "2026-11-21T18:56:46Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,18 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117651328698013621",
+      "publishedAt": "2026-11-20T16:20:07.610000-07:00",
+      "text": "Good news if you love meat and veggies: carbs are not an essential nutrient.Essential means your body can't make it, so it must come from food. That list: 1. Protein, for amino acids that rebuild muscle. 2. Fats like\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117651328698013621",
+      "source": "mastodon"
+    },
     {
       "platform": "tilvids",
       "platformLabel": "TILvids",
@@ -286,18 +298,6 @@
       "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
       "url": "https://www.youtube.com/watch?v=cWxAAEwiM74",
       "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117606659059642576",
-      "publishedAt": "2026-11-12T19:00:02.976000-07:00",
-      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117606659059642576",
-      "source": "mastodon"
     }
   ]
 }
