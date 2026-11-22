@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T18:56:46Z",
+  "generatedAt": "2026-11-22T19:17:18Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,18 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-ARot2AOiL34",
+      "publishedAt": "2026-11-22T06:57:31-07:00",
+      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
+      "url": "https://www.youtube.com/watch?v=ARot2AOiL34",
+      "source": "youtube-rss"
+    },
     {
       "platform": "mastodon",
       "platformLabel": "Mastodon",
@@ -286,18 +298,6 @@
       "text": "Your labs shout LDL and A1c. They whisper a cheaper insulin-resistance check: triglycerides divided by HDL. Across a big review, average cutoffs that kept showing up were about 2.53 for women and 2.8 for men. Two\u2026",
       "url": "https://tilvids.com/videos/watch/88af7261-86e0-4715-83b2-85703a223057",
       "source": "tilvids"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-cWxAAEwiM74",
-      "publishedAt": "2026-11-12T23:41:14-07:00",
-      "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
-      "url": "https://www.youtube.com/watch?v=cWxAAEwiM74",
-      "source": "youtube-rss"
     }
   ]
 }
