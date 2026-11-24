@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T23:39:36Z",
+  "generatedAt": "2026-11-24T22:10:58Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,10 +17,10 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-ARot2AOiL34",
-      "publishedAt": "2026-11-23T07:27:57-07:00",
-      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
-      "url": "https://www.youtube.com/watch?v=ARot2AOiL34",
+      "id": "yt-vwt9-905Ji4",
+      "publishedAt": "2026-11-24T08:11:22-07:00",
+      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
+      "url": "https://www.youtube.com/watch?v=vwt9-905Ji4",
       "source": "youtube-rss"
     },
     {
@@ -29,10 +29,46 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-vwt9-905Ji4",
-      "publishedAt": "2026-11-23T07:09:13-07:00",
-      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
-      "url": "https://www.youtube.com/watch?v=vwt9-905Ji4",
+      "id": "yt-rU0gBSRfEts",
+      "publishedAt": "2026-11-24T07:06:48-07:00",
+      "text": "Tonight Trent Tueller shares what the science says about how everyday habits and nutrition connect to metabolic health. Join the live conversation and bring your questions. #TheHealthypitmaster #MetabolicHealth\u2026",
+      "url": "https://www.youtube.com/watch?v=rU0gBSRfEts",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-qkicjKcEW4V5L8VQfAtEUW",
+      "publishedAt": "2026-11-24T06:31:47.960000-07:00",
+      "text": "A psychiatrist found every bipolar patient with a leaky blood brain barrier also had insulin resistance. Your blood sugar may be shaping your mental health. Insulin resistance was my root problem too. I changed how I\u2026",
+      "url": "https://tilvids.com/videos/watch/c50d0e70-90d1-4f6e-906c-c954117eebee",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117668708861654500",
+      "publishedAt": "2026-11-23T18:00:07.853000-07:00",
+      "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117668708861654500",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-ARot2AOiL34",
+      "publishedAt": "2026-11-23T07:27:57-07:00",
+      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
+      "url": "https://www.youtube.com/watch?v=ARot2AOiL34",
       "source": "youtube-rss"
     },
     {
@@ -262,42 +298,6 @@
       "text": "More than half of adults on a GLP-1 shot quit within a year, per a JAMA Network Open study of about 125,000 people. Here's the thing. GLP-1 isn't something a drug company invented. Your gut already makes it, and it\u2026",
       "url": "https://tilvids.com/videos/watch/58bb9257-26bd-421b-a995-3f5e7bbd3445",
       "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117629074354246495",
-      "publishedAt": "2026-11-16T18:00:33.319000-07:00",
-      "text": "Live now: Dr. Dieter on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117629074354246495",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-cVKmyJLu-t4",
-      "publishedAt": "2026-11-16T07:19:23-07:00",
-      "text": "About 70% of your immune system lives in your gut, and most of your serotonin is made there too. Tonight Dr. Nick, a family physician in Denver, looks at what happens when good gut bacteria get starved of fiber, and\u2026",
-      "url": "https://www.youtube.com/watch?v=cVKmyJLu-t4",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117623410759924549",
-      "publishedAt": "2026-11-15T18:00:13.715000-07:00",
-      "text": "Live now: Dr. Nick on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117623410759924549",
-      "source": "mastodon"
     }
   ]
 }

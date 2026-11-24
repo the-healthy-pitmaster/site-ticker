@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-11-23T23:39:46Z",
+  "generatedAt": "2026-11-24T22:11:08Z",
   "timezone": "America/Denver",
   "spots": [
     {
       "spot": 1,
       "dayOffset": 0,
       "platform": "youtube",
-      "title": "Dr. Nick \u00b7 Feel Great Live",
-      "url": "https://www.youtube.com/watch?v=ARot2AOiL34",
-      "embedUrl": "https://www.youtube.com/embed/ARot2AOiL34",
-      "thumbUrl": "https://i2.ytimg.com/vi/ARot2AOiL34/hqdefault.jpg",
+      "title": "Dr. Dieter \u00b7 Feel Great Live",
+      "url": "https://www.youtube.com/watch?v=vwt9-905Ji4",
+      "embedUrl": "https://www.youtube.com/embed/vwt9-905Ji4",
+      "thumbUrl": "https://i3.ytimg.com/vi/vwt9-905Ji4/hqdefault.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-23T14:27:57+00:00",
+      "publishedAt": "2026-11-24T15:11:22+00:00",
       "fallback": false
     },
     {
