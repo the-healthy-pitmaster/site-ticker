@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T22:10:58Z",
+  "generatedAt": "2026-11-25T21:27:19Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -17,10 +17,10 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-vwt9-905Ji4",
-      "publishedAt": "2026-11-24T08:11:22-07:00",
-      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
-      "url": "https://www.youtube.com/watch?v=vwt9-905Ji4",
+      "id": "yt-rU0gBSRfEts",
+      "publishedAt": "2026-11-25T10:16:39-07:00",
+      "text": "Tonight Trent Tueller shares what the science says about how everyday habits and nutrition connect to metabolic health. Join the live conversation and bring your questions. #TheHealthypitmaster #MetabolicHealth\u2026",
+      "url": "https://www.youtube.com/watch?v=rU0gBSRfEts",
       "source": "youtube-rss"
     },
     {
@@ -29,10 +29,58 @@
       "handle": "@therealjimbbq",
       "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
       "displayName": "The Healthy Pitmaster",
-      "id": "yt-rU0gBSRfEts",
-      "publishedAt": "2026-11-24T07:06:48-07:00",
-      "text": "Tonight Trent Tueller shares what the science says about how everyday habits and nutrition connect to metabolic health. Join the live conversation and bring your questions. #TheHealthypitmaster #MetabolicHealth\u2026",
-      "url": "https://www.youtube.com/watch?v=rU0gBSRfEts",
+      "id": "yt-KO070YorQik",
+      "publishedAt": "2026-11-25T07:03:20-07:00",
+      "text": "Does it feel like your body is on fire from the inside? Inflammation that won't quiet down, gut trouble, skin flare-ups, and anxiety can have more in common than you think. Tonight the Two Sista' Docs explain how\u2026",
+      "url": "https://www.youtube.com/watch?v=KO070YorQik",
+      "source": "youtube-rss"
+    },
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-78Lx2qunoMbNLAti3oVo3v",
+      "publishedAt": "2026-11-25T06:26:21.720000-07:00",
+      "text": "Discover the powerful effects of chlorogenic acid in plain coffee on insulin sensitivity and metabolic health. These studies reveal surprising benefits, no sugar needed! Insulin resistance was my root problem. I\u2026",
+      "url": "https://tilvids.com/videos/watch/31ac7be4-d80e-4dd4-b3a0-0fc9ac5cee51",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117674607284031671",
+      "publishedAt": "2026-11-24T19:00:10.619000-07:00",
+      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117674607284031671",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117673927301329448",
+      "publishedAt": "2026-11-24T16:07:14.918000-07:00",
+      "text": "Good news for anyone who gets gout flares around the holidays: uric acid isn't the whole story.High insulin makes your kidneys hold on to uric acid instead of flushing it out. That's why insulin resistance and gout so\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117673927301329448",
+      "source": "mastodon"
+    },
+    {
+      "platform": "youtube",
+      "platformLabel": "YouTube",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
+      "displayName": "The Healthy Pitmaster",
+      "id": "yt-vwt9-905Ji4",
+      "publishedAt": "2026-11-24T08:11:22-07:00",
+      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
+      "url": "https://www.youtube.com/watch?v=vwt9-905Ji4",
       "source": "youtube-rss"
     },
     {
@@ -249,54 +297,6 @@
       "publishedAt": "2026-11-18T06:31:04.185000-07:00",
       "text": "Heavy eyes and brain fog after a big lunch are not a character flaw. A study in Diabetes found a BMI over about 28.9 was a simple flag for insulin resistance when checked against the gold standard clamp test. After a\u2026",
       "url": "https://tilvids.com/videos/watch/27826893-5d48-4920-9660-0e544bbe008d",
-      "source": "tilvids"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117634972469082374",
-      "publishedAt": "2026-11-17T19:00:31.365000-07:00",
-      "text": "Live now: Trent on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117634972469082374",
-      "source": "mastodon"
-    },
-    {
-      "platform": "mastodon",
-      "platformLabel": "Mastodon",
-      "handle": "@therealjimbbq@mastodon.social",
-      "profileUrl": "https://mastodon.social/@therealjimbbq",
-      "displayName": "The Healthy Pitmaster",
-      "id": "masto-117634181489574894",
-      "publishedAt": "2026-11-17T15:39:21.910000-07:00",
-      "text": "A short walk after dinner is one of the easiest blood sugar tools I know.In a 2016 study in Diabetologia, 41 adults with type 2 diabetes swapped one daily walk for ten minutes of walking after meals. After dinner\u2026",
-      "url": "https://mastodon.social/@therealjimbbq/117634181489574894",
-      "source": "mastodon"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-I_MtEPOml_A",
-      "publishedAt": "2026-11-17T10:50:40-07:00",
-      "text": "Two people eat the exact same plate of lasagna. One spikes to 160, the other barely moves. What's the difference? Tonight Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, breaks down\u2026",
-      "url": "https://www.youtube.com/watch?v=I_MtEPOml_A",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-bXvEc9R2e6aJDkXybqL8Gr",
-      "publishedAt": "2026-11-17T06:27:40.439000-07:00",
-      "text": "More than half of adults on a GLP-1 shot quit within a year, per a JAMA Network Open study of about 125,000 people. Here's the thing. GLP-1 isn't something a drug company invented. Your gut already makes it, and it\u2026",
-      "url": "https://tilvids.com/videos/watch/58bb9257-26bd-421b-a995-3f5e7bbd3445",
       "source": "tilvids"
     }
   ]
