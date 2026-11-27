@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:14:54Z",
+  "generatedAt": "2026-11-27T20:56:55Z",
   "timezone": "America/Denver",
   "spots": [
     {
@@ -12,18 +12,18 @@
       "thumbUrl": "https://i1.ytimg.com/vi/Pgx0VMiHKF0/hqdefault.jpg",
       "previewUrl": "",
       "publishedAt": "2026-11-26T14:08:05+00:00",
-      "fallback": false
+      "fallback": true
     },
     {
       "spot": 2,
       "dayOffset": 1,
       "platform": "peertube",
-      "title": "Can Coffee Improve Insulin Sensitivity?",
-      "url": "https://peertube.wtf/w/tvpZLRYgUy96mALMBBGF52",
-      "embedUrl": "https://peertube.wtf/videos/embed/tvpZLRYgUy96mALMBBGF52",
-      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/bdae1f1f-bdfe-46cf-bcac-bf25b9f1c37d.jpg",
+      "title": "Happy Thanksgiving! A message from me, to you.",
+      "url": "https://peertube.wtf/w/2AQpLdVXksbBBtiMpMYJzj",
+      "embedUrl": "https://peertube.wtf/videos/embed/2AQpLdVXksbBBtiMpMYJzj",
+      "thumbUrl": "https://peertube.wtf/lazy-static/thumbnails/ab26a841-7afc-4503-b5cb-8579adb662ee.jpg",
       "previewUrl": "",
-      "publishedAt": "2026-11-25T13:26:13.842Z",
+      "publishedAt": "2026-11-26T13:23:19.922Z",
       "fallback": false,
       "channelUrl": "https://peertube.wtf/c/therealjimbbq_channel",
       "source": "peertube"

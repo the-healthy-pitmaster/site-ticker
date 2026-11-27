@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:14:40Z",
+  "generatedAt": "2026-11-27T20:56:47Z",
   "timezone": "America/Denver",
   "brand": "The Healthy Pitmaster",
   "blogId": "3895705",
@@ -11,6 +11,42 @@
     "Skip empty networks; never invent posts."
   ],
   "items": [
+    {
+      "platform": "tilvids",
+      "platformLabel": "TILvids",
+      "handle": "@therealjimbbq",
+      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
+      "displayName": "The Healthy Pitmaster",
+      "id": "til-vuNxfzi5fV5ShDMbhGaNmq",
+      "publishedAt": "2026-11-27T06:29:26.900000-07:00",
+      "text": "Type 2 diabetes in kids is climbing to levels nobody expected to see this soon. The habits we build at home are where protecting them starts. Insulin resistance sits at the root of type 2, and it can be reversed with\u2026",
+      "url": "https://tilvids.com/videos/watch/eede86fa-be37-43d4-bd4e-e0da37f42500",
+      "source": "tilvids"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117685696303280829",
+      "publishedAt": "2026-11-26T18:00:15.626000-07:00",
+      "text": "Live now: Pao Tovar (in Spanish) on my PeerTube channel. Real doctors talking about blood sugar, insulin resistance and how people are turning their health around. Watch here, no account needed\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117685696303280829",
+      "source": "mastodon"
+    },
+    {
+      "platform": "mastodon",
+      "platformLabel": "Mastodon",
+      "handle": "@therealjimbbq@mastodon.social",
+      "profileUrl": "https://mastodon.social/@therealjimbbq",
+      "displayName": "The Healthy Pitmaster",
+      "id": "masto-117685188390327865",
+      "publishedAt": "2026-11-26T15:51:05.433000-07:00",
+      "text": "Happy Thanksgiving from Colorado.I recorded this a couple of years ago, and every word still holds. Most people find me when their health is already in a rough spot. My A1c was 12.2% when I finally changed how I eat\u2026",
+      "url": "https://mastodon.social/@therealjimbbq/117685188390327865",
+      "source": "mastodon"
+    },
     {
       "platform": "youtube",
       "platformLabel": "YouTube",
@@ -262,42 +298,6 @@
       "text": "Why do your gut and your mood seem to move together? Today Dr. Dieter, a double board-certified physician in internal medicine and pediatrics, talks about how your gut, your immune system and your mood are connected\u2026",
       "url": "https://www.youtube.com/watch?v=rwKMlJX5Y6Q",
       "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-0gskR48SXBw",
-      "publishedAt": "2026-11-19T10:48:56-07:00",
-      "text": "High insulin doesn't just affect blood sugar. It tells your kidneys to hold onto salt, tells your liver to make more triglycerides, and lowers your protective HDL. Tonight the Two Sista' Docs connect the dots between\u2026",
-      "url": "https://www.youtube.com/watch?v=0gskR48SXBw",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "youtube",
-      "platformLabel": "YouTube",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://www.youtube.com/channel/UCFZpCMwcMX6EZicbuG-r6WA",
-      "displayName": "The Healthy Pitmaster",
-      "id": "yt-VIiS-3iSpPw",
-      "publishedAt": "2026-11-19T07:09:31-07:00",
-      "text": "\u00bfPor qu\u00e9 tantos nos sentimos cansados, con antojos y sin energ\u00eda a media tarde? Hoy Pao Tovar explica en espa\u00f1ol la ciencia detr\u00e1s del sistema Feel Great: c\u00f3mo la insulina maneja la energ\u00eda del cuerpo, qu\u00e9 pasa cuando\u2026",
-      "url": "https://www.youtube.com/watch?v=VIiS-3iSpPw",
-      "source": "youtube-rss"
-    },
-    {
-      "platform": "tilvids",
-      "platformLabel": "TILvids",
-      "handle": "@therealjimbbq",
-      "profileUrl": "https://tilvids.com/a/therealjimbbq/video-channels",
-      "displayName": "The Healthy Pitmaster",
-      "id": "til-vCUrhbcmXzzasNESRxpQL9",
-      "publishedAt": "2026-11-19T06:25:05.732000-07:00",
-      "text": "Did you know your body doesn't need carbohydrates to survive? Protein, fats, and key vitamins are the true essentials. Learn how to prioritize the nutrients your body actually needs for health and wellness. Building\u2026",
-      "url": "https://tilvids.com/videos/watch/f0001c91-8f93-44bd-868f-c5f9256d2868",
-      "source": "tilvids"
     }
   ]
 }
